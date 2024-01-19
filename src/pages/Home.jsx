@@ -83,6 +83,7 @@ const Home = () => {
     <>
       <section className="hero-container">
         <div className="hero-wrapper">
+          {/* 
           <div className="deadline-badge">
             <div className="deadline-date">March 24, 2024</div>
             <NavLink to="/important-dates" className="deadline-link">
@@ -96,7 +97,7 @@ const Home = () => {
               />
             </NavLink>
           </div>
-
+          */}
           <h1>
             Future Earth: Technology's Role in Shaping Sustainable Outcomes
           </h1>

@@ -31,6 +31,7 @@ const Footer = () => {
               <li>
                 <NavLink to="/important-dates">Important Dates</NavLink>
               </li>
+              {/* 
               <li>
                 <NavLink to="/program">Program</NavLink>
               </li>
@@ -40,6 +41,7 @@ const Footer = () => {
               <li>
                 <NavLink to="/committee">Committee</NavLink>
               </li>
+               */}
               <li>
                 <NavLink to="/venue">Venue</NavLink>
               </li>
@@ -57,7 +59,7 @@ const Footer = () => {
           <div className="social-links">
             <ul>
               <li>
-                <Link to="https://www.google.com" target="_blank">
+                <Link to="https://www.linkedin.com" target="_blank">
                   <Icon
                     iconName="LinkedIn"
                     fill="#98A2B3"
@@ -68,9 +70,9 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="https://www.facebook.com" target="_blank">
+                <Link to="https://www.twitter.com" target="_blank">
                   <Icon
-                    iconName="Facebook"
+                    iconName="Twitter"
                     fill="#98A2B3"
                     className="icon"
                     height="24px"
