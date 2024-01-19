@@ -1,0 +1,201 @@
+#registration .header-container {
+    background-color: #FFF;
+    padding: 96px 32px;
+}
+
+#registration .header-wrapper {
+    text-align: center;
+    margin: auto;
+    max-width: 768px;
+}
+
+#registration .header-wrapper span {
+    color: var(--primary-600);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+#registration .header-wrapper .heading {
+    color: var(--primary-900);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -0.96px;
+    margin: 12px auto 24px;
+}
+
+#registration .header-wrapper .subheading {
+    color: var(--gray-500, #687582);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.registration-wrapper {
+    margin: 0 auto 96px;
+}
+
+.registration-wrapper .wrapper > div {
+    border-top: 1px solid var(--gray-200);
+    padding-top: 96px;
+}
+
+.registration-wrapper .content {
+    color: var(--gray-500);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 48px;
+}
+
+.registration-wrapper .content .link {
+    text-decoration: underline;
+    color: var(--gray-500);
+}
+
+.registration-wrapper .grid-table {
+    border-radius: 8px;
+    border: 1px solid var(--gray-200);
+    border-bottom: 1px solid var(--gray-50);
+    margin-bottom: 48px;
+}
+
+.registration-wrapper .grid-table .table-header {
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--gray-50);
+    background: var(--table-display, #F4F5F8);
+}
+
+.registration-wrapper .grid-table .table-header p {
+    color: var(--gray-700);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+}
+
+.registration-wrapper .grid-table .table-content {
+    display: grid;
+}
+
+.registration-wrapper .grid-table.cols-2 .table-content {
+    grid-template-columns: 1fr 1fr;
+}
+
+.registration-wrapper .grid-table.cols-3 .table-content {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.registration-wrapper .grid-table.cols-4 .table-content {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.registration-wrapper .grid-table .table-content .row-header {
+    border-top: 1px solid var(--gray-50, #E9EFF5);
+    border-bottom: 1px solid var(--gray-50, #E9EFF5);
+    background: var(--gray-10, #F7F9FC);
+    padding: 9px 10px;
+}
+
+.registration-wrapper .grid-table .table-content .row-header span {
+    color: var(--gray-500);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.registration-wrapper .grid-table .table-content .row {
+    padding: 14px 10px;
+    border-top: 1px solid var(--gray-50, #E9EFF5);
+    border-bottom: 1px solid var(--gray-50, #E9EFF5);
+
+}
+
+.registration-wrapper .grid-table .table-content .row.colspan-2 {
+    grid-column: auto / span 2;
+}
+
+.registration-wrapper .grid-table .table-content .row span {
+    color: var(--gray-700);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.registration-wrapper .grid-table.cols-2 .table-content .full-row {
+    grid-column: 1 / 3;
+}
+
+.registration-wrapper .grid-table.cols-2 .table-content .spacer {
+    grid-column: 1 / 3;
+}
+
+.registration-wrapper .grid-table.cols-3 .table-content .spacer {
+    grid-column: 1 / 4;
+}
+
+.registration-wrapper .grid-table .table-content .spacer {
+    border-top: 1px solid var(--gray-50);
+    border-bottom: 1px solid var(--gray-50);
+    background: var(--gray-10);
+    height: 34px;
+}   
+
+.registration-wrapper h3.heading {
+    color: var(--gray-900, #171E26);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    margin-bottom: 16px;
+}
+
+.registration-steps {
+    list-style-type: none;
+    margin-bottom: 48px;
+}
+
+.registration-steps li {
+    color: var(--gray-500, #687582);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+@media screen and (max-width:576px) {
+    #registration .header-container {
+        padding: 64px 32px;
+    }
+
+    #registration .header-wrapper span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #registration .header-wrapper .heading {
+        font-size: 36px;
+        line-height: 44px;
+        letter-spacing: -0.72px;
+    }
+
+    #registration .header-wrapper .subheading {
+        color: var(--primary-700);
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+
+    .registration-wrapper {
+        margin: 64px auto;
+    }
+
+    .registration-wrapper .content {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .registration-wrapper .grid-table .table-header p {
+        font-size: 14px;
+        line-height: 28px;
+    }
+}

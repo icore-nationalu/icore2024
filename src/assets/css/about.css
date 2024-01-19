@@ -1,0 +1,415 @@
+#about .header-container,
+.contact-us .header-container {
+    padding: 0 32px;
+}
+
+#about .header-wrapper,
+.contact-us .header-wrapper {
+    text-align: center;
+    margin: 96px auto;
+    max-width: 768px;
+}
+
+#about .header-wrapper span,
+.contact-us .header-wrapper span {
+    color: var(--primary-600);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+#about .header-wrapper .heading,
+.contact-us .header-wrapper .heading {
+    color: var(--gray-900);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -0.96px;
+    margin: 12px auto 24px;
+}
+
+#about .header-wrapper .subheading,
+.contact-us .header-wrapper .subheading {
+    color: var(--gray-500);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#about .image-wrapper {
+    height: 400px;
+    width: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 96px;
+}
+
+#about .image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.metrics-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+    padding: 64px;
+    border-radius: 16px;
+    background-color: var(--primary-50);
+    margin-bottom: 96px;
+}
+
+.metrics-wrapper .metric-item {
+    text-align: center;
+}
+
+.metrics-wrapper .metric-item .value {
+    color: var(--primary-600);
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -1.2px;
+    margin-bottom: 12px;
+}
+
+.metrics-wrapper .metric-item .field {
+    color: var(--primary-900);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.story .label {
+    color: var(--primary-700);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+
+.story .heading {
+    color: var(--gray-900);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.72px;
+    margin-bottom: 20px;
+}
+
+.story .subheading {
+    color: var(--gray-500);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.story .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+    margin: 64px auto 96px;
+    padding-bottom: 96px;
+    border-bottom: 1px solid var(--gray-200);
+}
+
+.story .content p {
+    color: var(--gray-500);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.institutions-wrapper {
+    background: #F9FAFB;
+    padding: 96px 0;
+}
+
+.institutions-wrapper p {
+    color: var(--gray-500);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.institutions-wrapper .institutions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 32px auto 0;
+}
+
+.institutions-wrapper .institutions .institution-item {
+    height: 48px;
+    width: 146px;
+    background-color: gray;
+}
+
+.contact-us .map-wrapper {
+    height: 400px;
+    background-color: gray;
+    text-align: center;
+    color: #FFF;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 500;
+}
+
+.contact-us .map-wrapper iframe {
+    width: 100%;
+}
+
+.contact-us .contact-grid {
+    margin: 64px auto 96px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 32px;
+}
+
+.contact-us .contact-grid .contact-grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-us .contact-grid .contact-grid-item .contact-icon {
+    border-radius: 50%;
+    padding: 8px;
+    border: 8px solid var(--primary-50);
+    background: var(--primary-100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-us .contact-grid .contact-grid-item .contact-field {
+    margin: 20px auto;
+}
+
+.contact-us .contact-grid .contact-grid-item .contact-field .label {
+    color: var(--gray-900);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 8px;
+}
+
+.contact-us .contact-grid .contact-grid-item .contact-field .description {
+    color: var(--gray-500);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.contact-us .contact-grid .contact-grid-item .contact-data .data {
+    display: flex;
+    align-items: center;
+}
+
+.contact-us .contact-grid .contact-grid-item .contact-data .data a {
+    color: var(--primary-500);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-right: 4px;
+    text-decoration: none;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer
+}
+
+.contact-us .contact-grid .contact-grid-item .contact-data .data .icon {
+    margin-top: -2px;
+    opacity: 0;
+    transition: all 0.1s ease-in-out;
+    display: none;
+}
+
+.contact-us .contact-grid .contact-grid-item .contact-data .data a:hover {
+    text-decoration: underline;
+}
+
+.contact-us .contact-grid .contact-grid-item .contact-data .data a:hover+.icon {
+    opacity: 1;
+    display: block;
+}
+
+@media screen and (max-width: 864px) {
+    .metrics-wrapper {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .metrics-wrapper .metric-item {
+        grid-column: span 2;
+    }
+
+    .metrics-wrapper .metric-item:last-child {
+        grid-column: 2 / span 2;
+    }
+
+    .institutions-wrapper .institutions {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .institutions-wrapper .institutions .institution-item {
+        margin-bottom: 32px;
+    }
+
+    .institutions-wrapper .institutions .institution-item:not(:last-child) {
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+
+    .story .content {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+
+    .contact-us .contact-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .contact-us .contact-grid .contact-grid-item {
+        grid-column: span 2;
+    }
+
+    .contact-us .contact-grid .contact-grid-item:last-child {
+        grid-column: 2 / span 2;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    #about .header-container,
+    .contact-us .header-container {
+        padding: 0 16px;
+    }
+
+    #about .header-wrapper,
+    .contact-us .header-wrapper {
+        margin: 64px auto;
+    }
+
+    #about .header-wrapper span,
+    .contact-us .header-wrapper span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #about .header-wrapper .heading,
+    .contact-us .header-wrapper .heading {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    #about .header-wrapper .heading,
+    .contact-us .header-wrapper .heading {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    #about .header-wrapper .subheading,
+    .contact-us .header-wrapper .subheading {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .metrics-wrapper {
+        grid-template-columns: 1fr;
+        margin-bottom: 64px;
+    }
+
+    .metrics-wrapper .metric-item {
+        grid-column: auto;
+    }
+
+    .metrics-wrapper .metric-item:last-child {
+        grid-column: auto;
+    }
+
+    .metrics-wrapper .metric-item .value {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .story .content {
+        margin: 32px auto 64px;
+    }
+
+    .story .label {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .story .heading {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .story .subheading {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .contact-us .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-us .contact-grid .contact-grid-item {
+        grid-column: auto;
+    }
+
+    .contact-us .contact-grid .contact-grid-item:last-child {
+        grid-column: auto;
+    }
+
+    .institutions-wrapper {
+        padding: 64px 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    #about .header-wrapper,
+    .contact-us .header-wrapper {
+        margin: 32px auto;
+    }
+
+    #about .header-wrapper .heading,
+    .contact-us .header-wrapper .heading {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    #about .header-wrapper .subheading,
+    .contact-us .header-wrapper .subheading {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .metrics-wrapper {
+        margin-bottom: 32px;
+    }
+
+    .story .content {
+        margin: 32px auto 32px;
+    }
+
+    .story .heading {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .story .subheading {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .story .content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

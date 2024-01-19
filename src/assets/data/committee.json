@@ -1,0 +1,185 @@
+[
+    {
+        "committeeTitle": "General Chairs",
+        "committeeDescription" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, accusamus?",
+        "committeeName" : "general-chairs",
+        "committeeItems" : [
+            {
+                "name": "Committee Name",
+                "link": "https://www.google.com",
+                "position": "Position, Institution Institution Institution"
+            },
+            {
+                "name": "Committee Name",
+                "link": "https://www.google.com",
+                "position": "Position, Institution Institution Institution"
+            },
+            {
+                "name": "Committee Name",
+                "link": "https://www.google.com",
+                "position": "Position, Institution Institution Institution"
+            },
+            {
+                "name": "Committee Name",
+                "link": "https://www.google.com",
+                "position": "Position, Institution Institution Institution"
+            },
+            {
+                "name": "Committee Name",
+                "link": "https://www.google.com",
+                "position": "Position, Institution Institution Institution"
+            },
+            {
+                "name": "Committee Name",
+                "link": "https://www.google.com",
+                "position": "Position, Institution Institution Institution"
+            },
+            {
+                "name": "Committee Name",
+                "link": "https://www.google.com",
+                "position": "Position, Institution Institution Institution"
+            },
+            {
+                "name": "Committee Name",
+                "link": "https://www.google.com",
+                "position": "Position, Institution Institution Institution"
+            },
+            {
+                "name": "Committee Name",
+                "link": "https://www.google.com",
+                "position": "Position, Institution Institution Institution"
+            },
+            {
+                "name": "Committee Name",
+                "link": "https://www.google.com",
+                "position": "Position, Institution Institution Institution"
+            }
+        ]
+    },
+    {
+        "committeeTitle": "General Co-Chairs",
+        "committeeDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta perferendis quod omnis aut ex. Repudiandae tempora numquam cum consequuntur eos.",
+        "committeeName" : "general-co-chairs",
+        "committeeItems" : [
+            {
+                "name": "Committee Name",
+                "link": "https://www.google.com",
+                "position": "Position, Institution Institution Institution"
+            },
+            {
+                "name": "Committee Name",
+                "link": "https://www.google.com",
+                "position": "Position, Institution Institution Institution"
+            },
+            {
+                "name": "Committee Name",
+                "link": "https://www.google.com",
+                "position": "Position, Institution Institution Institution"
+            },
+            {
+                "name": "Committee Name",
+                "link": "https://www.google.com",
+                "position": "Position, Institution Institution Institution"
+            },
+            {
+                "name": "Committee Name",
+                "link": "https://www.google.com",
+                "position": "Position, Institution Institution Institution"
+            },
+            {
+                "name": "Committee Name",
+                "link": "https://www.google.com",
+                "position": "Position, Institution Institution Institution"
+            },
+            {
+                "name": "Committee Name",
+                "link": "https://www.google.com",
+                "position": "Position, Institution Institution Institution"
+            }
+        ]
+    },
+    {
+        "committeeTitle": "Conference Program Chairs",
+        "committeeDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta perferendis quod omnis aut ex. Repudiandae tempora numquam cum consequuntur eos.",
+        "committeeName" : "conference-program-chairs",
+        "committeeItems" : [
+            {
+                "name": "Committee Name",
+                "link": "https://www.google.com",
+                "position": "Position, Institution Institution Institution"
+            }
+        ]
+    },
+    {
+        "committeeTitle": "International Advisory Board",
+        "committeeDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta perferendis quod omnis aut ex. Repudiandae tempora numquam cum consequuntur eos.",
+        "committeeName" : "intl-advisory-board",
+        "committeeItems" : [
+            {
+                "name": "Committee Name",
+                "link": "https://www.google.com",
+                "position": "Position, Institution Institution Institution"
+            }
+        ]
+    },
+    {
+        "committeeTitle": "Steering Committee",
+        "committeeDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta perferendis quod omnis aut ex. Repudiandae tempora numquam cum consequuntur eos.",
+        "committeeName" : "steering",
+        "committeeItems" : [
+            {
+                "name": "Committee Name",
+                "link": "https://www.google.com",
+                "position": "Position, Institution Institution Institution"
+            }
+        ]
+    },
+    {
+        "committeeTitle": "Program Technical Committee",
+        "committeeDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta perferendis quod omnis aut ex. Repudiandae tempora numquam cum consequuntur eos.",
+        "committeeName" : "program-technical",
+        "committeeItems" : [
+            {
+                "name": "Committee Name",
+                "link": "https://www.google.com",
+                "position": "Position, Institution Institution Institution"
+            }
+        ]
+    },
+    {
+        "committeeTitle": "Event Production Committee",
+        "committeeDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta perferendis quod omnis aut ex. Repudiandae tempora numquam cum consequuntur eos.",
+        "committeeName" : "event-production",
+        "committeeItems" : [
+            {
+                "name": "Committee Name",
+                "link": "https://www.google.com",
+                "position": "Position, Institution Institution Institution"
+            }
+        ]
+    },
+    {
+        "committeeTitle": "Production Technical Committee",
+        "committeeDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta perferendis quod omnis aut ex. Repudiandae tempora numquam cum consequuntur eos.",
+        "committeeName" : "production-technical",
+        "committeeItems" : [
+            {
+                "name": "Committee Name",
+                "link": "https://www.google.com",
+                "position": "Position, Institution Institution Institution"
+            }
+        ]
+    },
+    {
+        "committeeTitle": "Production and Creatives Committee",
+        "committeeDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta perferendis quod omnis aut ex. Repudiandae tempora numquam cum consequuntur eos.",
+        "committeeName" : "production-creatives",
+        "committeeItems" : [
+            {
+                "name": "Committee Name",
+                "link": "https://www.google.com",
+                "position": "Position, Institution Institution Institution"
+            }
+        ]
+    }
+]

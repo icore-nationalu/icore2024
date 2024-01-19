@@ -1,0 +1,120 @@
+const Registration = () => {
+  const registration_fee = [
+    {
+      type: "Presenter Registration",
+      fee: "PHP 19,000.00",
+    },
+    {
+      type: "Listener Registration",
+      fee: "PHP 1,000.00",
+    },
+  ];
+
+  const inclusions = [
+    "Access to all Conference Sessions",
+    "Conference Materials and Proceedings",
+    "Keynote Addresses and Special Sessions",
+    "Coffee Breaks and Networking Opportunities",
+    "Certificate of Participation",
+    "Certificate of Paper Presentation",
+  ];
+
+  return (
+    <>
+      <section id="registration">
+        <div className="header-container">
+          <div className="header-wrapper">
+            <span>Register</span>
+            <h1 className="heading">Conference Registration Details</h1>
+            <p className="subheading">
+              You will find detailed information regarding registration options
+              and associated fees for participants interested in joining this
+              dynamic event.
+            </p>
+          </div>
+        </div>
+      </section>
+      <div className="registration-wrapper">
+        <div className="wrapper">
+          <div>
+            <div className="grid-table cols-2">
+              <div className="table-header">
+                <p>Registration Fee</p>
+              </div>
+              <div className="table-content">
+                <div className="row-header">
+                  <span>TYPE</span>
+                </div>
+                <div className="row-header">
+                  <span>FEE</span>
+                </div>
+                {registration_fee.map((v, i) => {
+                  return Object.entries(v).map((e) => {
+                    return (
+                      <div className="row" key={`${i}-${e[0]}`}>
+                        <span>{e[1]}</span>
+                      </div>
+                    );
+                  });
+                })}
+                <div className="spacer row-header">
+                  <span>INCLUSIONS</span>
+                </div>
+                {inclusions &&
+                  inclusions.map((v, i) => {
+                    return (
+                      <div className="row colspan-2">
+                        <span>{v}</span>
+                      </div>
+                    );
+                  })}
+              </div>
+            </div>
+
+            <h3 className="heading">Payment Methods</h3>
+            <p className="content">
+              Payments can be made online through the secure registration portal
+              on the conference website.
+              <br /> <br />
+              Accepted payment methods include credit cards, bank transfers, and
+              other online payment options.
+            </p>
+
+            <h3 className="heading">Important Dates</h3>
+            <p className="content">Registration Deadline: May 30, 2024</p>
+
+            <h3 className="heading">How to Register</h3>
+            <ul className="registration-steps">
+              <li>1. Visit the official iCORE 2024 website: iCORE2024.org</li>
+              <li>2. Navigate to the Registration section.</li>
+              <li>3. Complete the online registration form.</li>
+              <li>4. Choose your registration category.</li>
+              <li>
+                5. Process your payment through the secure online payment
+                system.
+              </li>
+            </ul>
+
+            <h3 className="heading">Contact Information</h3>
+            <p className="content">
+              For registration inquiries, please contact the iCORE 2024
+              registration desk at{" "}
+              <a href="mailto:icore2024@national-u.edu.ph." className="link">
+                icore2024@national-u.edu.ph.
+              </a>{" "}
+              Stay connected for updates and announcements on social media.
+              <br /> <br />
+              Twitter: @iCORE2024
+              <br /> <br />
+              LinkedIn: iCORE 2024
+              <br /> <br />
+              We look forward to your active participation at iCORE 2024 in
+              National University-MOA!
+            </p>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+export default Registration;

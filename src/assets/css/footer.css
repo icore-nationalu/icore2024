@@ -1,0 +1,112 @@
+footer {
+    background-color: var(--primary-900);
+    padding: 64px 0 48px;
+}
+
+footer .top {
+    padding-bottom: 64px;
+    border-bottom: 1px solid var(--gray-600);
+}
+
+footer .top .logo-container {
+    height: 32px;
+    margin-right: 40px;
+    width: fit-content;
+}
+
+footer .top .logo-container img {
+    height: 100%;
+}
+
+footer .top .tagline {
+    margin: 32px 0 32px 0;
+    max-width: 320px;
+}
+
+footer .top .tagline p {
+    color: var(--gray-200);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+footer .top .tagline span {
+    color: var(--gray-200);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+footer .top .sitemap ul {
+    list-style-type: none;
+    display: flex;
+}
+
+footer .top .sitemap ul li {
+    margin-bottom: 12px;
+}
+
+footer .top .sitemap ul li:not(:last-child) { 
+    margin-right: 32px;
+}
+
+footer .top .sitemap ul li a {
+    color: var(--gray-200);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+footer .bottom {
+    padding-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+footer .bottom .copyright {
+    color: var(--gray-400);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+footer .bottom .social-links ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+footer .bottom .social-links ul li{  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .bottom .social-links ul li:not(:first-child){ 
+    margin-left: 24px;
+}
+footer .bottom .social-links ul li a{ 
+    text-decoration: none;
+ }
+
+ @media screen and (max-width: 1200px) {
+    footer .top .sitemap ul {
+        display: grid;
+        grid-template-columns: 160px 1fr ;
+        grid-template-rows: repeat(5, 36px);
+        grid-auto-flow: column;
+    }
+    footer .top .sitemap ul li:not(:last-child) {
+        margin-right: 0px;
+    }
+
+    footer .bottom { 
+        flex-direction: column-reverse;
+        align-items: start;
+    }
+
+    footer .bottom .social-links  { 
+        margin-bottom: 24px;
+    }
+ }

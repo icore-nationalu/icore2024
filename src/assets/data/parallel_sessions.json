@@ -1,0 +1,146 @@
+[
+    {
+        "session_name": "Artificial Intelligence",
+        "facilitators": [
+            {
+                "facilitator_name": "Juan Dela Cruz",
+                "faciltator_desc": "Position, Institution institution institution"
+            },
+            {
+                "facilitator_name": "Maria Clara",
+                "faciltator_desc": "Position, Institution institution institution"
+            },
+            {
+                "facilitator_name": "Laura Cruz",
+                "faciltator_desc": "Position, Institution institution institution"
+            },
+            {
+                "facilitator_name": "Pablo Santos",
+                "faciltator_desc": "Position, Institution institution institution"
+            }
+        ],
+        "papers": {
+            "rowHeaders": [
+                "TIME",
+                "PAPER ID",
+                "PAPER TITLE AND AUTHOR"
+            ],
+            "items": [
+                {
+                    "time": "10-00 - 10:15",
+                    "paperID": "000",
+                    "title": "Topic Modelling on Customer Feedback from an Online Ticketing System using Latent Dirichlet Allocation and BERTopic",
+                    "author": "Charmaine Ponay"
+                },
+                {
+                    "time": "10-00 - 10:15",
+                    "paperID": "000",
+                    "title": "Topic Modelling on Customer Feedback from an Online Ticketing System using Latent Dirichlet Allocation and BERTopic",
+                    "author": "Charmaine Ponay"
+                },
+                {
+                    "time": "10-00 - 10:15",
+                    "paperID": "000",
+                    "title": "Topic Modelling on Customer Feedback from an Online Ticketing System using Latent Dirichlet Allocation and BERTopic",
+                    "author": "Charmaine Ponay"
+                }
+            ]
+        }
+    },
+    {
+        "session_name": "Emerging Technologies [Room A]",
+        "facilitators": [
+            {
+                "facilitator_name": "Miguel Dela Cruz",
+                "faciltator_desc": "Position, Institution institution institution"
+            },
+            {
+                "facilitator_name": "Laura Clara",
+                "faciltator_desc": "Position, Institution institution institution"
+            },
+            {
+                "facilitator_name": "Maria Cruz",
+                "faciltator_desc": "Position, Institution institution institution"
+            },
+            {
+                "facilitator_name": "Juan Santos",
+                "faciltator_desc": "Position, Institution institution institution"
+            }
+        ],
+        "papers": {
+            "rowHeaders": [
+                "TIME",
+                "PAPER ID",
+                "PAPER TITLE AND AUTHOR"
+            ],
+            "items": [
+                {
+                    "time": "10-00 - 10:15",
+                    "paperID": "000",
+                    "title": "Topic Modelling on Customer Feedback from an Online Ticketing System using Latent Dirichlet Allocation and BERTopic",
+                    "author": "Charmaine Ponay"
+                },
+                {
+                    "time": "10-00 - 10:15",
+                    "paperID": "000",
+                    "title": "Topic Modelling on Customer Feedback from an Online Ticketing System using Latent Dirichlet Allocation and BERTopic",
+                    "author": "Charmaine Ponay"
+                },
+                {
+                    "time": "10-00 - 10:15",
+                    "paperID": "000",
+                    "title": "Topic Modelling on Customer Feedback from an Online Ticketing System using Latent Dirichlet Allocation and BERTopic",
+                    "author": "Charmaine Ponay"
+                }
+            ]
+        }
+    },
+    {
+        "session_name": "Emerging Technologies [Room B]",
+        "facilitators": [
+            {
+                "facilitator_name": "Maria Dela Cruz",
+                "faciltator_desc": "Position, Institution institution institution"
+            },
+            {
+                "facilitator_name": "Miguel Clara",
+                "faciltator_desc": "Position, Institution institution institution"
+            },
+            {
+                "facilitator_name": "Juan Cruz",
+                "faciltator_desc": "Position, Institution institution institution"
+            },
+            {
+                "facilitator_name": "Maria Santos",
+                "faciltator_desc": "Position, Institution institution institution"
+            }
+        ],
+        "papers": {
+            "rowHeaders": [
+                "TIME",
+                "PAPER ID",
+                "PAPER TITLE AND AUTHOR"
+            ],
+            "items": [
+                {
+                    "time": "10-00 - 10:15",
+                    "paperID": "000",
+                    "title": "Topic Modelling on Customer Feedback from an Online Ticketing System using Latent Dirichlet Allocation and BERTopic",
+                    "author": "Charmaine Ponay"
+                },
+                {
+                    "time": "10-00 - 10:15",
+                    "paperID": "000",
+                    "title": "Topic Modelling on Customer Feedback from an Online Ticketing System using Latent Dirichlet Allocation and BERTopic",
+                    "author": "Charmaine Ponay"
+                },
+                {
+                    "time": "10-00 - 10:15",
+                    "paperID": "000",
+                    "title": "Topic Modelling on Customer Feedback from an Online Ticketing System using Latent Dirichlet Allocation and BERTopic",
+                    "author": "Charmaine Ponay"
+                }
+            ]
+        }
+    }
+]

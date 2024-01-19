@@ -1,0 +1,56 @@
+{
+    "keynote": [
+        {
+            "speaker_name": "Speaker Name 1",
+            "speaker_link": "https://www.google.com",
+            "speaker_position": "Position",
+            "speaker_institution": "Institution Institution Institution",
+            "speaker_desc": "",
+            "speaker_photo": ""
+        },
+        {
+            "speaker_name": "Speaker Name 2",
+            "speaker_link": "https://www.google.com",
+            "speaker_position": "Position",
+            "speaker_institution": "Institution Institution Institution",
+            "speaker_desc": "",
+            "speaker_photo": ""
+        }
+    ],
+    "session": [
+        {
+            "speaker_name": "Speaker Name 1",
+            "speaker_link": "https://www.google.com",
+            "speaker_position": "Position",
+            "speaker_institution": "Institution Institution Institution",
+            "speaker_desc": "",
+            "speaker_photo": ""
+        },
+        {
+            "speaker_name": "Speaker Name 2",
+            "speaker_link": "https://www.google.com",
+            "speaker_position": "Position",
+            "speaker_institution": "Institution Institution Institution",
+            "speaker_desc": "",
+            "speaker_photo": ""
+        }
+    ],
+    "moderators": [
+        {
+            "speaker_name": "Speaker Name 1",
+            "speaker_link": "https://www.google.com",
+            "speaker_position": "Position",
+            "speaker_institution": "Institution Institution Institution",
+            "speaker_desc": "",
+            "speaker_photo": ""
+        },
+        {
+            "speaker_name": "Speaker Name 2",
+            "speaker_link": "https://www.google.com",
+            "speaker_position": "Position",
+            "speaker_institution": "Institution Institution Institution",
+            "speaker_desc": "",
+            "speaker_photo": ""
+        }
+    ]
+}
