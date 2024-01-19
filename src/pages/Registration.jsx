@@ -15,8 +15,7 @@ const Registration = () => {
     "Conference Materials and Proceedings",
     "Keynote Addresses and Special Sessions",
     "Coffee Breaks and Networking Opportunities",
-    "Certificate of Participation",
-    "Certificate of Paper Presentation",
+    "Certificate of Participation and/or Certificate of Paper Presentation",
   ];
 
   return (
@@ -81,11 +80,11 @@ const Registration = () => {
             </p>
 
             <h3 className="heading">Important Dates</h3>
-            <p className="content">Registration Deadline: May 30, 2024</p>
+            <p className="content">Registration Deadline:July 8, 2024</p>
 
             <h3 className="heading">How to Register</h3>
             <ul className="registration-steps">
-              <li>1. Visit the official iCORE 2024 website: iCORE2024.org</li>
+              <li>1. Visit the official iCORE 2024 website: icoreph.org</li>
               <li>2. Navigate to the Registration section.</li>
               <li>3. Complete the online registration form.</li>
               <li>4. Choose your registration category.</li>
@@ -98,10 +97,10 @@ const Registration = () => {
             <h3 className="heading">Contact Information</h3>
             <p className="content">
               For registration inquiries, please contact the iCORE 2024
-              registration desk at{" "}
+              registration desk at
               <a href="mailto:icore2024@national-u.edu.ph." className="link">
                 icore2024@national-u.edu.ph.
-              </a>{" "}
+              </a>
               Stay connected for updates and announcements on social media.
               <br /> <br />
               Twitter: @iCORE2024

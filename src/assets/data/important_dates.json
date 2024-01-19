@@ -1,26 +1,38 @@
 [
     {
-      "label": "Paper Submission Deadline",
-      "dateText": "March 8, 2024",
-      "dateTextShort": "3/8/2024",
-      "dateEnd": "3/8/2024"
+      "label": "Opening of Submission",
+      "dateText": "March 30, 2024",
+      "dateTextShort": "3/30/2024",
+      "dateEnd": "3/30/2024"
     },
     {
-      "label": "Notification of Acceptance",
+      "label": "Deadline of Submission",
       "dateText": "May 8, 2024",
       "dateTextShort": "5/8/2024",
       "dateEnd": "5/8/2024"
     },
     {
+      "label": "Acceptance Notification",
+      "dateText": "June 8, 2024",
+      "dateTextShort": "6/8/2024",
+      "dateEnd": "6/8/2024"
+    },
+    {
       "label": "Opening of Registration",
-      "dateText": "May 9, 2024",
-      "dateTextShort": "5/9/2024",
-      "dateEnd": "5/9/2024"
+      "dateText": "June 9, 2024",
+      "dateTextShort": "6/9/2024",
+      "dateEnd": "6/9/2024"
+    },
+    {
+      "label": "Deadline of Registration",
+      "dateText": "July 8, 2024",
+      "dateTextShort": "7/8/2024",
+      "dateEnd": "7/8/2024"
     },
     {
       "label": "Conference Dates",
-      "dateText": "June 15 - 16, 2024",
-      "dateTextShort": "6/15/2024 - 6/16/2024",
-      "dateEnd": "6/16/2024"
+      "dateText": "July 20 - 21, 2024",
+      "dateTextShort": "7/20/2024 - 7/21/2024",
+      "dateEnd": "7/21/2024"
     }
   ]
