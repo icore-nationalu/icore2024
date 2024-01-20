@@ -261,8 +261,7 @@
  }
 
  .venue .contact-grid .contact-grid-item .contact-data .data {
-     display: flex;
-     align-items: center;
+    position: relative;
  }
 
  .venue .contact-grid .contact-grid-item .contact-data .data a {
@@ -270,17 +269,17 @@
      font-size: 16px;
      font-weight: 500;
      line-height: 24px;
-     margin-right: 4px;
      text-decoration: none;
      transition: all 0.1s ease-in-out;
      cursor: pointer
  }
 
  .venue .contact-grid .contact-grid-item .contact-data .data .icon {
-     margin-top: -2px;
+     position: absolute;
+     left: 100%;
+     margin-left: 4px;
      opacity: 0;
      transition: all 0.1s ease-in-out;
-     display: none;
  }
 
  .venue .contact-grid .contact-grid-item .contact-data .data a:hover {
@@ -288,7 +287,6 @@
  }
 
  .venue .contact-grid .contact-grid-item .contact-data .data a:hover+.icon {
-     display: block;
      opacity: 1;
  }
 
@@ -358,6 +356,10 @@
          /* height: 400px; */
          aspect-ratio: 1.92;
      }
+
+     .venue .contact-grid {
+        grid-template-columns: 1fr 1fr;
+    }
  }
 
  @media screen and (max-width: 576px) {
@@ -461,6 +463,10 @@
          font-size: 16px;
          line-height: 24px;
      }
+
+     .venue .contact-grid {
+        grid-template-columns: 1fr;
+    }
  }
 
  @media screen and (max-width: 400px) {

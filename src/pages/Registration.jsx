@@ -62,7 +62,7 @@ const Registration = () => {
                 {inclusions &&
                   inclusions.map((v, i) => {
                     return (
-                      <div className="row colspan-2">
+                      <div className="row colspan-2" key={i}>
                         <span>{v}</span>
                       </div>
                     );
@@ -80,7 +80,7 @@ const Registration = () => {
             </p>
 
             <h3 className="heading">Important Dates</h3>
-            <p className="content">Registration Deadline:July 8, 2024</p>
+            <p className="content">Registration Deadline: July 8, 2024</p>
 
             <h3 className="heading">How to Register</h3>
             <ul className="registration-steps">
@@ -97,11 +97,11 @@ const Registration = () => {
             <h3 className="heading">Contact Information</h3>
             <p className="content">
               For registration inquiries, please contact the iCORE 2024
-              registration desk at
+              registration desk at{" "}
               <a href="mailto:icore2024@national-u.edu.ph." className="link">
-                icore2024@national-u.edu.ph.
+                icore2024@national-u.edu.ph
               </a>
-              Stay connected for updates and announcements on social media.
+              . Stay connected for updates and announcements on social media.
               <br /> <br />
               Twitter: @iCORE2024
               <br /> <br />
