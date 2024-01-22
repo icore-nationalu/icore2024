@@ -26,6 +26,7 @@ nav.opaque {
 nav .logo-container {
     height: 36px;
     margin-right: 40px;
+    padding-bottom:8px;
 }
 
 nav .logo-container img {

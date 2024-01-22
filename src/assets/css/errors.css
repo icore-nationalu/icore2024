@@ -1,0 +1,167 @@
+.error-wrapper .header {
+    margin: 96px auto;
+    max-width: 768px;
+    text-align: center;
+    padding: 0 32px;
+}
+
+.error-wrapper .header span {
+    color: var(--primary-700, #004EA2);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.error-wrapper .header h1 {
+    color: var(--gray-900, #171E26);
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -1.2px;
+    margin: 12px auto 24px;
+}
+
+.error-wrapper .header p {
+    color: var(--gray-500, #687582);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.error-wrapper .cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+.error-wrapper .cta .btn {
+    padding: 16px 22px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.36px;
+    margin: auto 6px;
+    text-decoration: none;
+}
+
+.error-options {
+    margin-bottom: 96px;
+}
+
+.error-options .option-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+.error-options .option-grid .option-item {
+    background: var(--primary-50, #E8F3FF);
+    padding: 24px;
+}
+
+.error-options .option-grid .option-item .content {
+    margin-top: 48px;
+}
+
+.error-options .option-grid .option-item .content .label {
+    color: var(--primary-900, #002246);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.error-options .option-grid .option-item .content .sub-label {
+    display: inline-block;
+    color: var(--primary-700, #004EA2);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 8px auto 20px;
+}
+
+.error-options .option-grid .option-item .content .link-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.error-options .option-grid .option-item .content .link-wrapper .link {
+    color: var(--primary-700, #004EA2);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.error-options .option-grid .option-item .content .link-wrapper:hover .link {
+    text-decoration: underline;
+}
+
+.error-options .option-grid .option-item .content .link-wrapper .icon {
+    margin-left: 8px;
+}
+
+@media screen and (max-width: 760px) {
+    .error-options .option-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .error-options .option-grid .option-item:last-child {
+        grid-column: 1 / span 2;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .error-wrapper .header {
+        margin: 64px auto;
+    }
+
+    .error-wrapper .header h1 {
+        font-size: 48px;
+        line-height: 60px;
+        letter-spacing: -0.96px;
+    }
+
+    .error-wrapper .header p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .error-wrapper .cta {
+        margin-top: 32px;
+    }
+
+    .error-options {
+        margin-bottom: 64px;
+    }
+
+    .error-options .option-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .error-options .option-grid .option-item:last-child {
+        grid-column: 1 / span 1;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .error-wrapper .header {
+        margin: 32px auto;
+        padding: 0 16px;
+    }
+
+    .error-wrapper .header h1 {
+        font-size: 36px;
+        line-height: 44px;
+        letter-spacing: -0.72px;
+    }
+
+    .error-wrapper .header p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .error-options {
+        margin-bottom: 32px;
+    }
+}

@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import Logo from "../assets/logo.png";
+import Logo from "../assets/images/icore24-logo.png";
 import Icon from "./Icon";
 
 const Footer = () => {
@@ -26,22 +26,22 @@ const Footer = () => {
                 <NavLink to="/">Home</NavLink>
               </li>
               <li>
+                <NavLink to="/about-us">About Us</NavLink>
+              </li>
+              <li>
                 <NavLink to="/registration">Registration</NavLink>
               </li>
               <li>
                 <NavLink to="/important-dates">Important Dates</NavLink>
               </li>
-              {/* 
+
               <li>
                 <NavLink to="/program">Program</NavLink>
               </li>
               <li>
                 <NavLink to="/speakers">Speakers</NavLink>
               </li>
-              <li>
-                <NavLink to="/committee">Committee</NavLink>
-              </li>
-               */}
+
               <li>
                 <NavLink to="/venue">Venue</NavLink>
               </li>
@@ -49,7 +49,7 @@ const Footer = () => {
                 <NavLink to="/past-conferences">Past Conferences</NavLink>
               </li>
               <li>
-                <NavLink to="/about-us">About Us</NavLink>
+                <NavLink to="/committee">Committee</NavLink>
               </li>
             </ul>
           </div>
@@ -62,7 +62,7 @@ const Footer = () => {
                 <Link to="https://www.linkedin.com" target="_blank">
                   <Icon
                     iconName="LinkedIn"
-                    fill="#98A2B3"
+                    fill="#171E26"
                     className="icon"
                     height="24px"
                     width="24px"
@@ -73,7 +73,7 @@ const Footer = () => {
                 <Link to="https://www.twitter.com" target="_blank">
                   <Icon
                     iconName="Twitter"
-                    fill="#98A2B3"
+                    fill="#171E26"
                     className="icon"
                     height="24px"
                     width="24px"
@@ -85,7 +85,7 @@ const Footer = () => {
                   <Icon
                     iconName="Mail"
                     fill="transparent"
-                    stroke="#98A2B3"
+                    stroke="#171E26"
                     className="icon"
                     height="24px"
                     width="24px"

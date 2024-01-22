@@ -24,6 +24,12 @@
       "dateEnd": "6/9/2024"
     },
     {
+      "label": "Submission of Camera Ready Paper",
+      "dateText": "Sunday, 30th June 2024",
+      "dateTextShort": "6/30/2024",
+      "dateEnd": "6/30/2024"
+    },
+    {
       "label": "Deadline of Registration",
       "dateText": "Monday, 8th July 2024",
       "dateTextShort": "7/8/2024",
@@ -31,8 +37,8 @@
     },
     {
       "label": "Conference Dates",
-      "dateText": "Saturday, 20th July - Sunday, 21st July 2024",
-      "dateTextShort": "7/20/2024 - 7/21/2024",
-      "dateEnd": "7/21/2024"
+      "dateText": "Friday, 19th July - Saturday, 20th July 2024",
+      "dateTextShort": "7/19/2024 - 7/20/2024",
+      "dateEnd": "7/20/2024"
     }
   ]

@@ -9,7 +9,7 @@ import ContactGridItem from "../components/ContactGridItem";
 
 import Venue from "../assets/images/venue.png";
 import HomeImage from "../assets/images/home.jpg";
-import PDF from "../assets/SamplePDF.pdf";
+import CallForPaperPDF from "../assets/documents/ICORE_2024_Call_for_Paper.pdf";
 const Home = () => {
   const conferenceHighlights = [
     {
@@ -103,7 +103,7 @@ const Home = () => {
           </h1>
           <div className="subheading-wrapper">
             <h3>
-              Join us at iCORE 2024 on July 20-21 as we explore innovative
+              Join us at iCORE 2024 on July 19-20 as we explore innovative
               solutions to global challenges, fostering a more sustainable
               tomorrow.
             </h3>
@@ -113,7 +113,7 @@ const Home = () => {
               Learn More
             </NavLink>
             <a
-              href={PDF}
+              href={CallForPaperPDF}
               target="_blank"
               rel="noreferrer"
               className="btn-primary"

@@ -1,6 +1,7 @@
 export { default as Activity } from "./activity.svg?react";
 export { default as ArrowRight } from "./arrow-right.svg?react";
 export { default as ArrowUp } from "./arrow-up.svg?react";
+export { default as BookOpen } from "./book-open.svg?react";
 export { default as Calendar } from "./calendar.svg?react";
 export { default as ChevronDown } from "./chevron-down.svg?react";
 export { default as ChevronLeft } from "./chevron-left.svg?react";
@@ -9,7 +10,8 @@ export { default as ChevronUp } from "./chevron-up.svg?react";
 export { default as CodeSandbox } from "./code-sandbox.svg?react";
 export { default as CreditCard } from "./credit-card.svg?react";
 export { default as ExternalLink } from "./external-link.svg?react";
-export { default as Facebook } from "./facebook.svg?react";
+export { default as Facebook } from "./facebook.svg?react"; 
+export { default as FileText } from "./file-text.svg?react"; 
 export { default as Heart } from "./heart.svg?react";
 export { default as Image } from "./image.svg?react";
 export { default as Key } from "./key.svg?react";

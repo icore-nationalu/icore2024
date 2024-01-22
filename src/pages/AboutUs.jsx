@@ -13,8 +13,8 @@ const AboutUs = () => {
       iconFill: false,
       label: "Email",
       desc: "iCore is here to help!",
-      link: "mailto:info@iCORE2024.org",
-      linkText: "info@iCORE2024.org",
+      link: "mailto:icore2024@national-u.edu.ph",
+      linkText: "icore2024@national-u.edu.ph",
     },
     {
       icon: "LinkedIn",

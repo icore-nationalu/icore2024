@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import placeholder from "../assets/test-image.png";
 import { Outlet, useLocation } from "react-router-dom";
-import Logo from "../assets/logo.png";
+import Logo from "../assets/images/icore24-logo.png";
 import Icon from "../components/Icon";
 
 const Navbar = () => {
@@ -81,6 +81,13 @@ const Navbar = () => {
                   <li className="nav-link">
                     <NavLink to="/" className="link-text">
                       Home
+                    </NavLink>
+                  </li>
+
+                  {/* About Us */}
+                  <li className="nav-link">
+                    <NavLink to="/about-us" className="link-text">
+                      About Us
                     </NavLink>
                   </li>
 
@@ -183,6 +190,7 @@ const Navbar = () => {
                     />
                   </li>
                    */}
+
                   {/* Publication */}
                   <li className="nav-link">
                     <NavLink to="/registration" className="link-text">
@@ -190,12 +198,13 @@ const Navbar = () => {
                     </NavLink>
                   </li>
 
-                  {/* About Us */}
+                  {/* About Us 
                   <li className="nav-link">
                     <NavLink to="/review-process" className="link-text">
                       Review Process
                     </NavLink>
                   </li>
+                    */}
 
                   {/* About Us */}
                   <li className="nav-link">
@@ -217,20 +226,6 @@ const Navbar = () => {
                       Speakers
                     </NavLink>
                   </li>
-
-                  {/* About Us */}
-                  <li className="nav-link">
-                    <NavLink to="/committee" className="link-text">
-                      Committee
-                    </NavLink>
-                  </li>
-                  {/* About Us */}
-                  <li className="nav-link">
-                    <NavLink to="/sponsorship" className="link-text">
-                      Sponsorship
-                    </NavLink>
-                  </li>
-
                   {/* About Us */}
                   <li className="nav-link">
                     <NavLink to="/venue" className="link-text">
@@ -247,10 +242,17 @@ const Navbar = () => {
 
                   {/* About Us */}
                   <li className="nav-link">
-                    <NavLink to="/about-us" className="link-text">
-                      About Us
+                    <NavLink to="/committee" className="link-text">
+                      Committee
                     </NavLink>
                   </li>
+                  {/* About Us 
+                  <li className="nav-link">
+                    <NavLink to="/sponsorship" className="link-text">
+                      Sponsorship
+                    </NavLink>
+                  </li>
+                    */}
                 </div>
                 {/* 
                 <div className="nav-cta">
