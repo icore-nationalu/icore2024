@@ -1,7 +1,7 @@
 import TestImage from "../assets/test-image.png";
 import Icon from "../components/Icon";
 import { Link } from "react-router-dom";
-
+import getImage from "../assets/images/committee/square/index.jsx";
 const CommitteeTeam = ({
   currentTeam,
   committeeName,
@@ -23,7 +23,7 @@ const CommitteeTeam = ({
           return (
             <div className="committee-team-item" key={i}>
               <div className="photo">
-                <img src={TestImage} alt="" />
+                <img src={getImage(name)} alt="" />
               </div>
               <div className="committee-data">
                 <p className="name">
