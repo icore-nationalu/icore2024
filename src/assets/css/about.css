@@ -235,52 +235,17 @@
 }
 
 @media screen and (max-width: 864px) {
-    .metrics-wrapper {
-        grid-template-columns: repeat(4, 1fr);
-    }
-
-    .metrics-wrapper .metric-item {
-        grid-column: span 2;
-    }
-
-    .metrics-wrapper .metric-item:last-child {
-        grid-column: 2 / span 2;
-    }
-
-    .institutions-wrapper .institutions {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .institutions-wrapper .institutions .institution-item {
-        margin-bottom: 32px;
-    }
-
-    .institutions-wrapper .institutions .institution-item:not(:last-child) {
-        margin-right: 16px;
-        margin-left: 16px;
-    }
-
     .story .content {
         grid-template-columns: 1fr;
-        gap: 32px;
+        gap: 0;
     }
 
     .contact-us .contact-grid {
-        grid-template-columns: repeat(4, 1fr);
-    }
-
-    .contact-us .contact-grid .contact-grid-item {
-        grid-column: span 2;
-    }
-
-    .contact-us .contact-grid .contact-grid-item:last-child {
-        grid-column: 2 / span 2;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media screen and (max-width: 576px) {
-
+@media screen and (max-width: 576px) { 
     #about .header-container,
     .contact-us .header-container {
         padding: 0 16px;
@@ -303,36 +268,13 @@
         line-height: 44px;
     }
 
-    #about .header-wrapper .heading,
-    .contact-us .header-wrapper .heading {
-        font-size: 36px;
-        line-height: 44px;
-    }
-
     #about .header-wrapper .subheading,
     .contact-us .header-wrapper .subheading {
         font-size: 18px;
         line-height: 28px;
     }
 
-    .metrics-wrapper {
-        grid-template-columns: 1fr;
-        margin-bottom: 64px;
-    }
-
-    .metrics-wrapper .metric-item {
-        grid-column: auto;
-    }
-
-    .metrics-wrapper .metric-item:last-child {
-        grid-column: auto;
-    }
-
-    .metrics-wrapper .metric-item .value {
-        font-size: 48px;
-        line-height: 60px;
-    }
-
+     
     .story .content {
         margin: 32px auto 64px;
     }
@@ -348,24 +290,25 @@
     }
 
     .story .subheading {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .story .content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    #about .image-wrapper {
+        margin-bottom: 64px;
+    }
+    .contact-us .contact-grid {
+        margin: 64px auto 64px;
+    }
+
+    .contact-us .contact-grid .contact-grid-item .contact-field .label {
         font-size: 18px;
         line-height: 28px;
-    }
-
-    .contact-us .contact-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .contact-us .contact-grid .contact-grid-item {
-        grid-column: auto;
-    }
-
-    .contact-us .contact-grid .contact-grid-item:last-child {
-        grid-column: auto;
-    }
-
-    .institutions-wrapper {
-        padding: 64px 0;
     }
 }
 
@@ -387,13 +330,10 @@
         font-size: 16px;
         line-height: 24px;
     }
-
-    .metrics-wrapper {
-        margin-bottom: 32px;
-    }
-
+ 
     .story .content {
         margin: 32px auto 32px;
+        padding-bottom: 32px;
     }
 
     .story .heading {
@@ -409,5 +349,13 @@
     .story .content p {
         font-size: 16px;
         line-height: 24px;
+    }
+    
+    #about .image-wrapper {
+        margin-bottom: 32px;
+    }
+    .contact-us .contact-grid {
+        grid-template-columns: 1fr;
+        margin: 64px auto 32px;
     }
 }

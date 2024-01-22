@@ -16,7 +16,7 @@ const CommitteeTeam = ({
       }`}
     >
       <h2 className="committee-title">{committeeTitle}</h2>
-      <p className="committee-description">{committeeDescription}</p>
+      {/* <p className="committee-description">{committeeDescription}</p> */}
       <div className="committee-team">
         {committeeItems.map((v, i) => {
           const { name, link, position } = v;

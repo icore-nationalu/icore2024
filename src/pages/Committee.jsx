@@ -5,7 +5,9 @@ import CommitteeTeam from "../components/CommitteeTeam";
 import committeeData from "../assets/data/committee.json";
 
 const Committee = () => {
-  const [currentTeam, setCurrentTeam] = useState("general-chairs");
+  const [currentTeam, setCurrentTeam] = useState(
+    committeeData[0]["committeeName"]
+  );
   const [tocActive, setTOCActive] = useState(false);
   const [tocAnimate, setTOCAnimate] = useState("");
 

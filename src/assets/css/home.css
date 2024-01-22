@@ -197,14 +197,13 @@
  }
 
  .venue .image-wrapper {
-     height: 400px;
+     height: 500px;
      background-color: gray;
      text-align: center;
      color: #FFF;
      font-size: 36px;
      line-height: 36px;
      font-weight: 500;
-     border-radius: 16px;
      overflow: hidden;
  }
 
@@ -290,19 +289,13 @@
 
 
  @media screen and (max-width: 1280px) {
-
      .theme .wrapper .image {
          height: auto;
          aspect-ratio: 0.68;
      }
-
  }
 
  @media screen and (max-width: 864px) {
-     .hero-container {
-         /* padding-top: 32px; */
-     }
-
      .hero-wrapper {
          padding-left: 32px;
          padding-right: 32px;
@@ -318,24 +311,6 @@
          line-height: 32px;
      }
 
-     .placeholder-video {
-         margin: 64px 16px;
-     }
-
-     .collaboration .collaborators {
-         flex-wrap: wrap;
-         justify-content: center;
-     }
-
-     .collaboration .collaborators .collaborator-item {
-         margin-bottom: 32px;
-     }
-
-     .collaboration .collaborators .collaborator-item:not(:last-child) {
-         margin-right: 16px;
-         margin-left: 16px;
-     }
-
      .theme .wrapper {
          grid-template-columns: 1fr;
      }
@@ -346,8 +321,7 @@
 
      .theme .wrapper .image {
          margin-top: 48px;
-         /* height: 400px; */
-         aspect-ratio: 1.92;
+         height: 400px;
      }
 
      .venue .contact-grid {
@@ -356,6 +330,11 @@
  }
 
  @media screen and (max-width: 576px) {
+     .hero-wrapper {
+         padding-left: 32px;
+         padding-right: 32px;
+     }
+
      .deadline-badge {
          margin: auto auto 16px;
          font-size: 12px;
@@ -366,6 +345,11 @@
          margin-right: 8px;
      }
 
+     .hero-container {
+         padding-top: 64px;
+         padding-bottom: 64px;
+     }
+
      .hero-container h1 {
          font-size: 36px;
          line-height: 44px;
@@ -374,6 +358,8 @@
      }
 
      .hero-container h3 {
+         font-size: 18px;
+         line-height: 28px;
          text-align: center;
      }
 
@@ -390,11 +376,8 @@
          margin: 6px auto;
      }
 
-     .collaboration .collaborators {
-         margin: 32px auto 64px;
-     }
-
      .theme .wrapper {
+         padding-top: 64px;
          padding-bottom: 64px;
      }
 
@@ -424,49 +407,41 @@
          margin-right: 0;
      }
 
-     .speakers .wrapper {
-         padding: 64px 16px;
+     .theme .conference-highlights .conference-highlight-item .title {
+         font-size: 18px;
+         line-height: 28px;
      }
 
-     .speakers h5 {
+     .venue .header-container {
+         padding: 0 16px;
+     }
+
+     .venue .header-wrapper {
+         margin: 64px auto;
+     }
+
+     .venue .header-wrapper .heading {
          font-size: 30px;
          line-height: 38px;
-         margin-bottom: 16px;
+         margin: 12px auto 20px;
      }
 
-     .speakers .description {
-         font-size: 18px;
-         line-height: 28px;
-     }
-
-     .speakers .meet {
-         width: 100%;
-     }
-
-     .speakers .speakers-grid {
-         grid-template-columns: 1fr;
-     }
-
-     .speakers .speakers-grid .speaker-item .speaker-name a {
-         font-size: 18px;
-         line-height: 28px;
-     }
-
-     .speakers .speakers-grid .speaker-item .position {
+     .venue .header-wrapper .subheading {
          font-size: 16px;
          line-height: 24px;
      }
 
-     .venue .contact-grid {
-         grid-template-columns: 1fr;
-     }
  }
 
  @media screen and (max-width: 400px) {
+     .hero-container {
+         padding-top: 32px;
+         padding-bottom: 32px;
+     }
+
      .hero-container h1 {
          font-size: 30px;
          line-height: 38px;
-         margin-bottom: 16px;
      }
 
      .hero-container h3 {
@@ -474,6 +449,10 @@
          line-height: 24px;
      }
 
+     .theme .wrapper {
+         padding-top: 32px;
+         padding-bottom: 32px;
+     }
 
      .theme h5 {
          font-size: 24px;
@@ -485,28 +464,11 @@
          line-height: 24px;
      }
 
-     .speakers h5 {
-         font-size: 24px;
-         line-height: 32px;
+     .venue .header-wrapper {
+         margin: 32px auto;
      }
 
-     .speakers .description {
-         font-size: 16px;
-         line-height: 24px;
-     }
-
-     .speakers .meet span {
-         font-size: 16px;
-         line-height: 24px;
-     }
-
-     .speakers .speakers-grid .speaker-item .speaker-name a {
-         font-size: 16px;
-         line-height: 24px;
-     }
-
-     .speakers .speakers-grid .speaker-item .position {
-         font-size: 14px;
-         line-height: 20 px;
+     .venue .contact-grid {
+         grid-template-columns: 1fr;
      }
  }

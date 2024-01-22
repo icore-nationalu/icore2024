@@ -1,184 +1,281 @@
 [
     {
-        "committeeTitle": "General Chairs",
-        "committeeDescription" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, accusamus?",
-        "committeeName" : "general-chairs",
-        "committeeItems" : [
+        "committeeTitle": "General Chair",
+        "committeeDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, accusamus?",
+        "committeeName": "general-chair",
+        "committeeItems": [
             {
-                "name": "Committee Name",
+                "name": "Vladimir Mariano",
                 "link": "https://www.google.com",
-                "position": "Position, Institution Institution Institution"
-            },
-            {
-                "name": "Committee Name",
-                "link": "https://www.google.com",
-                "position": "Position, Institution Institution Institution"
-            },
-            {
-                "name": "Committee Name",
-                "link": "https://www.google.com",
-                "position": "Position, Institution Institution Institution"
-            },
-            {
-                "name": "Committee Name",
-                "link": "https://www.google.com",
-                "position": "Position, Institution Institution Institution"
-            },
-            {
-                "name": "Committee Name",
-                "link": "https://www.google.com",
-                "position": "Position, Institution Institution Institution"
-            },
-            {
-                "name": "Committee Name",
-                "link": "https://www.google.com",
-                "position": "Position, Institution Institution Institution"
-            },
-            {
-                "name": "Committee Name",
-                "link": "https://www.google.com",
-                "position": "Position, Institution Institution Institution"
-            },
-            {
-                "name": "Committee Name",
-                "link": "https://www.google.com",
-                "position": "Position, Institution Institution Institution"
-            },
-            {
-                "name": "Committee Name",
-                "link": "https://www.google.com",
-                "position": "Position, Institution Institution Institution"
-            },
-            {
-                "name": "Committee Name",
-                "link": "https://www.google.com",
-                "position": "Position, Institution Institution Institution"
+                "position": "YSAELI Academy at Fullbright University, Vietnam"
             }
         ]
     },
     {
-        "committeeTitle": "General Co-Chairs",
-        "committeeDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta perferendis quod omnis aut ex. Repudiandae tempora numquam cum consequuntur eos.",
-        "committeeName" : "general-co-chairs",
-        "committeeItems" : [
+        "committeeTitle": "Program Chairs",
+        "committeeDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta perferendis quod omnis aut ex. Repudiandae tempora numquam cum consequuntur eos.",
+        "committeeName": "program-chairs",
+        "committeeItems": [
             {
-                "name": "Committee Name",
+                "name": "Lau Bee Theng",
                 "link": "https://www.google.com",
-                "position": "Position, Institution Institution Institution"
+                "position": "Swinburne University of Technology, Malaysia"
             },
             {
-                "name": "Committee Name",
+                "name": "Mideth Abisado",
                 "link": "https://www.google.com",
-                "position": "Position, Institution Institution Institution"
-            },
-            {
-                "name": "Committee Name",
-                "link": "https://www.google.com",
-                "position": "Position, Institution Institution Institution"
-            },
-            {
-                "name": "Committee Name",
-                "link": "https://www.google.com",
-                "position": "Position, Institution Institution Institution"
-            },
-            {
-                "name": "Committee Name",
-                "link": "https://www.google.com",
-                "position": "Position, Institution Institution Institution"
-            },
-            {
-                "name": "Committee Name",
-                "link": "https://www.google.com",
-                "position": "Position, Institution Institution Institution"
-            },
-            {
-                "name": "Committee Name",
-                "link": "https://www.google.com",
-                "position": "Position, Institution Institution Institution"
+                "position": "National University, Philippines"
             }
         ]
     },
     {
-        "committeeTitle": "Conference Program Chairs",
-        "committeeDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta perferendis quod omnis aut ex. Repudiandae tempora numquam cum consequuntur eos.",
-        "committeeName" : "conference-program-chairs",
-        "committeeItems" : [
+        "committeeTitle": "Program Commiteee",
+        "committeeDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta perferendis quod omnis aut ex. Repudiandae tempora numquam cum consequuntur eos.",
+        "committeeName": "program-committee",
+        "committeeItems": [
             {
-                "name": "Committee Name",
+                "name": "Ramon Rodriguez",
                 "link": "https://www.google.com",
-                "position": "Position, Institution Institution Institution"
+                "position": "National University, Philippines"
+            },
+            {
+                "name": "Alvin Malicdem",
+                "link": "https://www.google.com",
+                "position": "Don Mariano Marcos Memorial State University, Philippines"
             }
         ]
     },
     {
-        "committeeTitle": "International Advisory Board",
-        "committeeDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta perferendis quod omnis aut ex. Repudiandae tempora numquam cum consequuntur eos.",
-        "committeeName" : "intl-advisory-board",
-        "committeeItems" : [
+        "committeeTitle": "Organizing Chairs",
+        "committeeDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta perferendis quod omnis aut ex. Repudiandae tempora numquam cum consequuntur eos.",
+        "committeeName": "organizing-chairs",
+        "committeeItems": [
             {
-                "name": "Committee Name",
+                "name": "Avonn C. Nova",
                 "link": "https://www.google.com",
-                "position": "Position, Institution Institution Institution"
+                "position": "National University, Philippines"
+            },
+            {
+                "name": "Lany Maceda",
+                "link": "https://www.google.com",
+                "position": "Bicol University, Philippines"
             }
         ]
     },
     {
-        "committeeTitle": "Steering Committee",
-        "committeeDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta perferendis quod omnis aut ex. Repudiandae tempora numquam cum consequuntur eos.",
-        "committeeName" : "steering",
-        "committeeItems" : [
+        "committeeTitle": "Publication Chair",
+        "committeeDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta perferendis quod omnis aut ex. Repudiandae tempora numquam cum consequuntur eos.",
+        "committeeName": "publication-chair",
+        "committeeItems": [
             {
-                "name": "Committee Name",
+                "name": "Bernie S. Fabito",
                 "link": "https://www.google.com",
-                "position": "Position, Institution Institution Institution"
+                "position": "National University, Philippines"
+            }
+        ]
+    },
+    {
+        "committeeTitle": "Organizing Committee",
+        "committeeDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta perferendis quod omnis aut ex. Repudiandae tempora numquam cum consequuntur eos.",
+        "committeeName": "organizing-committee",
+        "committeeItems": [
+            {
+                "name": "Glendora Tiu",
+                "link": "https://www.google.com",
+                "position": "National University, Philippines"
+            },
+            {
+                "name": "Susan Caluya",
+                "link": "https://www.google.com",
+                "position": "National University, Philippines"
+            },
+            {
+                "name": "Emeliza Yabut",
+                "link": "https://www.google.com",
+                "position": "National University, Philippines"
+            },
+            {
+                "name": "Jennilyn Salimbagat",
+                "link": "https://www.google.com",
+                "position": "National University, Philippines"
+            },
+            {
+                "name": "Ryan Richard Guadaña",
+                "link": "https://www.google.com",
+                "position": "National University, Philippines"
+            },
+            {
+                "name": "Armida Salazar",
+                "link": "https://www.google.com",
+                "position": "National University, Philippines"
+            }
+        ]
+    },
+    {
+        "committeeTitle": "Secretariat and Publicity Committee",
+        "committeeDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta perferendis quod omnis aut ex. Repudiandae tempora numquam cum consequuntur eos.",
+        "committeeName": "secreteriat-publicity",
+        "committeeItems": [
+            {
+                "name": "Susan Caluya",
+                "link": "https://www.google.com",
+                "position": "National University, Philippines"
+            },
+            {
+                "name": "Wang Wenming",
+                "link": "https://www.google.com",
+                "position": "West Anhui University, China"
+            },
+            {
+                "name": "Angie Ceniza-Canillo",
+                "link": "https://www.google.com",
+                "position": "University of San Carlos, Philippines"
+            }
+        ]
+    },
+    {
+        "committeeTitle": "External Communication Chairs",
+        "committeeDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta perferendis quod omnis aut ex. Repudiandae tempora numquam cum consequuntur eos.",
+        "committeeName": "external-comm-chairs",
+        "committeeItems": [
+            {
+                "name": "Pei Pei",
+                "link": "https://www.google.com",
+                "position": "Anhui Sanlian University, China"
+            },
+            {
+                "name": "Ge Xianlei",
+                "link": "https://www.google.com",
+                "position": "Huainan Normal University, China"
+            },
+            {
+                "name": "Li Xiaoyan",
+                "link": "https://www.google.com",
+                "position": "Huainan Normal University, China"
+            },
+            {
+                "name": "Zhu Xuemei",
+                "link": "https://www.google.com",
+                "position": "West Anhui University, China"
+            },
+            {
+                "name": "Song Xiedong",
+                "link": "https://www.google.com",
+                "position": "JiNing University, China"
             }
         ]
     },
     {
         "committeeTitle": "Program Technical Committee",
-        "committeeDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta perferendis quod omnis aut ex. Repudiandae tempora numquam cum consequuntur eos.",
-        "committeeName" : "program-technical",
-        "committeeItems" : [
+        "committeeDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta perferendis quod omnis aut ex. Repudiandae tempora numquam cum consequuntur eos.",
+        "committeeName": "program-technical",
+        "committeeItems": [
             {
-                "name": "Committee Name",
+                "name": "Joseph Marvin Imperial",
                 "link": "https://www.google.com",
-                "position": "Position, Institution Institution Institution"
+                "position": "University of Bath, United Kingdom"
+            },
+            {
+                "name": "Sovannarith Heng",
+                "link": "https://www.google.com",
+                "position": "Royal University of Phnom Penh, Cambodia"
+            },
+            {
+                "name": "Wang Wenming",
+                "link": "https://www.google.com",
+                "position": "West Anhui University, China"
+            },
+            {
+                "name": "Sammy Militante",
+                "link": "https://www.google.com",
+                "position": "Antique State University, Philippines"
+            },
+            {
+                "name": "Leon Andretti Abdillah",
+                "link": "https://www.google.com",
+                "position": "University Bina Darma, Indonesia"
+            },
+            {
+                "name": "Francis Balahadia",
+                "link": "https://www.google.com",
+                "position": "Laguna State Polytechnic University of the Philippines"
+            },
+            {
+                "name": "Julie Ann Salido",
+                "link": "https://www.google.com",
+                "position": "Aklan State University, Philippines"
+            },
+            {
+                "name": "Rhowel Dellosa",
+                "link": "https://www.google.com",
+                "position": "Isabela State University, Philippines"
+            },
+            {
+                "name": "Rex Bringula",
+                "link": "https://www.google.com",
+                "position": "University of the East, Philippines"
+            },
+            {
+                "name": "Charmaine Ponay",
+                "link": "https://www.google.com",
+                "position": "University of Santo Tomas, Philippines"
+            },
+            {
+                "name": "Jennifer Llovido",
+                "link": "https://www.google.com",
+                "position": "Bicol University, Philippines"
+            },
+            {
+                "name": "Liu Qingyu,",
+                "link": "https://www.google.com",
+                "position": "Huainan Normal University, China"
+            },
+            {
+                "name": "Li Xiaoyan",
+                "link": "https://www.google.com",
+                "position": "Huainan Normal University, China"
+            },
+            {
+                "name": "Maria Mercedes T. Rodrigo",
+                "link": "https://www.google.com",
+                "position": "Ateneo De Manila University, Philippines"
+            },
+            {
+                "name": "Jessie Paragas",
+                "link": "https://www.google.com",
+                "position": "East Visayas State University, Philippines"
+            },
+            {
+                "name": "Marilou Jamis",
+                "link": "https://www.google.com",
+                "position": "National University, Philippines"
+            },
+            {
+                "name": "Donata Acula",
+                "link": "https://www.google.com",
+                "position": "University of Santo Tomas, Philippines"
+            },
+            {
+                "name": "Liu Quinyu",
+                "link": "https://www.google.com",
+                "position": "Huainan Normal University, China"
+            },
+            {
+                "name": "Davood Pour Yousefian Barfeh",
+                "link": "https://www.google.com",
+                "position": "National University, Philippines"
             }
         ]
     },
     {
-        "committeeTitle": "Event Production Committee",
-        "committeeDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta perferendis quod omnis aut ex. Repudiandae tempora numquam cum consequuntur eos.",
-        "committeeName" : "event-production",
-        "committeeItems" : [
+        "committeeTitle": "Post Conference Committee",
+        "committeeDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta perferendis quod omnis aut ex. Repudiandae tempora numquam cum consequuntur eos.",
+        "committeeName": "post-conference",
+        "committeeItems": [
             {
-                "name": "Committee Name",
+                "name": "Yue Guoqing",
                 "link": "https://www.google.com",
-                "position": "Position, Institution Institution Institution"
-            }
-        ]
-    },
-    {
-        "committeeTitle": "Production Technical Committee",
-        "committeeDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta perferendis quod omnis aut ex. Repudiandae tempora numquam cum consequuntur eos.",
-        "committeeName" : "production-technical",
-        "committeeItems" : [
-            {
-                "name": "Committee Name",
-                "link": "https://www.google.com",
-                "position": "Position, Institution Institution Institution"
-            }
-        ]
-    },
-    {
-        "committeeTitle": "Production and Creatives Committee",
-        "committeeDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta perferendis quod omnis aut ex. Repudiandae tempora numquam cum consequuntur eos.",
-        "committeeName" : "production-creatives",
-        "committeeItems" : [
-            {
-                "name": "Committee Name",
-                "link": "https://www.google.com",
-                "position": "Position, Institution Institution Institution"
+                "position": "Anhui Sanlian University, China"
             }
         ]
     }

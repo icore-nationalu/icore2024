@@ -49,8 +49,8 @@ const App = () => {
             />
           }
         ></Route>
-        {/* <Route path="/committee" element={<Committee />}></Route> */}
-        <Route
+        <Route path="/committee" element={<Committee />}></Route>
+        {/* <Route
           path="/committee"
           element={
             <ComingSoon
@@ -58,7 +58,7 @@ const App = () => {
               subheading="Our dedicated committee is hard at work curating an immersive experience. The unveiling is imminent! Watch this space for the brilliant minds orchestrating iCORE 2024."
             />
           }
-        ></Route>
+        ></Route> */}
         {/* <Route path="/sponsorship" element={<Sponsorship />}></Route> */}
         <Route path="/venue" element={<Venue />}></Route>
         <Route path="/past-conferences" element={<PastConferences />}></Route>
