@@ -39,8 +39,8 @@ const App = () => {
             />
           }
         ></Route>
-        {/* <Route path="/speakers" element={<Speakers />}></Route> */}
-        <Route
+        <Route path="/speakers" element={<Speakers />}></Route>
+        {/* <Route
           path="/speakers"
           element={
             <ComingSoon
@@ -48,7 +48,7 @@ const App = () => {
               subheading="Anticipation builds as we craft an exceptional lineup of speakers! Stay tuned for a revelation of visionary voices shaping the discourse at iCORE 2024"
             />
           }
-        ></Route>
+        ></Route> */}
         <Route path="/committee" element={<Committee />}></Route>
         {/* <Route
           path="/committee"

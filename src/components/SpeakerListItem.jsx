@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import Icon from "./Icon";
 import TestImage from "../assets/test-image.png";
 
-const SpeakerListItem = ({ name, link, position, institution }) => {
+const SpeakerListItem = ({ name, link, position, institution, desc }) => {
   return (
     <div className="speaker-item">
       <div className="photo">

@@ -14,6 +14,7 @@ import SongX from "./Song X..jpg";
 import WenmingW from "./Wenming W..jpg";
 import XiaoyanL from "./Xiaoyan L..jpg";
 import YabutE from "./Yabut E..jpg";
+import SeeS from "./See S..jpg";
 
 const getImage = (name) => {
   const images = {
@@ -28,6 +29,7 @@ const getImage = (name) => {
     "Avonn C. Nova": NovaA,
     "Ramon Rodriguez": RodriguezR,
     "Gabriel Avelino Sampedro": SampedroG,
+    "Simon See": SeeS,
     "Song Xiedong": SongX,
     "Wang Wenming": WenmingW,
     "Li Xiaoyan": XiaoyanL,
