@@ -63,9 +63,6 @@ const Speakers = () => {
                   <span>Senior Director</span>, Chief Solution Architect and
                   Global Head, NVIDIA AI Technology Center
                 </p>
-                <p className="position">
-                  <span>Professor</span>, Shanghai Jiao Tong University
-                </p>
                 <p className="description">
                   Professor Simon See is currently the Solution Architecture and
                   Engineering Senior Director, Chief Solution Architect & Global
