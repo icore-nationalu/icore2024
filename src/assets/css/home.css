@@ -107,8 +107,6 @@
      border-bottom: 1px solid var(--gray-200);
  }
 
-
-
  .theme .wrapper .image {
      height: 100%;
      width: 100%;
@@ -261,7 +259,7 @@
  }
 
  .venue .contact-grid .contact-grid-item .contact-data .data {
-    position: relative;
+     position: relative;
  }
 
  .venue .contact-grid .contact-grid-item .contact-data .data a {
@@ -291,38 +289,33 @@
  }
 
 
- @media screen and (max-width: 1000px) {
-     .speakers .speakers-grid {
-         grid-template-columns: repeat(2, 1fr);
+ @media screen and (max-width: 1280px) {
+
+     .theme .wrapper .image {
+         height: auto;
+         aspect-ratio: 0.68;
      }
 
-     .speakers .meet {
-         position: relative;
-         top: 0;
-         right: 0;
-         margin-top: 40px;
-         width: fit-content;
-     }
  }
 
  @media screen and (max-width: 864px) {
      .hero-container {
-         padding-top: 32px;
+         /* padding-top: 32px; */
      }
 
      .hero-wrapper {
-         padding-left: 16px;
-         padding-right: 16px;
+         padding-left: 32px;
+         padding-right: 32px;
      }
 
      .hero-container h1 {
-         font-size: 48px;
-         line-height: 60px;
+         font-size: 60px;
+         line-height: 72px;
      }
 
      .hero-container h3 {
-         font-size: 18px;
-         line-height: 28px;
+         font-size: 20px;
+         line-height: 32px;
      }
 
      .placeholder-video {
@@ -358,8 +351,8 @@
      }
 
      .venue .contact-grid {
-        grid-template-columns: 1fr 1fr;
-    }
+         grid-template-columns: 1fr 1fr;
+     }
  }
 
  @media screen and (max-width: 576px) {
@@ -465,8 +458,8 @@
      }
 
      .venue .contact-grid {
-        grid-template-columns: 1fr;
-    }
+         grid-template-columns: 1fr;
+     }
  }
 
  @media screen and (max-width: 400px) {

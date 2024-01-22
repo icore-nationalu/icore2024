@@ -211,7 +211,7 @@ const Navbar = () => {
                     </NavLink>
                   </li>
 
-                  {/* About Us 
+                  {/* About Us */}
                   <li className="nav-link">
                     <NavLink to="/committee" className="link-text">
                       Committee

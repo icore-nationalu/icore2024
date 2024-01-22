@@ -25,19 +25,21 @@ const CommitteeTeam = ({
               <div className="photo">
                 <img src={TestImage} alt="" />
               </div>
-              <p className="name">
-                <Link to={link} target="_blank">
-                  {name}
-                </Link>
-                <Icon
-                  iconName="ExternalLink"
-                  stroke="#8693A0"
-                  className="icon"
-                  height="20px"
-                  width="20px"
-                />
-              </p>
-              <p className="position">{position}</p>
+              <div className="committee-data">
+                <p className="name">
+                  <Link to={link} target="_blank">
+                    {name}
+                  </Link>
+                  <Icon
+                    iconName="ExternalLink"
+                    stroke="#8693A0"
+                    className="icon"
+                    height="20px"
+                    width="20px"
+                  />
+                </p>
+                <p className="position">{position}</p>
+              </div>
             </div>
           );
         })}

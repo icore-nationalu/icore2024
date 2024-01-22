@@ -103,7 +103,7 @@ const Home = () => {
           </h1>
           <div className="subheading-wrapper">
             <h3>
-              Join us at iCORE 2024 on June 15-16 as we explore innovative
+              Join us at iCORE 2024 on July 20-21 as we explore innovative
               solutions to global challenges, fostering a more sustainable
               tomorrow.
             </h3>
