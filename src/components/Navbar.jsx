@@ -192,19 +192,26 @@ const Navbar = () => {
 
                   {/* About Us */}
                   <li className="nav-link">
+                    <NavLink to="/review-process" className="link-text">
+                      Review Process
+                    </NavLink>
+                  </li>
+
+                  {/* About Us */}
+                  <li className="nav-link">
                     <NavLink to="/important-dates" className="link-text">
                       Important Dates
                     </NavLink>
                   </li>
 
-                  {/* About Us 
+                  {/* About Us */}
                   <li className="nav-link">
                     <NavLink to="/program" className="link-text">
                       Program
                     </NavLink>
                   </li>
 
-                  {/* About Us 
+                  {/* About Us */}
                   <li className="nav-link">
                     <NavLink to="/speakers" className="link-text">
                       Speakers
@@ -215,6 +222,12 @@ const Navbar = () => {
                   <li className="nav-link">
                     <NavLink to="/committee" className="link-text">
                       Committee
+                    </NavLink>
+                  </li>
+                  {/* About Us */}
+                  <li className="nav-link">
+                    <NavLink to="/sponsorship" className="link-text">
+                      Sponsorship
                     </NavLink>
                   </li>
 

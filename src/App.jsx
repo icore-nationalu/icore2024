@@ -12,6 +12,8 @@ import Publication from "./pages/Publication";
 import AboutUs from "./pages/AboutUs";
 import Submission from "./pages/Submission";
 import Registration from "./pages/Registration";
+import Sponsorship from "./pages/Sponsorship";
+import Review from "./pages/Review";
 import Test1 from "./pages/Test1";
 import Venue from "./pages/Venue";
 import PastConferences from "./pages/PastConferences";
@@ -23,10 +25,12 @@ const App = () => {
         <Route index element={<Home />}></Route>
         <Route path="/test" element={<Test1 />}></Route>
         <Route path="/registration" element={<Registration />}></Route>
+        <Route path="/review-process" element={<Review />}></Route>
         <Route path="/important-dates" element={<ImportantDates />}></Route>
         <Route path="/program" element={<Program />}></Route>
         <Route path="/speakers" element={<Speakers />}></Route>
         <Route path="/committee" element={<Committee />}></Route>
+        <Route path="/sponsorship" element={<Sponsorship />}></Route>
         <Route path="/venue" element={<Venue />}></Route>
         <Route path="/past-conferences" element={<PastConferences />}></Route>
         <Route path="/about-us" element={<AboutUs />}></Route>
