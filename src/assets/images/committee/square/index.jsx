@@ -75,7 +75,7 @@ const getImage = (name) => {
     "Wang Wenming": WenmingW,
     "Li Xiaoyan": XiaoyanL,
     "Emeliza Yabut": YabutE,
-    "Zhu Xuemei": ZhuX,
+    // "Zhu Xuemei": ZhuX,
   };
 
   const img = images[`${name}`];

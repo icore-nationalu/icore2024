@@ -7,7 +7,8 @@
             {
                 "name": "Vladimir Mariano",
                 "link": "https://yseali.fulbright.edu.vn/en/faculty/vladimir-mariano-phd/",
-                "position": "YSAELI Academy at Fullbright University, Vietnam"
+                "position": "YSAELI Academy at Fullbright University, Vietnam",
+                "showAffiliation": true
             }
         ]
     },
@@ -160,7 +161,7 @@
             },
             {
                 "name": "Zhu Xuemei",
-                "link": "https://vivo.library.tamu.edu/vivo/display/n48affe9a",
+                "link": "https://dl.acm.org/profile/99661062080",
                 "position": "West Anhui University, China",
                 "showAffiliation": true
             },
