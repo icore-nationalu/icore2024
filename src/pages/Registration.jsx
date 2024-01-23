@@ -100,16 +100,16 @@ const Registration = () => {
                   <span>INCLUSIONS</span>
                 </div>
                 <div className="row">
-                  <span>{registration_fee[0].type}</span>
+                  <span>{registration_fee[1].type}</span>
                 </div>
                 <div className="row">
                   <span>
-                    {registration_fee[0].fee_php} / <br />{" "}
-                    {registration_fee[0].fee_usd}
+                    {registration_fee[1].fee_php} / <br />{" "}
+                    {registration_fee[1].fee_usd}
                   </span>
                 </div>
                 <div className="row inclusions">
-                  {registration_fee[0].inclusions.map((v, i) => {
+                  {registration_fee[1].inclusions.map((v, i) => {
                     return (
                       <div className="sub-row" key={i}>
                         <span>{v}</span>

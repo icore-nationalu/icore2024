@@ -134,7 +134,6 @@
 }
 
 .registration-wrapper .grid-table .table-content .sub-row:last-child {
-    border-top: 1px solid var(--gray-50, #E9EFF5);
     border-bottom: none;
 }
 

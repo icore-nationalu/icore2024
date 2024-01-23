@@ -26,7 +26,8 @@
             {
                 "name": "Mideth Abisado",
                 "link": "https://www.linkedin.com/in/midethabisado/",
-                "position": "National University, Philippines"
+                "position": "National University, Philippines",
+                "showAffiliation": true
             }
         ]
     },
@@ -38,12 +39,14 @@
             {
                 "name": "Ramon Rodriguez",
                 "link": "https://www.linkedin.com/in/ramon-rodriguez-5a620953/",
-                "position": "National University, Philippines"
+                "position": "National University, Philippines",
+                "showAffiliation": true
             },
             {
                 "name": "Alvin Malicdem",
                 "link": "https://www.linkedin.com/in/alvin-malicdem-1b01757a/",
-                "position": "Don Mariano Marcos Memorial State University, Philippines"
+                "position": "Don Mariano Marcos Memorial State University, Philippines",
+                "showAffiliation": true
             }
         ]
     },
@@ -55,12 +58,14 @@
             {
                 "name": "Avonn C. Nova",
                 "link": "https://www.linkedin.com/in/avonn-nova-mit-4774b532/",
-                "position": "National University, Philippines"
+                "position": "National University, Philippines",
+                "showAffiliation": true
             },
             {
                 "name": "Lany Maceda",
                 "link": "https://scholar.google.com/citations?user=FfAmsIoAAAAJ",
-                "position": "Bicol University, Philippines"
+                "position": "Bicol University, Philippines",
+                "showAffiliation": true
             }
         ]
     },
@@ -72,7 +77,8 @@
             {
                 "name": "Bernie S. Fabito",
                 "link": "https://www.linkedin.com/in/berniefabito/",
-                "position": "National University, Philippines"
+                "position": "National University, Philippines",
+                "showAffiliation": true
             }
         ]
     },
@@ -121,7 +127,8 @@
             {
                 "name": "Susan Caluya",
                 "link": "https://scholar.google.com/citations?user=NlF1wC0AAAAJ",
-                "position": "National University, Philippines"
+                "position": "National University, Philippines",
+                "showAffiliation": true
             },
             {
                 "name": "Wang Wenming",
@@ -132,7 +139,8 @@
             {
                 "name": "Angie Ceniza-Canillo",
                 "link": "https://www.usc.edu.ph/faculty/computer-information-sciences-and-mathematics/ceniza-canillo-angie-m",
-                "position": "University of San Carlos, Philippines"
+                "position": "University of San Carlos, Philippines",
+                "showAffiliation": true
             }
         ]
     },
@@ -199,7 +207,8 @@
             {
                 "name": "Sammy Militante",
                 "link": "https://scholar.google.com/citations?user=fET2JkAAAAAJ",
-                "position": "Antique State University, Philippines"
+                "position": "Antique State University, Philippines",
+                "showAffiliation": true
             },
             {
                 "name": "Leon Andretti Abdillah",
@@ -210,32 +219,38 @@
             {
                 "name": "Francis Balahadia",
                 "link": "https://iiari.org/luminary_awardee/dr-francis-balahadia/",
-                "position": "Laguna State Polytechnic University of the Philippines"
+                "position": "Laguna State Polytechnic University of the Philippines",
+                "showAffiliation": true
             },
             {
                 "name": "Julie Ann Salido",
                 "link": "https://www.researchgate.net/profile/Julie-Ann-Salido",
-                "position": "Aklan State University, Philippines"
+                "position": "Aklan State University, Philippines",
+                "showAffiliation": true
             },
             {
                 "name": "Rhowel Dellosa",
                 "link": "https://www.researchgate.net/profile/Rhowel-Dellosa-2",
-                "position": "Isabela State University, Philippines"
+                "position": "Isabela State University, Philippines",
+                "showAffiliation": true
             },
             {
                 "name": "Rex Bringula",
                 "link": "https://www.researchgate.net/profile/Rex-Bringula",
-                "position": "University of the East, Philippines"
+                "position": "University of the East, Philippines",
+                "showAffiliation": true
             },
             {
                 "name": "Charmaine Ponay",
                 "link": "https://www.linkedin.com/in/charmaine-ponay-b4736556/",
-                "position": "University of Santo Tomas, Philippines"
+                "position": "University of Santo Tomas, Philippines",
+                "showAffiliation": true
             },
             {
                 "name": "Jennifer Llovido",
                 "link": "https://scholar.google.com/citations?user=7uoxijsAAAAJ",
-                "position": "Bicol University, Philippines"
+                "position": "Bicol University, Philippines",
+                "showAffiliation": true
             },
             {
                 "name": "Liu Qingyu,",
@@ -252,27 +267,32 @@
             {
                 "name": "Maria Mercedes T. Rodrigo",
                 "link": "https://scholar.google.com/citations?user=meAacBIAAAAJ",
-                "position": "Ateneo De Manila University, Philippines"
+                "position": "Ateneo De Manila University, Philippines",
+                "showAffiliation": true
             },
             {
                 "name": "Jessie Paragas",
                 "link": "https://scholar.google.com/citations?user=aEr1DSYAAAAJ",
-                "position": "East Visayas State University, Philippines"
+                "position": "East Visayas State University, Philippines",
+                "showAffiliation": true
             },
             {
                 "name": "Marilou Jamis",
                 "link": "https://www.linkedin.com/in/marilou-jamis-mit-0157213a",
-                "position": "National University, Philippines"
+                "position": "National University, Philippines",
+                "showAffiliation": true
             },
             {
                 "name": "Donata Acula",
                 "link": "https://www.ust.edu.ph/profile/acula-donata-d/",
-                "position": "University of Santo Tomas, Philippines"
+                "position": "University of Santo Tomas, Philippines",
+                "showAffiliation": true
             },
             {
                 "name": "Davood Pour Yousefian Barfeh",
                 "link": "https://www.linkedin.com/in/davood-pour-yousefian-barfeh-2b913835",
-                "position": "National University, Philippines"
+                "position": "National University, Philippines",
+                "showAffiliation": true
             }
         ]
     },

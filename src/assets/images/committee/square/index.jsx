@@ -35,7 +35,7 @@ import TiuG from "./Tiu G.jpg";
 import WenmingW from "./Wenming W.jpg";
 import XiaoyanL from "./Xiaoyan L.jpg";
 import YabutE from "./Yabut E.jpg";
-import ZhuX from "./Zhu X.png";
+import ZhuX from "./Zhu X.jpg";
 
 const getImage = (name) => {
   const images = {
@@ -75,7 +75,7 @@ const getImage = (name) => {
     "Wang Wenming": WenmingW,
     "Li Xiaoyan": XiaoyanL,
     "Emeliza Yabut": YabutE,
-    // "Zhu Xuemei": ZhuX,
+    "Zhu Xuemei": ZhuX,
   };
 
   const img = images[`${name}`];

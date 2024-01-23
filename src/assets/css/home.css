@@ -13,12 +13,6 @@
      position: relative;
  }
 
- /* .hero-container .overlay {
-position: absolute;
-top: 0;
-ri
- } */
-
  .hero-wrapper {
      max-width: 1030px;
  }
@@ -62,8 +56,6 @@ ri
  }
 
  .hero-container h1 {
-     /* color: var(--gray-900, #171E26); */
-     /* color: var(--primary-700); */
      color: #FFF;
      text-align: center;
      font-size: 60px;
@@ -71,6 +63,7 @@ ri
      line-height: 72px;
      letter-spacing: -0.012px;
      margin-bottom: 24px;
+     max-width: 980px;
  }
 
  .hero-container .subheading-wrapper {
@@ -79,7 +72,6 @@ ri
  }
 
  .hero-container h3 {
-     /* color: var(--primary-700); */
      color: #FFF;
      text-align: center;
      font-size: 20px;
