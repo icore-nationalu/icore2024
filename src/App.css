@@ -8,6 +8,7 @@
 @import url('./assets/css/about.css');
 @import url('./assets/css/submission.css');
 @import url('./assets/css/registration.css');
+@import url('./assets/css/callforpaper.css');
 @import url('./assets/css/review.css');
 @import url('./assets/css/venue.css');
 @import url('./assets/css/past.css');
@@ -24,11 +25,14 @@
   --gray-700: #465360;
   --gray-900: #171E26;
   --primary: #007AFF;
-  --primary-50: #E8F3FF;
+  --primary-50: #e8f3ff;
   --primary-100: #B9DBFF;
-  --primary-500: #007AFF;
+  --primary-200: rgb(139, 195, 255);
+  --primary-300: rgb(93, 170, 255);
+  --primary-400: rgb(46, 146, 255);
+  --primary-500: rgb(0, 122, 255);
   --primary-600: #0064D1;
-  --primary-700: #004EA2;
+  --primary-700: rgb(0, 78, 162);
   --primary-900: #002246;
   --success-50: #ECFDF3;
   --success-700: #027A48;

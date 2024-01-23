@@ -36,7 +36,7 @@
     margin: 0 auto 96px;
 }
 
-.registration-wrapper .wrapper > div {
+.registration-wrapper .wrapper>div {
     border-top: 1px solid var(--gray-200);
     padding-top: 96px;
 }
@@ -107,9 +107,28 @@
 
 .registration-wrapper .grid-table .table-content .row {
     padding: 14px 10px;
+    border-right: 1px solid var(--gray-50, #E9EFF5);
     border-top: 1px solid var(--gray-50, #E9EFF5);
     border-bottom: 1px solid var(--gray-50, #E9EFF5);
+}
 
+.registration-wrapper .grid-table .table-content .row:last-child {
+    border-right: none;
+}
+
+.registration-wrapper .grid-table .table-content .row.no-pad {
+    padding: 0;
+}
+
+.registration-wrapper .grid-table .table-content .sub-row {
+    padding: 14px 10px;
+    border-top: none;
+    border-bottom: 1px solid var(--gray-50, #E9EFF5);
+}
+
+.registration-wrapper .grid-table .table-content .sub-row:last-child {
+    border-top: 1px solid var(--gray-50, #E9EFF5);
+    border-bottom: none;
 }
 
 .registration-wrapper .grid-table .table-content .row.colspan-2 {
@@ -140,7 +159,7 @@
     border-bottom: 1px solid var(--gray-50);
     background: var(--gray-10);
     height: 34px;
-}   
+}
 
 .registration-wrapper h3.heading {
     color: var(--gray-900, #171E26);

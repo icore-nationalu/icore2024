@@ -119,7 +119,7 @@ const Speakers = () => {
               <div className="content">
                 <div className="speaker-name">
                   <Link
-                    to="https://yseali.fulbright.edu.vn/en/faculty/vladimir-mariano-phd/?fbclid=IwAR1Jv19ZethiTqDuNwYbLs4sbrfcwUasPB__lTdj8He9hFwcl24Vi6V02GM"
+                    to="https://yseali.fulbright.edu.vn/en/faculty/vladimir-mariano-phd"
                     target="_blank"
                   >
                     Dr. Vladimir Mariano

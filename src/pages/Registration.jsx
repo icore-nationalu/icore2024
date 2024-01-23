@@ -1,12 +1,28 @@
+import { Fragment } from "react";
+
 const Registration = () => {
   const registration_fee = [
     {
-      type: "Presenter Registration",
+      type: "Author Registration",
       fee: "PHP 19,000.00",
+      inclusions: [
+        "Access to all Conference Sessions",
+        "Conference Materials and Proceedings",
+        "Keynote Addresses and Special Sessions",
+        "Coffee Breaks and Networking Opportunities",
+        "Certificate of Paper Presentation",
+      ],
     },
     {
-      type: "Listener Registration",
+      type: "Regular Audience Registration",
       fee: "PHP 1,000.00",
+      inclusions: [
+        "Access to all Conference Sessions",
+        "Conference Materials and Proceedings",
+        "Keynote Addresses and Special Sessions",
+        "Coffee Breaks and Networking Opportunities",
+        "Certificate of Participation",
+      ],
     },
   ];
 
@@ -36,7 +52,7 @@ const Registration = () => {
       <div className="registration-wrapper">
         <div className="wrapper">
           <div>
-            <div className="grid-table cols-2">
+            <div className="grid-table cols-3">
               <div className="table-header">
                 <p>Registration Fee</p>
               </div>
@@ -47,26 +63,31 @@ const Registration = () => {
                 <div className="row-header">
                   <span>FEE</span>
                 </div>
-                {registration_fee.map((v, i) => {
-                  return Object.entries(v).map((e) => {
-                    return (
-                      <div className="row" key={`${i}-${e[0]}`}>
-                        <span>{e[1]}</span>
-                      </div>
-                    );
-                  });
-                })}
-                <div className="spacer row-header">
+                <div className="row-header">
                   <span>INCLUSIONS</span>
                 </div>
-                {inclusions &&
-                  inclusions.map((v, i) => {
-                    return (
-                      <div className="row colspan-2" key={i}>
-                        <span>{v}</span>
+                {registration_fee.map((v, i) => {
+                  const { type, fee, inclusions } = v;
+                  return (
+                    <Fragment key={i}>
+                      <div className="row">
+                        <span>{type}</span>
                       </div>
-                    );
-                  })}
+                      <div className="row">
+                        <span>{fee}</span>
+                      </div>
+                      <div className="row no-pad">
+                        {inclusions.map((v, i) => {
+                          return (
+                            <div className="sub-row" key={i}>
+                              <span>{v}</span>
+                            </div>
+                          );
+                        })}
+                      </div>
+                    </Fragment>
+                  );
+                })}
               </div>
             </div>
 

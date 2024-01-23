@@ -19,6 +19,7 @@ import Venue from "./pages/Venue";
 import PastConferences from "./pages/PastConferences";
 import NotFound from "./pages/errors/NotFound";
 import ComingSoon from "./pages/errors/ComingSoon";
+import CallForPaper from "./pages/CallForPaper";
 
 const App = () => {
   return (
@@ -27,10 +28,11 @@ const App = () => {
         <Route index element={<Home />}></Route>
         <Route path="/test" element={<Test1 />}></Route>
         <Route path="/registration" element={<Registration />}></Route>
+        <Route path="/call-for-papers" element={<CallForPaper />}></Route>
         {/* <Route path="/review-process" element={<Review />}></Route> */}
         <Route path="/important-dates" element={<ImportantDates />}></Route>
-        {/* <Route path="/program" element={<Program />}></Route> */}
-        <Route
+        <Route path="/program" element={<Program />}></Route>
+        {/* <Route
           path="/program"
           element={
             <ComingSoon
@@ -38,7 +40,7 @@ const App = () => {
               subheading="Excitement is building for iCORE 2024! Our team is meticulously shaping a dynamic program. The curtain will rise soon on an agenda that promises inspiration and innovation."
             />
           }
-        ></Route>
+        ></Route> */}
         <Route path="/speakers" element={<Speakers />}></Route>
         {/* <Route
           path="/speakers"

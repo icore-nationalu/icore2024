@@ -82,6 +82,7 @@ const Home = () => {
   return (
     <>
       <section className="hero-container">
+        {/* <div className="overlay"></div> */}
         <div className="hero-wrapper">
           {/* 
           <div className="deadline-badge">

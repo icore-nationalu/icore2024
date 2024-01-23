@@ -91,6 +91,13 @@ const Navbar = () => {
                     </NavLink>
                   </li>
 
+                  {/* About Us */}
+                  <li className="nav-link">
+                    <NavLink to="/call-for-papers" className="link-text">
+                      Call for Papers
+                    </NavLink>
+                  </li>
+
                   {/* Timeline */}
                   {/* 
                   <li
