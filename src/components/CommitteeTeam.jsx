@@ -19,7 +19,7 @@ const CommitteeTeam = ({
       {/* <p className="committee-description">{committeeDescription}</p> */}
       <div className="committee-team">
         {committeeItems.map((v, i) => {
-          const { name, link, position } = v;
+          const { name, link, position, showAffiliation } = v;
           return (
             <div className="committee-team-item" key={i}>
               <div className="photo">
@@ -38,7 +38,7 @@ const CommitteeTeam = ({
                     width="20px"
                   />
                 </p>
-                {/* <p className="position">{position}</p> */}
+                {showAffiliation && <p className="position">{position}</p>}
               </div>
             </div>
           );

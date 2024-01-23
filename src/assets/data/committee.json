@@ -19,7 +19,8 @@
             {
                 "name": "Lau Bee Theng",
                 "link": "https://www.linkedin.com/in/bee-theng-lau-a0704450",
-                "position": "Swinburne University of Technology, Malaysia"
+                "position": "Swinburne University of Technology, Malaysia",
+                "showAffiliation": true
             },
             {
                 "name": "Mideth Abisado",
@@ -124,7 +125,8 @@
             {
                 "name": "Wang Wenming",
                 "link": "https://ieeexplore.ieee.org/author/37086479815",
-                "position": "West Anhui University, China"
+                "position": "West Anhui University, China",
+                "showAffiliation": true
             },
             {
                 "name": "Angie Ceniza-Canillo",
@@ -141,27 +143,32 @@
             {
                 "name": "Pei Pei",
                 "link": "https://www.researchgate.net/profile/Pei-Pei-33",
-                "position": "Anhui Sanlian University, China"
+                "position": "Anhui Sanlian University, China",
+                "showAffiliation": true
             },
             {
                 "name": "Ge Xianlei",
                 "link": "https://ieeexplore.ieee.org/author/37089719862",
-                "position": "Huainan Normal University, China"
+                "position": "Huainan Normal University, China",
+                "showAffiliation": true
             },
             {
                 "name": "Li Xiaoyan",
                 "link": "https://www.researchgate.net/scientific-contributions/Xiaoyan-Li-2166615897",
-                "position": "Huainan Normal University, China"
+                "position": "Huainan Normal University, China",
+                "showAffiliation": true
             },
             {
                 "name": "Zhu Xuemei",
                 "link": "https://vivo.library.tamu.edu/vivo/display/n48affe9a",
-                "position": "West Anhui University, China"
+                "position": "West Anhui University, China",
+                "showAffiliation": true
             },
             {
                 "name": "Song Xiedong",
                 "link": "https://www.researchgate.net/scientific-contributions/Xiedong-Song-2247830209",
-                "position": "JiNing University, China"
+                "position": "JiNing University, China",
+                "showAffiliation": true
             }
         ]
     },
@@ -173,17 +180,20 @@
             {
                 "name": "Joseph Marvin Imperial",
                 "link": "https://www.linkedin.com/in/josephimperial/",
-                "position": "University of Bath, United Kingdom"
+                "position": "University of Bath, United Kingdom",
+                "showAffiliation": true
             },
             {
                 "name": "Sovannarith Heng",
                 "link": "https://www.researchgate.net/profile/Sovannarith-Heng",
-                "position": "Royal University of Phnom Penh, Cambodia"
+                "position": "Royal University of Phnom Penh, Cambodia",
+                "showAffiliation": true
             },
             {
                 "name": "Wang Wenming",
                 "link": "https://ieeexplore.ieee.org/author/37086479815",
-                "position": "West Anhui University, China"
+                "position": "West Anhui University, China",
+                "showAffiliation": true
             },
             {
                 "name": "Sammy Militante",
@@ -193,7 +203,8 @@
             {
                 "name": "Leon Andretti Abdillah",
                 "link": "https://www.researchgate.net/profile/Leon-Abdillah",
-                "position": "University Bina Darma, Indonesia"
+                "position": "University Bina Darma, Indonesia",
+                "showAffiliation": true
             },
             {
                 "name": "Francis Balahadia",
@@ -228,12 +239,14 @@
             {
                 "name": "Liu Qingyu,",
                 "link": "https://ieeexplore.ieee.org/author/37089786161",
-                "position": "Huainan Normal University, China"
+                "position": "Huainan Normal University, China",
+                "showAffiliation": true
             },
             {
                 "name": "Li Xiaoyan",
                 "link": "https://www.researchgate.net/scientific-contributions/Xiaoyan-Li-2166615897",
-                "position": "Huainan Normal University, China"
+                "position": "Huainan Normal University, China",
+                "showAffiliation": true
             },
             {
                 "name": "Maria Mercedes T. Rodrigo",
@@ -270,7 +283,8 @@
             {
                 "name": "Yue Guoqing",
                 "link": "https://ieeexplore.ieee.org/author/37089947823",
-                "position": "Anhui Sanlian University, China"
+                "position": "Anhui Sanlian University, China",
+                "showAffiliation": true
             }
         ]
     }

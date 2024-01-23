@@ -39,6 +39,78 @@ const Speakers = () => {
       <section>
         <div className="wrapper">
           <div className="speakers-list">
+            <div className="speaker-item-container">
+              <div className="image-wrapper">
+                <img src={getImage("Simon See")} alt="" />
+              </div>
+              <div className="bio">
+                <div className="speaker-name">
+                  <Link
+                    to="https://www.linkedin.com/in/simonsee/"
+                    target="_blank"
+                  >
+                    Simon See
+                  </Link>
+                  {/* <Icon
+                    iconName="ExternalLink"
+                    stroke="#8693A0"
+                    className="icon"
+                    height="20px"
+                    width="20px"
+                  /> */}
+                </div>
+                <div className="speaker-position">
+                  Senior Director, Chief Solution Architect and Global Head,
+                  NVIDIA AI Technology Center
+                </div>
+                <div className="speaker-bio">
+                  Professor See is currently involved in a number of
+                  International computational, mathematical science projects and
+                  national AI initiatives. Recently Dr Simon has been appointed
+                  as the Executive Director of the ASEAN Applied Research Centre
+                  (AARC). His research interests are in the area of
+                  High-Performance Computing, Big Data, Artificial Intelligence,
+                  Machine Learning, Computational Science, Applied Mathematics
+                  and Simulation Methodology.
+                </div>
+              </div>
+            </div>
+
+            <div className="speaker-item-container">
+              <div className="image-wrapper">
+                <img src={getImage("Vladimir Mariano")} alt="" />
+              </div>
+              <div className="bio">
+                <div className="speaker-name">
+                  <Link
+                    to="https://yseali.fulbright.edu.vn/en/faculty/vladimir-mariano-phd"
+                    target="_blank"
+                  >
+                    Dr. Vladimir Mariano
+                  </Link>
+                  {/* <Icon
+                    iconName="ExternalLink"
+                    stroke="#8693A0"
+                    className="icon"
+                    height="20px"
+                    width="20px"
+                  /> */}
+                </div>
+                <div className="speaker-position">
+                  Lead Faculty for Technology and Innovation, YSEALI Academy of
+                  Fulbright University Vietnam.
+                </div>
+                <div className="speaker-bio">
+                  Dr. Vladimir Mariano (Vlad) is the Lead Faculty for Technology
+                  and Innovation at the YSEALI Academy of Fulbright University
+                  Vietnam. Vlad graduated with a Ph.D. in Computer Science and
+                  Engineering at the Pennsylvania State University, with
+                  research interests in machine learning and computer vision.
+                </div>
+              </div>
+            </div>
+
+            {/* 
             <div className="speaker-item">
               <div className="photo">
                 <img src={getImage("Simon See")} alt="" />
@@ -164,6 +236,8 @@ const Speakers = () => {
                 </p>
               </div>
             </div>
+
+             */}
           </div>
           {/*  
           {speakers &&
