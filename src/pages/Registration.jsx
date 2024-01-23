@@ -4,7 +4,8 @@ const Registration = () => {
   const registration_fee = [
     {
       type: "Author Registration",
-      fee: "PHP 19,000.00",
+      fee_php: "PHP 19,000.00",
+      fee_usd: "USD 350.00",
       inclusions: [
         "Access to all Conference Sessions",
         "Conference Materials and Proceedings",
@@ -15,7 +16,8 @@ const Registration = () => {
     },
     {
       type: "Regular Audience Registration",
-      fee: "PHP 1,000.00",
+      fee_php: "PHP 1,000.00",
+      fee_usd: "USD 20.00",
       inclusions: [
         "Access to all Conference Sessions",
         "Conference Materials and Proceedings",
@@ -52,7 +54,7 @@ const Registration = () => {
       <div className="registration-wrapper">
         <div className="wrapper">
           <div>
-            <div className="grid-table cols-3">
+            <div className="grid-table">
               <div className="table-header">
                 <p>Registration Fee</p>
               </div>
@@ -63,20 +65,84 @@ const Registration = () => {
                 <div className="row-header">
                   <span>FEE</span>
                 </div>
+                <div className="row-header inclusions-header">
+                  <span>INCLUSIONS</span>
+                </div>
+                <div className="row">
+                  <span>{registration_fee[0].type}</span>
+                </div>
+                <div className="row">
+                  <span>
+                    {registration_fee[0].fee_php} / <br />{" "}
+                    {registration_fee[0].fee_usd}
+                  </span>
+                </div>
+                <div className="row inclusions">
+                  {registration_fee[0].inclusions.map((v, i) => {
+                    return (
+                      <div className="sub-row" key={i}>
+                        <span>{v}</span>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+              <div className="spacer"></div>
+
+              <div className="table-content hide-headers">
                 <div className="row-header">
+                  <span>TYPE</span>
+                </div>
+                <div className="row-header">
+                  <span>FEE</span>
+                </div>
+                <div className="row-header inclusions-header">
+                  <span>INCLUSIONS</span>
+                </div>
+                <div className="row">
+                  <span>{registration_fee[0].type}</span>
+                </div>
+                <div className="row">
+                  <span>
+                    {registration_fee[0].fee_php} / <br />{" "}
+                    {registration_fee[0].fee_usd}
+                  </span>
+                </div>
+                <div className="row inclusions">
+                  {registration_fee[0].inclusions.map((v, i) => {
+                    return (
+                      <div className="sub-row" key={i}>
+                        <span>{v}</span>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+
+              {/*  
+              <div className="table-content">
+                <div className="row-header type-header">
+                  <span>TYPE</span>
+                </div>
+                <div className="row-header fee-header">
+                  <span>FEE</span>
+                </div>
+                <div className="row-header inclusions-header">
                   <span>INCLUSIONS</span>
                 </div>
                 {registration_fee.map((v, i) => {
-                  const { type, fee, inclusions } = v;
+                  const { type, fee_php, fee_usd, inclusions } = v;
                   return (
                     <Fragment key={i}>
-                      <div className="row">
+                      <div className="row type">
                         <span>{type}</span>
                       </div>
-                      <div className="row">
-                        <span>{fee}</span>
+                      <div className="row fee">
+                        <span>
+                          {fee_php} / <br /> {fee_usd}
+                        </span>
                       </div>
-                      <div className="row no-pad">
+                      <div className="row inclusions">
                         {inclusions.map((v, i) => {
                           return (
                             <div className="sub-row" key={i}>
@@ -89,6 +155,7 @@ const Registration = () => {
                   );
                 })}
               </div>
+              */}
             </div>
 
             <h3 className="heading">Payment Methods</h3>
@@ -122,7 +189,7 @@ const Registration = () => {
               <a href="mailto:icore2024@national-u.edu.ph." className="link">
                 icore2024@national-u.edu.ph
               </a>
-              . Stay connected for updates and announcements on social media.
+              .
               <br /> <br />
               Twitter: @iCORE2024
               <br /> <br />

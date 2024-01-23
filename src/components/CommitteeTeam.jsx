@@ -38,7 +38,7 @@ const CommitteeTeam = ({
                     width="20px"
                   />
                 </p>
-                <p className="position">{position}</p>
+                {/* <p className="position">{position}</p> */}
               </div>
             </div>
           );

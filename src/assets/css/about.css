@@ -12,7 +12,7 @@
 
 #about .header-wrapper span,
 .contact-us .header-wrapper span {
-    color: var(--primary-600);
+    color: var(--primary-700);
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
@@ -279,6 +279,7 @@
      
     .story .content {
         margin: 32px auto 64px;
+        padding-bottom: 64px;
     }
 
     .story .label {

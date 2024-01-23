@@ -164,4 +164,10 @@
     .error-options {
         margin-bottom: 32px;
     }
+    .error-wrapper .cta .btn {
+        width: 100%;
+        padding: 6px 12px;
+        font-size: 16px;
+        line-height: 24px;
+    }
 }

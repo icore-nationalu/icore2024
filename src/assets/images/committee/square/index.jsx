@@ -22,7 +22,7 @@ import MalicdemA from "./Malicdem A.jpg";
 import MilitanteS from "./Militante S.jpg";
 import NovaA from "./Nova A.jpg";
 import ParagasJ from "./Paragas J.jpg";
-import PeiP from "./Pei P.png";
+import PeiP from "./Pei P.jpg";
 import PonayC from "./Ponay C.jpg";
 import RodrigoM from "./Rodrigo M.jpg";
 import RodriguezR from "./Rodriguez R.jpeg";

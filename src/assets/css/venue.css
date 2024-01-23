@@ -6,7 +6,7 @@
 }
 
 #venue .header-wrapper span {
-    color: var(--primary-500);
+    color: var(--primary-700);
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
@@ -51,7 +51,8 @@
     object-position: top center;
 }
 
-.venue-container h3, .directions h3 {
+.venue-container h3,
+.directions h3 {
     color: var(--gray-900, #171E26);
     font-size: 24px;
     font-weight: 600;
@@ -59,19 +60,23 @@
     margin-bottom: 16px;
 }
 
-.venue-container p, .directions p {
+.venue-container p,
+.directions p {
     color: var(--gray-500, #687582);
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
     margin-bottom: 48px;
+    text-align: justify;
+    text-justify: inter-word;
+    word-spacing: -2px;
 }
 
 .directions .wrapper {
     padding-bottom: 48px;
 }
 
-.directions .wrapper > div {
+.directions .wrapper>div {
     padding-top: 96px;
     border-top: 1px solid var(--gray-200);
 }
@@ -95,4 +100,107 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
+    text-align: justify;
+    text-justify: inter-word;
+    word-spacing: -2px;
+}
+
+@media screen and (max-width: 576px) {
+    #venue .header-wrapper {
+        margin: 64px auto;
+        padding: 0 16px;
+    }
+
+    #venue .header-wrapper .heading {
+        font-size: 36px;
+        line-height: 44px;
+        letter-spacing: -0.72px;
+    }
+
+    #venue .header-wrapper .subheading {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .venue-container {
+        padding-bottom: 16px;
+    }
+
+    .venue-container h3,
+    .directions h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .venue-container p,
+    .directions p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .directions .wrapper>div {
+        padding-top: 64px;
+    }
+
+    .directions h2 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .directions .description {
+        font-size: 18px;
+        line-height: 28px;
+
+    }
+
+    .directions .wrapper {
+        padding-bottom: 16px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    #venue .header-wrapper {
+        margin: 32px auto;
+    }
+
+    #venue .header-wrapper .heading {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    #venue .header-wrapper .subheading {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .venue-container {
+        padding-bottom: 0px;
+    }
+
+    .venue-container h3,
+    .directions h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .directions .wrapper>div {
+        padding-top: 32px;
+    }
+
+    .directions h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .directions .description {
+        font-size: 16px;
+        line-height: 24px;
+
+    }
+
+    .directions .wrapper {
+        padding-bottom: 0px;
+    }
+
 }

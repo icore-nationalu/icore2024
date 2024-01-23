@@ -108,6 +108,7 @@
     #important-dates .header-container {
         padding: 0 16px;
     }
+
     #important-dates .header-wrapper {
         max-width: 380px;
         margin: 64px auto;
@@ -148,6 +149,16 @@
     @media screen and (max-width: 400px) {
         #important-dates .header-wrapper {
             margin: 32px auto;
+        }
+
+        #important-dates .header-wrapper .heading {
+            font-size: 30px;
+            line-height: 38px;
+        }
+
+        #important-dates .header-wrapper .subheading {
+            font-size: 16px;
+            line-height: 24px;
         }
 
         .dates-wrapper .date-list .date-item .date p span:not(.short) {

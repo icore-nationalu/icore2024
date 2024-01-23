@@ -64,7 +64,7 @@ ri
  .hero-container h1 {
      /* color: var(--gray-900, #171E26); */
      /* color: var(--primary-700); */
-    color: #FFF;     
+     color: #FFF;
      text-align: center;
      font-size: 60px;
      font-weight: 600;
@@ -340,6 +340,7 @@ ri
 
      .venue .contact-grid {
          grid-template-columns: 1fr 1fr;
+         margin: 64px auto 64px;
      }
  }
 
@@ -443,6 +444,10 @@ ri
      .venue .header-wrapper .subheading {
          font-size: 16px;
          line-height: 24px;
+     }
+
+     .venue .contact-grid {
+         margin: 64px auto 32px;
      }
 
  }

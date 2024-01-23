@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import ContactGridItem from "../components/ContactGridItem";
-import Image from "../assets/images/about-us.jpg";
+import Image from "../assets/images/about-us-v2.jpg";
 
 import { useLocation } from "react-router-dom";
 
