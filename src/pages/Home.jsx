@@ -9,7 +9,7 @@ import ContactGridItem from "../components/ContactGridItem";
 
 import Venue from "../assets/images/venue.png";
 import HomeImage from "../assets/images/home.jpg";
-import CallForPaperPDF from "../assets/documents/ICORE_2024_Call_for_Paper.pdf";
+import CallForPaperPDF from "../assets/documents/iCORE-Call-for-Papers.pdf";
 const Home = () => {
   const conferenceHighlights = [
     {

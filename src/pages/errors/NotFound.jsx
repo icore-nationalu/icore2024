@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import Icon from "../../components/Icon";
-import CallForPaperPDF from "../../assets/documents/ICORE_2024_Call_for_Paper.pdf";
+import CallForPaperPDF from "../../assets/documents/iCORE-Call-for-Papers.pdf";
 const NotFound = () => {
   const options = [
     {
