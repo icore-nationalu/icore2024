@@ -123,9 +123,9 @@ const Home = () => {
               })}
             </div>
           </div>
-          <div className="image">
+          {/* <div className="image">
             <img src={HomeImage} alt="research-conference-presenter" />
-          </div>
+          </div> */}
         </div>
       </section>
 

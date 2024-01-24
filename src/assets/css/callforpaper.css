@@ -40,7 +40,7 @@
     font-weight: 500;
     line-height: 28px;
     letter-spacing: 0.36px;
-    padding: 6px 12px;
+    padding: 16px 22px;
     border-radius: 6px;
     cursor: pointer;
     text-decoration: none;
@@ -97,6 +97,11 @@
     #call-for-paper .header-wrapper .subheading {
         font-size: 18px;
         line-height: 28px;
+    }
+
+    #call-for-paper .header-wrapper .download a {
+        padding: 6px 12px;
+        width: 100%;
     }
 
     .call-for-paper-container .wrapper>div {

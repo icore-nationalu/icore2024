@@ -68,7 +68,8 @@
 
 .theme .wrapper {
     display: grid;
-    grid-template-columns: repeat(2, calc(50% - 32px));
+    /* grid-template-columns: repeat(2, calc(50% - 32px)); */
+    grid-template-columns: repeat(1, 1fr);
     gap: 0 64px;
     padding-bottom: 96px;
     padding-top: 96px;
@@ -90,7 +91,7 @@
 
 .theme .conference-highlights {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 48px;
 }
 
@@ -288,6 +289,10 @@
     .theme .wrapper .image {
         margin-top: 48px;
         height: 400px;
+    }
+
+    .theme .conference-highlights {
+        grid-template-columns: 1fr;
     }
 
     .venue .contact-grid {
