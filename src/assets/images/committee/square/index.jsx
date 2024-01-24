@@ -24,6 +24,7 @@ import MacedaL from "./Maceda L.png";
 import MalicdemA from "./Malicdem A.jpg";
 import MilitanteS from "./Militante S.jpg";
 import NovaA from "./Nova A.jpg";
+import PalaoagP from "./Palaoag T.jpg";
 import ParagasJ from "./Paragas J.jpg";
 import PeiP from "./Pei P.jpg";
 import PonayC from "./Ponay C.jpg";
@@ -68,6 +69,7 @@ const getImage = (name) => {
     "Alvin Malicdem": MalicdemA,
     "Sammy Militante": MilitanteS,
     "Avonn C. Nova": NovaA,
+    "Thelma Palaoag": PalaoagP,
     "Jessie Paragas": ParagasJ,
     "Pei Pei": PeiP,
     "Charmaine Ponay": PonayC,
