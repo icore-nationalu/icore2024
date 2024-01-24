@@ -80,12 +80,12 @@ const Registration = () => {
                 <p>Registration Fees</p>
               </div>
               <div className="table-content">
-                <div className="row-header">
+                {/* <div className="row-header">
                   <span>TYPE</span>
                 </div>
                 <div className="row-header">
                   <span>FEE</span>
-                </div>
+                </div> */}
                 {fees.map((v, i) => {
                   const { type, subType, fee } = v;
                   return (
