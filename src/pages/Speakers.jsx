@@ -110,6 +110,81 @@ const Speakers = () => {
               </div>
             </div>
 
+            <div className="speaker-item-container">
+              <div className="image-wrapper">
+                <img src={getImage("Julian Salazar")} alt="" />
+              </div>
+              <div className="bio">
+                <div className="speaker-name">
+                  <Link to="https://julianslzr.com/" target="_blank">
+                    Julian Salazar
+                  </Link>
+                  {/* <Icon
+                    iconName="ExternalLink"
+                    stroke="#8693A0"
+                    className="icon"
+                    height="20px"
+                    width="20px"
+                  /> */}
+                </div>
+                <div className="speaker-position">
+                  Senior Research Scientist on Perception Team, Google Research
+                </div>
+                <div className="speaker-bio">
+                  Julian Salazar is a Senior Research Scientist on the
+                  Perception team at Google Research, where he is technical lead
+                  for a generative AI effort in speech and dialogue. Prior to
+                  this he spent over five years at AWS AI Labs, where he
+                  developed language models, acoustic models, and novel text
+                  adaptation capabilities for Amazon Transcribe. His research
+                  centers around large speech and language models, low-resource
+                  NLP, non-autoregressive ASR, and most recently speech audio
+                  generation. Julian grew up in the Philippines and Canada and
+                  has a degree in Mathematics from Harvard University.
+                </div>
+              </div>
+            </div>
+
+            <div className="speaker-item-container">
+              <div className="image-wrapper">
+                <img src={getImage("Phaedra Boinodiris")} alt="" />
+              </div>
+              <div className="bio">
+                <div className="speaker-name">
+                  <Link to="https://linkedin.com/in/phaedra/" target="_blank">
+                    Phaedra Boinodiris
+                  </Link>
+                  {/* <Icon
+                    iconName="ExternalLink"
+                    stroke="#8693A0"
+                    className="icon"
+                    height="20px"
+                    width="20px"
+                  /> */}
+                </div>
+                <div className="speaker-position">
+                  Global Leader for Trustworthy AI, IBM Consulting
+                </div>
+                <div className="speaker-bio">
+                  Phaedra Boinodiris, based in Morrisville, North Carolina,
+                  stands at the forefront of responsible AI leadership and
+                  innovation. Currently serving as IBM Consulting's Global
+                  Leader for Trustworthy AI, she brings over 13 years of
+                  experience to the field. Phaedra is renowned for her expertise
+                  in scaling AI responsibly, working to mitigate risks for
+                  clients through a comprehensive offering that addresses
+                  cultural adoption, AI engineering, and governance. As an
+                  acclaimed author of 'AI for the Rest of Us' and a prolific
+                  public speaker, Phaedra is deeply committed to advancing AI
+                  ethically. Her notable accolades include the United Nations
+                  Woman of Influence in STEM and Inclusivity Award in 2019, the
+                  Social Innovator Award by IBM in 2018, and being recognized as
+                  one of the Top 100 Women in the Games industry by Women in
+                  Games International in 2007
+                </div>
+              </div>
+            </div>
+
             {/* 
             <div className="speaker-item">
               <div className="photo">

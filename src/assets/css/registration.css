@@ -47,6 +47,13 @@
     font-weight: 400;
     line-height: 28px;
     margin-bottom: 48px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.registration-wrapper .content span {
+    color: var(--gray-700);
+    font-weight: 600;
 }
 
 .registration-wrapper .content .link {
@@ -54,20 +61,23 @@
     color: var(--gray-500);
 }
 
-.registration-wrapper .grid-table {
+.registration-wrapper .fee-table,
+.registration-wrapper .inclusions-table {
     border-radius: 8px;
     border: 1px solid var(--gray-200);
     border-bottom: 1px solid var(--gray-50);
     margin-bottom: 48px;
 }
 
-.registration-wrapper .grid-table .table-header {
+.registration-wrapper .fee-table .table-header,
+.registration-wrapper .inclusions-table .table-header {
     padding: 16px 20px;
     border-bottom: 1px solid var(--gray-50);
     background: var(--table-display, #F4F5F8);
 }
 
-.registration-wrapper .grid-table .table-header p {
+.registration-wrapper .fee-table .table-header ,
+.registration-wrapper .inclusions-table .table-header p {
     color: var(--gray-700);
     font-size: 16px;
     font-weight: 600;
@@ -75,77 +85,59 @@
     letter-spacing: 0.8px;
 }
 
-.registration-wrapper .grid-table .table-content {
+.registration-wrapper .fee-table .table-content {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
 
-.registration-wrapper .grid-table div.table-content.hide-headers .row-header{
-    display: none;
-}
-.registration-wrapper .grid-table .spacer { 
-    display: none;
-    background-color: #FFF;
-    border-top: 1px solid var(--gray-50);
-    border-bottom: 1px solid var(--gray-50);
-    border-left: none;
-    border-right: none;
-    /* background: var(--gray-10); */
-    height: 32px;
+.registration-wrapper .inclusions-table .table-content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
 }
 
-.registration-wrapper .grid-table.cols-2 .table-content {
-    grid-template-columns: 1fr 1fr;
-}
-
-.registration-wrapper .grid-table .table-content .row-header {
+.registration-wrapper .fee-table .table-content .row-header,
+.registration-wrapper .inclusions-table .table-content .row-header {
     border-top: 1px solid var(--gray-50, #E9EFF5);
     border-bottom: 1px solid var(--gray-50, #E9EFF5);
     background: var(--gray-10, #F7F9FC);
     padding: 9px 10px;
 }
 
-.registration-wrapper .grid-table .table-content .row-header span {
+.registration-wrapper .fee-table .table-content .row-header span,
+.registration-wrapper .inclusions-table .table-content .row-header span {
     color: var(--gray-500);
     font-size: 12px;
     font-weight: 500;
     line-height: 16px;
 }
 
-.registration-wrapper .grid-table .table-content .row {
+.registration-wrapper .fee-table .table-content .row,
+.registration-wrapper .inclusions-table .table-content .row {
     padding: 14px 10px;
     border-right: 1px solid var(--gray-50, #E9EFF5);
     border-top: 1px solid var(--gray-50, #E9EFF5);
     border-bottom: 1px solid var(--gray-50, #E9EFF5);
 }
 
-.registration-wrapper .grid-table .table-content .row:last-child {
+.registration-wrapper .fee-table .table-content .row:last-child,
+.registration-wrapper .inclusions-table .table-content .row:last-child {
     border-right: none;
 }
 
-.registration-wrapper .grid-table .table-content .row.inclusions {
-    padding: 0;
-}
-
-.registration-wrapper .grid-table .table-content .sub-row {
-    padding: 14px 10px;
-    border-top: none;
-    border-bottom: 1px solid var(--gray-50, #E9EFF5);
-}
-
-.registration-wrapper .grid-table .table-content .sub-row:last-child {
-    border-bottom: none;
-}
-
-.registration-wrapper .grid-table .table-content .row.colspan-2 {
-    grid-column: auto / span 2;
-}
-
-.registration-wrapper .grid-table .table-content .row span {
+.registration-wrapper .fee-table .table-content .row span,
+.registration-wrapper .inclusions-table .table-content .row span {
     color: var(--gray-700);
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
+}
+
+.registration-wrapper .fee-table .table-content .row ul {
+    color: var(--gray-700);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    padding-left: 32px;
 }
 
 
@@ -193,34 +185,16 @@
         padding-top: 64px;
     }
 
-    .registration-wrapper .grid-table .table-header p {
-        font-size: 14px;
-        line-height: 28px;
+    .registration-wrapper .fee-table .table-content .row span,
+    .registration-wrapper .inclusions-table .table-content .row span {
+        font-size: 12px;
+        line-height: 16px;
     }
 
-    .registration-wrapper .grid-table .table-content {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+    .registration-wrapper .fee-table .table-content .row ul {
+        font-size: 12px;
+        line-height: 16px;
     }
-
-    .registration-wrapper .grid-table .table-content .inclusions-header {
-        order: 5;
-        grid-column: 1 / 3;
-    }
-
-    .registration-wrapper .grid-table .table-content .row.inclusions {
-        order: 6;
-        grid-column: 1 /3
-    }
-
-    .registration-wrapper .grid-table div.table-content.hide-headers .row-header{
-        display: block;
-    }
-
-    .registration-wrapper .grid-table  .spacer { 
-        display: block;
-    }
-    
 
     .registration-wrapper h3.heading {
         font-size: 20px;
@@ -255,11 +229,6 @@
 
     .registration-wrapper .wrapper>div {
         padding-top: 32px;
-    }
-
-    .registration-wrapper .grid-table .table-header p {
-        font-size: 14px;
-        line-height: 28px;
     }
 
     .registration-wrapper h3.heading {

@@ -70,13 +70,19 @@
         ]
     },
     {
-        "committeeTitle": "Publication Chair",
+        "committeeTitle": "Publication Chairs",
         "committeeDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta perferendis quod omnis aut ex. Repudiandae tempora numquam cum consequuntur eos.",
         "committeeName": "publication-chair",
         "committeeItems": [
             {
                 "name": "Bernie S. Fabito",
                 "link": "https://www.linkedin.com/in/berniefabito/",
+                "position": "National University, Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "Ryan Richard Guadaña",
+                "link": "https://www.linkedin.com/in/ryan-richard-guada%C3%B1a-464443228/",
                 "position": "National University, Philippines",
                 "showAffiliation": true
             }
@@ -90,32 +96,32 @@
             {
                 "name": "Glendora Tiu",
                 "link": "https://www.linkedin.com/in/glendora-tiu-777905102/",
-                "position": "National University, Philippines"
+                "position": "External Communication",
+                "showAffiliation": true
             },
             {
                 "name": "Susan Caluya",
                 "link": "https://scholar.google.com/citations?user=NlF1wC0AAAAJ",
-                "position": "National University, Philippines"
+                "position": "Secretariat and Publicity",
+                "showAffiliation": true
             },
             {
                 "name": "Emeliza Yabut",
                 "link": "https://scholar.google.com/citations?user=OHLFZkUAAAAJ",
-                "position": "National University, Philippines"
+                "position": "Post Conference",
+                "showAffiliation": true
             },
             {
                 "name": "Jennilyn Salimbagat",
                 "link": "https://www.linkedin.com/in/jenelyn-salimbagat-947479169/",
-                "position": "National University, Philippines"
+                "position": "Volunteerism",
+                "showAffiliation": true
             },
             {
-                "name": "Ryan Richard Guadaña",
-                "link": "https://www.linkedin.com/in/ryan-richard-guada%C3%B1a-464443228/",
-                "position": "National University, Philippines"
-            },
-            {
-                "name": "Armida Salazar",
-                "link": "https://scholar.google.com/citations?user=KkUV3CoAAAAJ",
-                "position": "National University, Philippines"
+                "name": "Marilou Jamis",
+                "link": "https://www.linkedin.com/in/marilou-jamis-mit-0157213a",
+                "position": "Logistics",
+                "showAffiliation": true
             }
         ]
     },
@@ -125,8 +131,8 @@
         "committeeName": "secreteriat-publicity",
         "committeeItems": [
             {
-                "name": "Susan Caluya",
-                "link": "https://scholar.google.com/citations?user=NlF1wC0AAAAJ",
+                "name": "Armida Salazar",
+                "link": "https://scholar.google.com/citations?user=KkUV3CoAAAAJ",
                 "position": "National University, Philippines",
                 "showAffiliation": true
             },
@@ -205,9 +211,9 @@
                 "showAffiliation": true
             },
             {
-                "name": "Sammy Militante",
-                "link": "https://scholar.google.com/citations?user=fET2JkAAAAAJ",
-                "position": "Antique State University, Philippines",
+                "name": "Maria Mercedes T. Rodrigo",
+                "link": "https://scholar.google.com/citations?user=meAacBIAAAAJ",
+                "position": "Ateneo De Manila University, Philippines",
                 "showAffiliation": true
             },
             {
@@ -229,9 +235,9 @@
                 "showAffiliation": true
             },
             {
-                "name": "Rhowel Dellosa",
-                "link": "https://www.researchgate.net/profile/Rhowel-Dellosa-2",
-                "position": "Isabela State University, Philippines",
+                "name": "Davood Pour Yousefian Barfeh",
+                "link": "https://www.linkedin.com/in/davood-pour-yousefian-barfeh-2b913835",
+                "position": "National University, Philippines",
                 "showAffiliation": true
             },
             {
@@ -265,9 +271,9 @@
                 "showAffiliation": true
             },
             {
-                "name": "Maria Mercedes T. Rodrigo",
-                "link": "https://scholar.google.com/citations?user=meAacBIAAAAJ",
-                "position": "Ateneo De Manila University, Philippines",
+                "name": "Sammy Militante",
+                "link": "https://scholar.google.com/citations?user=fET2JkAAAAAJ",
+                "position": "Antique State University, Philippines",
                 "showAffiliation": true
             },
             {
@@ -277,21 +283,15 @@
                 "showAffiliation": true
             },
             {
-                "name": "Marilou Jamis",
-                "link": "https://www.linkedin.com/in/marilou-jamis-mit-0157213a",
-                "position": "National University, Philippines",
-                "showAffiliation": true
-            },
-            {
                 "name": "Donata Acula",
                 "link": "https://www.ust.edu.ph/profile/acula-donata-d/",
                 "position": "University of Santo Tomas, Philippines",
                 "showAffiliation": true
             },
             {
-                "name": "Davood Pour Yousefian Barfeh",
-                "link": "https://www.linkedin.com/in/davood-pour-yousefian-barfeh-2b913835",
-                "position": "National University, Philippines",
+                "name": "Rhowel Dellosa",
+                "link": "https://www.researchgate.net/profile/Rhowel-Dellosa-2",
+                "position": "Isabela State University, Philippines",
                 "showAffiliation": true
             }
         ]

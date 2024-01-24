@@ -28,12 +28,33 @@ const Registration = () => {
     },
   ];
 
+  const fees = [
+    {
+      type: "Student Rate ",
+      subType: ["Undergraduate Students"],
+      fee: "USD 325.00",
+    },
+    {
+      type: "Regular Rate",
+      subType: ["Graduate Students", "Faculty First", "Author"],
+      fee: "USD 400.00",
+    },
+    {
+      type: "Early Bird",
+      fee: "USD 350.00",
+    },
+    {
+      type: "Listener/Co-Author",
+      fee: "USD 20.00",
+    },
+  ];
+
   const inclusions = [
     "Access to all Conference Sessions",
     "Conference Materials and Proceedings",
     "Keynote Addresses and Special Sessions",
     "Coffee Breaks and Networking Opportunities",
-    "Certificate of Participation and/or Certificate of Paper Presentation",
+    "Certificate of Paper Presentation/Participation",
   ];
 
   return (
@@ -54,9 +75,9 @@ const Registration = () => {
       <div className="registration-wrapper">
         <div className="wrapper">
           <div>
-            <div className="grid-table">
+            <div className="fee-table">
               <div className="table-header">
-                <p>Registration Fee</p>
+                <p>Registration Fees</p>
               </div>
               <div className="table-content">
                 <div className="row-header">
@@ -65,99 +86,57 @@ const Registration = () => {
                 <div className="row-header">
                   <span>FEE</span>
                 </div>
-                <div className="row-header inclusions-header">
-                  <span>INCLUSIONS</span>
-                </div>
-                <div className="row">
-                  <span>{registration_fee[0].type}</span>
-                </div>
-                <div className="row">
-                  <span>
-                    {registration_fee[0].fee_php} / <br />{" "}
-                    {registration_fee[0].fee_usd}
-                  </span>
-                </div>
-                <div className="row inclusions">
-                  {registration_fee[0].inclusions.map((v, i) => {
-                    return (
-                      <div className="sub-row" key={i}>
-                        <span>{v}</span>
-                      </div>
-                    );
-                  })}
-                </div>
-              </div>
-              <div className="spacer"></div>
-
-              <div className="table-content hide-headers">
-                <div className="row-header">
-                  <span>TYPE</span>
-                </div>
-                <div className="row-header">
-                  <span>FEE</span>
-                </div>
-                <div className="row-header inclusions-header">
-                  <span>INCLUSIONS</span>
-                </div>
-                <div className="row">
-                  <span>{registration_fee[1].type}</span>
-                </div>
-                <div className="row">
-                  <span>
-                    {registration_fee[1].fee_php} / <br />{" "}
-                    {registration_fee[1].fee_usd}
-                  </span>
-                </div>
-                <div className="row inclusions">
-                  {registration_fee[1].inclusions.map((v, i) => {
-                    return (
-                      <div className="sub-row" key={i}>
-                        <span>{v}</span>
-                      </div>
-                    );
-                  })}
-                </div>
-              </div>
-
-              {/*  
-              <div className="table-content">
-                <div className="row-header type-header">
-                  <span>TYPE</span>
-                </div>
-                <div className="row-header fee-header">
-                  <span>FEE</span>
-                </div>
-                <div className="row-header inclusions-header">
-                  <span>INCLUSIONS</span>
-                </div>
-                {registration_fee.map((v, i) => {
-                  const { type, fee_php, fee_usd, inclusions } = v;
+                {fees.map((v, i) => {
+                  const { type, subType, fee } = v;
                   return (
                     <Fragment key={i}>
-                      <div className="row type">
+                      <div className="row">
                         <span>{type}</span>
+                        {subType && (
+                          <ul>
+                            {subType.map((v, i) => {
+                              return <li key={i}>{v}</li>;
+                            })}
+                          </ul>
+                        )}
                       </div>
-                      <div className="row fee">
-                        <span>
-                          {fee_php} / <br /> {fee_usd}
-                        </span>
-                      </div>
-                      <div className="row inclusions">
-                        {inclusions.map((v, i) => {
-                          return (
-                            <div className="sub-row" key={i}>
-                              <span>{v}</span>
-                            </div>
-                          );
-                        })}
+                      <div className="row">
+                        <span>{fee}</span>
                       </div>
                     </Fragment>
                   );
                 })}
               </div>
-              */}
             </div>
 
+            <div className="inclusions-table">
+              <div className="table-header">
+                <p>Inclusions</p>
+              </div>
+              <div className="table-content">
+                {inclusions.map((v, i) => {
+                  return (
+                    <div className="row" key={i}>
+                      <span>{v}</span>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+            {/* 
+            <p className="content">
+              The conference fee inclusions provide{" "}
+              <span>
+                access to all conference sessions, materials, and proceedings,
+                including keynote addresses and special sessions
+              </span>
+              . Attendees also enjoy{" "}
+              <span>coffee breaks and networking opportunities</span>.
+              Presenters receive a{" "}
+              <span>certificate of paper presentation</span>, while listeners
+              receive a <span>certificate of participation</span>.
+            </p>
+ */}
             <h3 className="heading">Payment Methods</h3>
             <p className="content">
               Payments can be made online through the secure registration portal
