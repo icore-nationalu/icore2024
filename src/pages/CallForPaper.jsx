@@ -49,12 +49,14 @@ const CallForPaper = () => {
       <section id="call-for-paper">
         <div className="header-wrapper">
           <span>Call for Papers</span>
+          {/* 
           <h1 className="heading">Ignite Change with Your Research</h1>
           <p className="subheading">
             Submit your paper to our esteemed conference, where passionate
             thinkers converge to challenge assumptions, shift paradigms, and
             revolutionize the way we perceive the world.
           </p>
+           */}
           <div className="download">
             <a
               href={CallForPaperPDF}
@@ -71,8 +73,7 @@ const CallForPaper = () => {
         <div className="wrapper">
           <div>
             <h3>
-              Theme: Future Earth: Technology's Role in Shaping Sustainable
-              Outcomes
+              Future Earth: Technology's Role in Shaping Sustainable Outcomes
             </h3>
             <p>
               The International Conference on Information and Computing Research

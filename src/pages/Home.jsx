@@ -47,7 +47,7 @@ const Home = () => {
       icon: "Mail",
       iconFill: false,
       label: "Email",
-      desc: "iCore is here to help!",
+      desc: "iCORE is here to help!",
       link: "mailto:icore2024@national-u.edu.ph",
       linkText: "icore2024@national-u.edu.ph",
     },
@@ -134,7 +134,7 @@ const Home = () => {
         <div className="header-container">
           <div className="header-wrapper">
             <span>Important Dates</span>
-            <h1 className="heading">Unlocking 2024 Milestones</h1>
+            <h1 className="heading">Unlocking Milestones</h1>
             <p className="subheading">
               Save these key dates, ensuring your active participation in the
               culmination of these milestones on the conference days.

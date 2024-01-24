@@ -12,7 +12,7 @@ const AboutUs = () => {
       icon: "Mail",
       iconFill: false,
       label: "Email",
-      desc: "iCore is here to help!",
+      desc: "iCORE is here to help!",
       link: "mailto:icore2024@national-u.edu.ph",
       linkText: "icore2024@national-u.edu.ph",
     },
@@ -66,9 +66,9 @@ const AboutUs = () => {
           </div>
         </div>
         <div className="wrapper">
-          <div className="image-wrapper">
+          {/* <div className="image-wrapper">
             <img src={Image} alt="conference" />
-          </div>
+          </div> */}
         </div>
       </section>
 

@@ -9,7 +9,7 @@ const Registration = () => {
     },
     {
       type: "Regular Rate",
-      subType: ["Graduate Students", "Faculty First", "Author"],
+      subType: ["Graduate Students", "Faculty", " First Author"],
       fee: "USD 400.00",
     },
     {
@@ -37,11 +37,13 @@ const Registration = () => {
           <div className="header-wrapper">
             <span>Register</span>
             <h1 className="heading">Conference Registration Details</h1>
+            {/* 
             <p className="subheading">
               You will find detailed information regarding registration options
               and associated fees for participants interested in joining this
               dynamic event.
             </p>
+             */}
           </div>
         </div>
       </section>
