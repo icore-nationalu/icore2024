@@ -8,6 +8,11 @@ import Venue from "../assets/images/venue.png";
 import HomeImage from "../assets/images/home.jpg";
 import CallForPaperPDF from "../assets/documents/iCORE-Call-for-Papers.pdf";
 
+import BU from "../assets/images/collaborators/bicol-university.png";
+import DMMMSU from "../assets/images/collaborators/don-mariano-marcos-memorial-state-university.png";
+import USC from "../assets/images/collaborators/university-of-san-carlos.png";
+import UTC from "../assets/images/collaborators/university-of-the-cordilleras.png";
+
 const Home = () => {
   const conferenceHighlights = [
     {
@@ -56,7 +61,7 @@ const Home = () => {
       iconFill: true,
       label: "LinkedIn",
       desc: "Connect with us.",
-      link: "https://www.linkedin.com",
+      link: "https://www.linkedin.com/in/icore2024",
       linkText: "iCORE 2024",
     },
     {
@@ -64,7 +69,7 @@ const Home = () => {
       iconFill: true,
       label: "Twitter",
       desc: "Follow more updates.",
-      link: "https://www.twitter.com",
+      link: "https://x.com/Core2024I41074",
       linkText: "@iCORE2024",
     },
     {
@@ -74,6 +79,25 @@ const Home = () => {
       desc: "Come to our place.",
       link: "https://maps.app.goo.gl/vsgucAGGwPBEUWQx7",
       linkText: "National University - MOA",
+    },
+  ];
+
+  const collaborators = [
+    {
+      name: "Bicol University",
+      image: BU,
+    },
+    {
+      name: "University of the Cordilleras",
+      image: UTC,
+    },
+    {
+      name: "Don Mariano Marcos Memorial State University",
+      image: DMMMSU,
+    },
+    {
+      name: "University of San Carlos",
+      image: USC,
     },
   ];
 
@@ -126,6 +150,25 @@ const Home = () => {
           {/* <div className="image">
             <img src={HomeImage} alt="research-conference-presenter" />
           </div> */}
+        </div>
+      </section>
+
+      {/* COLLABORATORS */}
+      <section className="collaborations-wrapper">
+        <div className="wrapper">
+          <p>Papers submitted to academic databases</p>
+          <div className="collaborations">
+            {collaborators.map(({ name, image }, i) => {
+              return (
+                <div className="collaborations-item" key={i}>
+                  <div className="image-wrapper">
+                    <img src={image} alt={name} />
+                  </div>
+                  <p>{name}</p>
+                </div>
+              );
+            })}
+          </div>
         </div>
       </section>
 

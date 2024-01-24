@@ -36,11 +36,13 @@ const ComingSoon = ({ span, subheading }) => {
           <span>{span}</span>
           <h1>Coming Soon</h1>
           <p>{subheading}</p>
+          {/* 
           <div className="cta">
             <NavLink to="/" className="btn btn-primary">
               Take Me Home
             </NavLink>
           </div>
+           */}
         </div>
       </section>
       <section className="error-options">

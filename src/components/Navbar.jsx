@@ -97,6 +97,13 @@ const Navbar = () => {
                     </NavLink>
                   </li>
 
+                  {/* Committee*/}
+                  <li className="nav-link">
+                    <NavLink to="/committee" className="link-text">
+                      Committee
+                    </NavLink>
+                  </li>
+
                   {/* Timeline */}
                   {/* 
                   <li
@@ -236,13 +243,6 @@ const Navbar = () => {
                   <li className="nav-link">
                     <NavLink to="/past-conferences" className="link-text">
                       Past Conferences
-                    </NavLink>
-                  </li>
-
-                  {/* Committee*/}
-                  <li className="nav-link">
-                    <NavLink to="/committee" className="link-text">
-                      Committee
                     </NavLink>
                   </li>
                 </div>

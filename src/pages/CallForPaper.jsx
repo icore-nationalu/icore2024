@@ -48,7 +48,7 @@ const CallForPaper = () => {
     <>
       <section id="call-for-paper">
         <div className="header-wrapper">
-          <span>Call for Papers</span>
+          {/* <span>Call for Papers</span> */}
           {/* 
           <h1 className="heading">Ignite Change with Your Research</h1>
           <p className="subheading">
@@ -64,7 +64,7 @@ const CallForPaper = () => {
               rel="noreferrer"
               className="btn-primary"
             >
-              Call for Paper
+              Call for Papers
             </a>
           </div>
         </div>

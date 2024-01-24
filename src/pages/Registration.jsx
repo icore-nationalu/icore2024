@@ -102,9 +102,11 @@ const Registration = () => {
 
             <h3 className="heading">Payment Methods</h3>
             <p className="content">
+              {/* 
               Payments can be made online through the secure registration portal
               on the conference website.
               <br /> <br />
+               */}
               Accepted payment methods include credit cards, bank transfers, and
               other online payment options.
             </p>
@@ -112,6 +114,7 @@ const Registration = () => {
             <h3 className="heading">Important Dates</h3>
             <p className="content">Registration Deadline: July 8, 2024</p>
 
+            {/* 
             <h3 className="heading">How to Register</h3>
             <ul className="registration-steps">
               <li>1. Visit the official iCORE 2024 website: icoreph.org</li>
@@ -123,19 +126,33 @@ const Registration = () => {
                 system.
               </li>
             </ul>
-
+             */}
             <h3 className="heading">Contact Information</h3>
             <p className="content">
               For registration inquiries, please contact the iCORE 2024
-              registration desk at{" "}
+              Secreteriat at{" "}
               <a href="mailto:icore2024@national-u.edu.ph." className="link">
                 icore2024@national-u.edu.ph
               </a>
               .
               <br /> <br />
-              Twitter: @iCORE2024
+              Twitter:{" "}
+              <a
+                href="https://x.com/Core2024I41074"
+                className="link"
+                target="_blank"
+              >
+                @iCORE2024
+              </a>
               <br /> <br />
-              LinkedIn: iCORE 2024
+              LinkedIn:{" "}
+              <a
+                href="https://www.linkedin.com/in/icore2024"
+                className="link"
+                target="_blank"
+              >
+                iCORE 2024
+              </a>
               <br /> <br />
               We look forward to your active participation at iCORE 2024 in
               National University-MOA!

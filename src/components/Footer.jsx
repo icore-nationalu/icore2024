@@ -32,6 +32,9 @@ const Footer = () => {
                 <NavLink to="/call-for-papers">Call for Papers</NavLink>
               </li>
               <li>
+                <NavLink to="/committee">Committee</NavLink>
+              </li>
+              <li>
                 <NavLink to="/registration">Registration</NavLink>
               </li>
               <li>
@@ -49,9 +52,6 @@ const Footer = () => {
               <li>
                 <NavLink to="/past-conferences">Past Conferences</NavLink>
               </li>
-              <li>
-                <NavLink to="/committee">Committee</NavLink>
-              </li>
             </ul>
           </div>
         </div>
@@ -60,7 +60,10 @@ const Footer = () => {
           <div className="social-links">
             <ul>
               <li>
-                <Link to="https://www.linkedin.com" target="_blank">
+                <Link
+                  to="https://www.linkedin.com/in/icore2024"
+                  target="_blank"
+                >
                   <Icon
                     iconName="LinkedIn"
                     fill="#171E26"
@@ -71,7 +74,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="https://www.twitter.com" target="_blank">
+                <Link to="https://x.com/Core2024I41074" target="_blank">
                   <Icon
                     iconName="Twitter"
                     fill="#171E26"

@@ -28,6 +28,7 @@ import PalaoagP from "./Palaoag T.jpg";
 import ParagasJ from "./Paragas J.jpg";
 import PeiP from "./Pei P.jpg";
 import PonayC from "./Ponay C.jpg";
+import QingyuL from "./Qingyu L.jpg";
 import RodrigoM from "./Rodrigo M.jpg";
 import RodriguezR from "./Rodriguez R.jpeg";
 import SalazarA from "./Salazar A.jpg";
@@ -73,6 +74,7 @@ const getImage = (name) => {
     "Jessie Paragas": ParagasJ,
     "Pei Pei": PeiP,
     "Charmaine Ponay": PonayC,
+    "Liu Qingyu": QingyuL,
     "Maria Mercedes T. Rodrigo": RodrigoM,
     "Ramon Rodriguez": RodriguezR,
     "Armida Salazar": SalazarA,

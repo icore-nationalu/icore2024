@@ -141,18 +141,44 @@ const Venue = () => {
 
             <h3>4. Ride-Sharing Services</h3>
             <p>
-              Services like Grab and other ride-sharing apps are widely
-              available in Metro Manila. You can use these apps to book a
-              convenient and comfortable ride directly to NU MOA. Enter the
-              conference venue address (NU Building, Coral Way Street, Mall of
-              Asia Complex, Pasay City) as your destination.
+              Services like{" "}
+              <a
+                href="https://play.google.com/store/apps/details?id=com.grabtaxi.passenger"
+                target="_blank"
+              >
+                Grab
+              </a>{" "}
+              and other ride-sharing apps (
+              <a
+                href="https://play.google.com/store/search?q=angkas&c=apps"
+                target="_blank"
+              >
+                Angkas
+              </a>
+              ,{" "}
+              <a
+                href="https://play.google.com/store/apps/details?id=com.joyride.rider"
+                target="_blank"
+              >
+                JoyRide
+              </a>
+              ) are widely available in Metro Manila. You can use these apps to
+              book a convenient and comfortable ride directly to NU MOA. Enter
+              the conference venue address (NU Building, Coral Way Street, Mall
+              of Asia Complex, Pasay City) as your destination.
             </p>
 
             <h3>5. By Private Vehicle</h3>
             <p>
-              If you're driving, use navigation apps like Google Maps to guide
-              you to the conference venue. Parking facilities are available
-              within the Mall of Asia Complex.
+              If you're driving, use navigation apps like{" "}
+              <a
+                href="https://maps.app.goo.gl/vsgucAGGwPBEUWQx7"
+                target="_blank"
+              >
+                Google Maps
+              </a>{" "}
+              to guide you to the conference venue. Parking facilities are
+              available within the Mall of Asia Complex.
             </p>
 
             <h3>Local Landmarks</h3>

@@ -8,11 +8,17 @@ const Speakers = () => {
       <section id="speakers">
         <div className="header-wrapper">
           <span>The Speakers</span>
+          <h1 className="heading">
+            Thought leaders, visionaries, and pioneers who are shaping the
+            future of technology
+          </h1>
+          {/* 
           <h1 className="heading">Innovators Unleashed</h1>
           <p className="subheading">
             Get ready to engage with thought leaders, visionaries, and pioneers
             who are shaping the future of technology.
           </p>
+           */}
         </div>
       </section>
 

@@ -104,6 +104,9 @@
     text-justify: inter-word;
     word-spacing: -2px;
 }
+.directions p a {
+    color: var(--gray-500, #687582);
+}
 
 @media screen and (max-width: 576px) {
     #venue .header-wrapper {

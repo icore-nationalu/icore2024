@@ -21,7 +21,7 @@ const AboutUs = () => {
       iconFill: true,
       label: "LinkedIn",
       desc: "Connect with us.",
-      link: "https://www.linkedin.com",
+      link: "https://www.linkedin.com/in/icore2024",
       linkText: "iCORE 2024",
     },
     {
@@ -29,7 +29,7 @@ const AboutUs = () => {
       iconFill: true,
       label: "Twitter",
       desc: "Follow more updates.",
-      link: "https://www.twitter.com",
+      link: "https://x.com/Core2024I41074",
       linkText: "@iCORE2024",
     },
     {

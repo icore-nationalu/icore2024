@@ -7,12 +7,18 @@ const ImportantDates = () => {
       <section id="important-dates">
         <div className="header-container">
           <div className="header-wrapper">
-            <span>Important Dates</span>
+            <span>
+              Important Dates
+              <br />
+              <span className="small">Anywhere on Earth</span>
+            </span>
+            {/* 
             <h1 className="heading">Navigate through crucial milestones</h1>
             <p className="subheading">
               Save these key dates, ensuring your active participation in the
               culmination of these milestones on the conference days.
             </p>
+             */}
           </div>
         </div>
       </section>

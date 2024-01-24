@@ -47,7 +47,7 @@ const PastConferences = () => {
               <div className="content-wrapper">
                 <div className="title">
                   <a
-                    href="https://www.computer.org/csdl/proceedings/icore/2021"
+                    href="https://www.computer.org/csdl/proceedings/icore/2021/1Aqyost2zKg"
                     target="_blank"
                   >
                     1st International Conference in Information and Computing
