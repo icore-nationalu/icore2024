@@ -51,36 +51,6 @@
     object-position: center;
 }
 
-.metrics-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 32px;
-    padding: 64px;
-    border-radius: 16px;
-    background-color: var(--primary-50);
-    margin-bottom: 96px;
-}
-
-.metrics-wrapper .metric-item {
-    text-align: center;
-}
-
-.metrics-wrapper .metric-item .value {
-    color: var(--primary-600);
-    font-size: 60px;
-    font-weight: 600;
-    line-height: 72px;
-    letter-spacing: -1.2px;
-    margin-bottom: 12px;
-}
-
-.metrics-wrapper .metric-item .field {
-    color: var(--primary-900);
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 28px;
-}
-
 .story .label {
     color: var(--primary-700);
     font-size: 16px;
@@ -121,32 +91,6 @@
     line-height: 28px;
     text-align: justify;
     text-justify: inter-word;
-}
-
-.institutions-wrapper {
-    background: #F9FAFB;
-    padding: 96px 0;
-}
-
-.institutions-wrapper p {
-    color: var(--gray-500);
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-}
-
-.institutions-wrapper .institutions {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 32px auto 0;
-}
-
-.institutions-wrapper .institutions .institution-item {
-    height: 48px;
-    width: 146px;
-    background-color: gray;
 }
 
 .contact-us .map-wrapper {
@@ -275,7 +219,6 @@
         font-size: 18px;
         line-height: 28px;
     }
-
      
     .story .content {
         margin: 32px auto 64px;
@@ -305,6 +248,7 @@
     #about .image-wrapper {
         margin-bottom: 64px;
     }
+
     .contact-us .contact-grid {
         margin: 64px auto 64px;
     }
@@ -316,7 +260,6 @@
 }
 
 @media screen and (max-width: 400px) {
-
     #about .header-wrapper,
     .contact-us .header-wrapper {
         margin: 32px auto;
@@ -357,6 +300,7 @@
     #about .image-wrapper {
         margin-bottom: 32px;
     }
+    
     .contact-us .contact-grid {
         grid-template-columns: 1fr;
         margin: 64px auto 32px;

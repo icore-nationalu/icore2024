@@ -1,8 +1,5 @@
 import { NavLink } from "react-router-dom";
-import Icon from "../components/Icon";
-import ThemeImage from "../assets/images/theme-image.png";
 import ConferenceHighlightItem from "../components/ConferenceHighlightItem";
-
 import importantDatesData from "../assets/data/important_dates.json";
 import ImportantDateItem from "../components/ImportantDateItem";
 import ContactGridItem from "../components/ContactGridItem";
@@ -10,6 +7,7 @@ import ContactGridItem from "../components/ContactGridItem";
 import Venue from "../assets/images/venue.png";
 import HomeImage from "../assets/images/home.jpg";
 import CallForPaperPDF from "../assets/documents/iCORE-Call-for-Papers.pdf";
+
 const Home = () => {
   const conferenceHighlights = [
     {
@@ -74,7 +72,7 @@ const Home = () => {
       iconFill: false,
       label: "Venue",
       desc: "Come to our place.",
-      link: "https://www.google.com/maps",
+      link: "https://maps.app.goo.gl/vsgucAGGwPBEUWQx7",
       linkText: "National University - MOA",
     },
   ];
@@ -82,23 +80,7 @@ const Home = () => {
   return (
     <>
       <section className="hero-container">
-        {/* <div className="overlay"></div> */}
         <div className="hero-wrapper">
-          {/* 
-          <div className="deadline-badge">
-            <div className="deadline-date">March 24, 2024</div>
-            <NavLink to="/important-dates" className="deadline-link">
-              <span>Paper Submission Deadline</span>
-              <Icon
-                iconName="ArrowRight"
-                stroke="#007AFF"
-                className="icon"
-                height="16px"
-                width="16px"
-              />
-            </NavLink>
-          </div>
-          */}
           <h1>
             Future Earth: Technology's Role in Shaping Sustainable Outcomes
           </h1>
@@ -142,8 +124,7 @@ const Home = () => {
             </div>
           </div>
           <div className="image">
-            <img src={HomeImage} alt="" />
-            <div className="image-wrapper"></div>
+            <img src={HomeImage} alt="research-conference-presenter" />
           </div>
         </div>
       </section>
@@ -202,7 +183,7 @@ const Home = () => {
         </div>
         <div className="wrapper">
           <div className="image-wrapper">
-            <img src={Venue} alt="" />
+            <img src={Venue} alt="NU-MOA" />
           </div>
           <div className="contact-grid">
             {contactInfo.map((v, i) => {

@@ -143,35 +143,33 @@
         font-size: 14px;
         line-height: 20px;
     }
+}
 
+@media screen and (max-width: 400px) {
+    #important-dates .header-wrapper {
+        margin: 32px auto;
+    }
 
+    #important-dates .header-wrapper .heading {
+        font-size: 30px;
+        line-height: 38px;
+    }
 
-    @media screen and (max-width: 400px) {
-        #important-dates .header-wrapper {
-            margin: 32px auto;
-        }
+    #important-dates .header-wrapper .subheading {
+        font-size: 16px;
+        line-height: 24px;
+    }
 
-        #important-dates .header-wrapper .heading {
-            font-size: 30px;
-            line-height: 38px;
-        }
+    .dates-wrapper .date-list .date-item .date p span:not(.short) {
+        display: none;
+    }
 
-        #important-dates .header-wrapper .subheading {
-            font-size: 16px;
-            line-height: 24px;
-        }
+    .dates-wrapper .date-list .date-item .date p .short {
+        display: initial;
+    }
 
-        .dates-wrapper .date-list .date-item .date p span:not(.short) {
-            display: none;
-        }
-
-        .dates-wrapper .date-list .date-item .date p .short {
-            display: initial;
-        }
-
-        .dates-wrapper .date-list {
-            margin-bottom: 32px;
-        }
+    .dates-wrapper .date-list {
+        margin-bottom: 32px;
     }
 }
 
@@ -314,7 +312,6 @@
     font-weight: 500;
     line-height: 16px;
 }
-
 
 .program-content .presenter-table .row {
     border-top: 1px solid var(--gray-50);

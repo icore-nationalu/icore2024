@@ -21,7 +21,7 @@ const Venue = () => {
       <section className="venue-container">
         <div className="wrapper">
           <div className="image-wrapper">
-            <img src={VenueImage} alt="" />
+            <img src={VenueImage} alt="NU-MOA" />
           </div>
 
           <h3>National University MOA</h3>

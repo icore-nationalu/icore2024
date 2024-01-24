@@ -37,7 +37,7 @@ const AboutUs = () => {
       iconFill: false,
       label: "Venue",
       desc: "Come to our place.",
-      link: "https://www.google.com/maps",
+      link: "https://maps.app.goo.gl/vsgucAGGwPBEUWQx7",
       linkText: "National University - MOA",
     },
   ];
@@ -50,6 +50,7 @@ const AboutUs = () => {
       }
     }
   }, []);
+
   return (
     <>
       <section id="about">

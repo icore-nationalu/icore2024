@@ -1,44 +1,44 @@
 [
-    {
-      "label": "Opening of Submission",
-      "dateText": "Saturday, 30th March 2024",
-      "dateTextShort": "Saturday, March 30 2024",
-      "dateEnd": "3/30/2024"
-    },
-    {
-      "label": "Deadline of Submission",
-      "dateText": "Wednesday, 8th May 2024",
-      "dateTextShort": "Wednesday, May 8 2024",
-      "dateEnd": "5/8/2024"
-    },
-    {
-      "label": "Acceptance Notification",
-      "dateText": "Saturday, 8th June 2024",
-      "dateTextShort": "Saturday, June 8 2024",
-      "dateEnd": "6/8/2024"
-    },
-    {
-      "label": "Opening of Registration",
-      "dateText": "Sunday, 9th June 2024",
-      "dateTextShort": "Sunday, June 9 2024",
-      "dateEnd": "6/9/2024"
-    },
-    {
-      "label": "Submission of Camera Ready Paper",
-      "dateText": "Sunday, 30th June 2024",
-      "dateTextShort": "Sunday, June 30 2024",
-      "dateEnd": "6/30/2024"
-    },
-    {
-      "label": "Deadline of Registration",
-      "dateText": "Monday, 8th July 2024",
-      "dateTextShort": "Monday, July 8 2024",
-      "dateEnd": "7/8/2024"
-    },
-    {
-      "label": "Conference Dates",
-      "dateText": "Friday, 19th July - Saturday, 20th July 2024",
-      "dateTextShort": "Friday, July 19 - Saturday, July 20 2024",
-      "dateEnd": "7/20/2024"
-    }
-  ]
+  {
+    "label": "Opening of Submission",
+    "dateText": "Saturday, 30th March 2024",
+    "dateTextShort": "Saturday, March 30 2024",
+    "dateEnd": "3/30/2024"
+  },
+  {
+    "label": "Deadline of Submission",
+    "dateText": "Wednesday, 8th May 2024",
+    "dateTextShort": "Wednesday, May 8 2024",
+    "dateEnd": "5/8/2024"
+  },
+  {
+    "label": "Acceptance Notification",
+    "dateText": "Saturday, 8th June 2024",
+    "dateTextShort": "Saturday, June 8 2024",
+    "dateEnd": "6/8/2024"
+  },
+  {
+    "label": "Opening of Registration",
+    "dateText": "Sunday, 9th June 2024",
+    "dateTextShort": "Sunday, June 9 2024",
+    "dateEnd": "6/9/2024"
+  },
+  {
+    "label": "Submission of Camera Ready Paper",
+    "dateText": "Sunday, 30th June 2024",
+    "dateTextShort": "Sunday, June 30 2024",
+    "dateEnd": "6/30/2024"
+  },
+  {
+    "label": "Deadline of Registration",
+    "dateText": "Monday, 8th July 2024",
+    "dateTextShort": "Monday, July 8 2024",
+    "dateEnd": "7/8/2024"
+  },
+  {
+    "label": "Conference Dates",
+    "dateText": "Friday, 19th July - Saturday, 20th July 2024",
+    "dateTextShort": "Friday, July 19 - Saturday, July 20 2024",
+    "dateEnd": "7/20/2024"
+  }
+]

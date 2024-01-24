@@ -1,5 +1,3 @@
-import Test from "../assets/test-image.png";
-import Test2 from "../assets/images/icore24-logo.png";
 import iCORE2022 from "../assets/images/icore2022.png";
 import iCORE2021 from "../assets/images/icore2021.png";
 
@@ -22,7 +20,7 @@ const PastConferences = () => {
           <div className="past-grid">
             <div className="past-grid-item">
               <div className="image-wrapper">
-                <img src={iCORE2022} alt="" />
+                <img src={iCORE2022} alt="icore-2022" />
               </div>
               <div className="content-wrapper">
                 <div className="title">
@@ -44,7 +42,7 @@ const PastConferences = () => {
             </div>
             <div className="past-grid-item">
               <div className="image-wrapper">
-                <img src={iCORE2021} alt="" />
+                <img src={iCORE2021} alt="icore-2021" />
               </div>
               <div className="content-wrapper">
                 <div className="title">

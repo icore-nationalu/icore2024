@@ -1,5 +1,49 @@
+import { Fragment } from "react";
 import CallForPaperPDF from "../assets/documents/iCORE-Call-for-Papers.pdf";
+
 const CallForPaper = () => {
+  const tracks = [
+    {
+      trackName: "Sustainability and Social Good",
+      trackItems: [
+        "Systems for Social Good",
+        "Responsible AI",
+        "Explainable AI",
+        "Generative AI",
+        "Societal Implications of Technology",
+      ],
+    },
+    {
+      trackName: "AI and Machine Learnin",
+      trackItems: [
+        "Human Language Technology",
+        "Intelligent Computing Applications",
+        "Computer Vision",
+      ],
+    },
+    {
+      trackName: "Hypermedia",
+      trackItems: [
+        "Animation",
+        "Multimedia Systems",
+        "Interactive Systems",
+        "Game & Simulations",
+        "Meta & Realities",
+      ],
+    },
+    {
+      trackName: "Emerging Technologies",
+      trackItems: [
+        "Education in Engineering and Technology",
+        "Data Science, Computing Technologies & Algorithms",
+        "Communications Networking",
+        "Information & Security",
+        "Internet of Everything",
+        "Smart Computing",
+        "Green Computing",
+      ],
+    },
+  ];
   return (
     <>
       <section id="call-for-paper">
@@ -40,85 +84,29 @@ const CallForPaper = () => {
               advancements in the ever-evolving field.
             </p>
 
-            <h3>Track 1 - Sustainability and Social Good</h3>
-            <ul>
-              <li>
-                <p>Systems for Social Good</p>
-              </li>
-              <li>
-                <p>Responsible AI</p>
-              </li>
-              <li>
-                <p>Explainable AI</p>
-              </li>
-              <li>
-                <p>Generative AI</p>
-              </li>
-              <li>
-                <p>Societal Implications of Technology</p>
-              </li>
-            </ul>
-
-            <h3>Track 2 - AI and Machine Learning</h3>
-            <ul>
-              <li>
-                <p>Human Language Technology</p>
-              </li>
-              <li>
-                <p>Intelligent Computing Applications</p>
-              </li>
-              <li>
-                <p>Computer Vision</p>
-              </li>
-            </ul>
-
-            <h3>Track 3 - Hypermedia</h3>
-            <ul>
-              <li>
-                <p>Animation</p>
-              </li>
-              <li>
-                <p>Multimedia Systems</p>
-              </li>
-              <li>
-                <p>Interactive Systems</p>
-              </li>
-              <li>
-                <p>Game & Simulations</p>
-              </li>
-              <li>
-                <p>Meta & Realities</p>
-              </li>
-            </ul>
-
-            <h3>Track 4 -Emerging Technologies</h3>
-            <ul>
-              <li>
-                <p>Education in Engineering and Technology</p>
-              </li>
-              <li>
-                <p>Data Science, Computing Technologies & Algorithms</p>
-              </li>
-              <li>
-                <p>Communications Networking</p>
-              </li>
-              <li>
-                <p>Information & Security</p>
-              </li>
-              <li>
-                <p>Internet of Everything</p>
-              </li>
-              <li>
-                <p>Smart Computing</p>
-              </li>
-              <li>
-                <p>Green Computing</p>
-              </li>
-            </ul>
+            {tracks.map(({ trackName, trackItems }, i) => {
+              return (
+                <Fragment key={i}>
+                  <h3>
+                    Track {i + 1} - {trackName}
+                  </h3>
+                  <ul>
+                    {trackItems.map((v, i) => {
+                      return (
+                        <li key={i}>
+                          <p>{v}</p>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </Fragment>
+              );
+            })}
           </div>
         </div>
       </section>
     </>
   );
 };
+
 export default CallForPaper;

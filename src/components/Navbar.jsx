@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import placeholder from "../assets/test-image.png";
-import { Outlet, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import Logo from "../assets/images/icore24-logo.png";
 import Icon from "../components/Icon";
 
@@ -91,7 +90,7 @@ const Navbar = () => {
                     </NavLink>
                   </li>
 
-                  {/* About Us */}
+                  {/* Call for Papers */}
                   <li className="nav-link">
                     <NavLink to="/call-for-papers" className="link-text">
                       Call for Papers
@@ -198,68 +197,54 @@ const Navbar = () => {
                   </li>
                    */}
 
-                  {/* Publication */}
+                  {/* Registration */}
                   <li className="nav-link">
                     <NavLink to="/registration" className="link-text">
                       Registration
                     </NavLink>
                   </li>
 
-                  {/* About Us 
-                  <li className="nav-link">
-                    <NavLink to="/review-process" className="link-text">
-                      Review Process
-                    </NavLink>
-                  </li>
-                    */}
-
-                  {/* About Us */}
+                  {/* Important Dates */}
                   <li className="nav-link">
                     <NavLink to="/important-dates" className="link-text">
                       Important Dates
                     </NavLink>
                   </li>
 
-                  {/* About Us */}
+                  {/* Program */}
                   <li className="nav-link">
                     <NavLink to="/program" className="link-text">
                       Program
                     </NavLink>
                   </li>
 
-                  {/* About Us */}
+                  {/* Speakers */}
                   <li className="nav-link">
                     <NavLink to="/speakers" className="link-text">
                       Speakers
                     </NavLink>
                   </li>
-                  {/* About Us */}
+
+                  {/* Venue */}
                   <li className="nav-link">
                     <NavLink to="/venue" className="link-text">
                       Venue
                     </NavLink>
                   </li>
 
-                  {/* About Us */}
+                  {/* Past Conferences */}
                   <li className="nav-link">
                     <NavLink to="/past-conferences" className="link-text">
                       Past Conferences
                     </NavLink>
                   </li>
 
-                  {/* About Us */}
+                  {/* Committee*/}
                   <li className="nav-link">
                     <NavLink to="/committee" className="link-text">
                       Committee
                     </NavLink>
                   </li>
-                  {/* About Us 
-                  <li className="nav-link">
-                    <NavLink to="/sponsorship" className="link-text">
-                      Sponsorship
-                    </NavLink>
-                  </li>
-                    */}
                 </div>
                 {/* 
                 <div className="nav-cta">

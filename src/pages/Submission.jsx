@@ -1,5 +1,4 @@
 import { Link, NavLink } from "react-router-dom";
-import Icon from "../components/Icon";
 import TrackGridItem from "../components/TrackGridItem";
 import Mac from "../assets/images/macbook-sample.png";
 
@@ -84,7 +83,7 @@ const Submission = () => {
             </Link>
           </div>
           <div className="image-wrapper">
-            <img src={Mac} alt="" />
+            <img src={Mac} alt="publication" />
           </div>
         </div>
       </div>

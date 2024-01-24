@@ -1,33 +1,6 @@
 import { Fragment } from "react";
 
 const Registration = () => {
-  const registration_fee = [
-    {
-      type: "Author Registration",
-      fee_php: "PHP 19,000.00",
-      fee_usd: "USD 350.00",
-      inclusions: [
-        "Access to all Conference Sessions",
-        "Conference Materials and Proceedings",
-        "Keynote Addresses and Special Sessions",
-        "Coffee Breaks and Networking Opportunities",
-        "Certificate of Paper Presentation",
-      ],
-    },
-    {
-      type: "Regular Audience Registration",
-      fee_php: "PHP 1,000.00",
-      fee_usd: "USD 20.00",
-      inclusions: [
-        "Access to all Conference Sessions",
-        "Conference Materials and Proceedings",
-        "Keynote Addresses and Special Sessions",
-        "Coffee Breaks and Networking Opportunities",
-        "Certificate of Participation",
-      ],
-    },
-  ];
-
   const fees = [
     {
       type: "Student Rate ",
@@ -72,6 +45,7 @@ const Registration = () => {
           </div>
         </div>
       </section>
+
       <div className="registration-wrapper">
         <div className="wrapper">
           <div>
@@ -123,20 +97,7 @@ const Registration = () => {
                 })}
               </div>
             </div>
-            {/* 
-            <p className="content">
-              The conference fee inclusions provide{" "}
-              <span>
-                access to all conference sessions, materials, and proceedings,
-                including keynote addresses and special sessions
-              </span>
-              . Attendees also enjoy{" "}
-              <span>coffee breaks and networking opportunities</span>.
-              Presenters receive a{" "}
-              <span>certificate of paper presentation</span>, while listeners
-              receive a <span>certificate of participation</span>.
-            </p>
- */}
+
             <h3 className="heading">Payment Methods</h3>
             <p className="content">
               Payments can be made online through the secure registration portal

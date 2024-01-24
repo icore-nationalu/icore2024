@@ -37,14 +37,12 @@ const Footer = () => {
               <li>
                 <NavLink to="/important-dates">Important Dates</NavLink>
               </li>
-
               <li>
                 <NavLink to="/program">Program</NavLink>
               </li>
               <li>
                 <NavLink to="/speakers">Speakers</NavLink>
               </li>
-
               <li>
                 <NavLink to="/venue">Venue</NavLink>
               </li>

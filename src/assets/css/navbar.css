@@ -11,8 +11,7 @@ nav {
 }
 
 .nav-home {
-    /* background-color: #E8F3FF; */
-    background-color: transparent;
+    background-color: #FFF;
 }
 
 .nav-white {
@@ -44,7 +43,6 @@ nav .logo-container img {
     justify-content: space-between;
     align-items: center;
     position: relative;
-    
 }
 
 .nav-links .nav-link-wrapper {
@@ -160,7 +158,6 @@ nav .logo-container img {
     letter-spacing: 0.32px;
     padding: 6px 12px;
     border-radius: 6px;
-
     cursor: pointer;
 }
 
@@ -396,52 +393,42 @@ nav .logo-container img {
     }
 }
 
-
-
 @-webkit-keyframes fadeNavMenuIn {
     from {
-        /* opacity: 0; */
         background-color: rgba(0, 0, 0, 0)
     }
 
     to {
-        /* opacity: 1; */
         background-color: rgba(0, 0, 0, 0.5)
     }
 }
 
 @keyframes fadeNavMenuIn {
     from {
-        /* opacity: 0; */
         background-color: rgba(0, 0, 0, 0)
     }
 
     to {
-        /* opacity: 1; */
         background-color: rgba(0, 0, 0, 0.5)
     }
 }
 
 @-webkit-keyframes fadeNavMenuOut {
     from {
-        /* opacity: 1; */
         background-color: rgba(0, 0, 0, 0.5)
     }
 
     to {
-        /* opacity: 0; */
         background-color: rgba(0, 0, 0, 0)
     }
 }
 
 @keyframes fadeNavMenuOut {
     from {
-        /* opacity: 1; */
         background-color: rgba(0, 0, 0, 0.5)
     }
 
     to {
-        /* opacity: 0; */
         background-color: rgba(0, 0, 0, 0)
     }
 }

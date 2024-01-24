@@ -1,4 +1,3 @@
-import Icon from "../components/Icon";
 import ImportantDateItem from "../components/ImportantDateItem";
 import importantDatesData from "../assets/data/important_dates.json";
 
