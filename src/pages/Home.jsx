@@ -156,7 +156,7 @@ const Home = () => {
       {/* COLLABORATORS */}
       <section className="collaborations-wrapper">
         <div className="wrapper">
-          <p>Papers submitted to academic databases</p>
+          <p>In collaboration with</p>
           <div className="collaborations">
             {collaborators.map(({ name, image }, i) => {
               return (
