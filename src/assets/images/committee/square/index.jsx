@@ -29,6 +29,7 @@ import ParagasJ from "./Paragas J.jpg";
 import PeiP from "./Pei P.jpg";
 import PonayC from "./Ponay C.jpg";
 import QingyuL from "./Qingyu L.jpg";
+import RagaR from "./Raga R.png";
 import RodrigoM from "./Rodrigo M.jpg";
 import RodriguezR from "./Rodriguez R.jpeg";
 import SalazarA from "./Salazar A.jpg";
@@ -37,6 +38,7 @@ import SalidoJ from "./Salido J.jpg";
 import SalimbagatJ from "./Salimbagat J.jpg";
 import SampedroG from "./Sampedro G.jpeg";
 import SongX from "./Song X.jpg";
+import SophatsathitP from "./Sophatsathit P.png";
 import TiuG from "./Tiu G.jpg";
 import WenmingW from "./Wenming W.jpg";
 import XiaoyanL from "./Xiaoyan L.jpg";
@@ -75,6 +77,7 @@ const getImage = (name) => {
     "Pei Pei": PeiP,
     "Charmaine Ponay": PonayC,
     "Liu Qingyu": QingyuL,
+    "Rodolfo Jr. Raga": RagaR,
     "Maria Mercedes T. Rodrigo": RodrigoM,
     "Ramon Rodriguez": RodriguezR,
     "Armida Salazar": SalazarA,
@@ -83,6 +86,7 @@ const getImage = (name) => {
     "Jennilyn Salimbagat": SalimbagatJ,
     "Gabriel Avelino Sampedro": SampedroG,
     "Song Xiedong": SongX,
+    "Peraphon Sophatsathit": SophatsathitP,
     "Glendora Tiu": TiuG,
     "Wang Wenming": WenmingW,
     "Li Xiaoyan": XiaoyanL,
