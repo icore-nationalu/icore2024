@@ -12,7 +12,7 @@ import BU from "../assets/images/collaborators/bicol-university.png";
 import DMMMSU from "../assets/images/collaborators/don-mariano-marcos-memorial-state-university.png";
 import USC from "../assets/images/collaborators/university-of-san-carlos.png";
 import UTC from "../assets/images/collaborators/university-of-the-cordilleras.png";
-import NU from "../assets/images/collaborators/national-university.svg";
+import NU from "../assets/images/collaborators/national-university-large.png";
 
 const Home = () => {
   const conferenceHighlights = [
@@ -158,8 +158,8 @@ const Home = () => {
       <section className="collaborations-wrapper">
         <div className="wrapper">
           <p>Organized by</p>
-          <div className="collaborations divider">
-            <div className="collaborations-item">
+          <div className="organizers divider">
+            <div className="organizers-item">
               <div className="image-wrapper">
                 <img src={NU} alt="national-university" />
               </div>
@@ -167,7 +167,7 @@ const Home = () => {
             </div>
           </div>
           <p>In collaboration with</p>
-          <div className="collaborations">
+          <div className="collaborations divider">
             {collaborators.map(({ name, image }, i) => {
               return (
                 <div className="collaborations-item" key={i}>

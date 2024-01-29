@@ -144,16 +144,24 @@
     line-height: 24px;
 }
 
+.collaborations-wrapper .organizers,
 .collaborations-wrapper .collaborations {
     display: flex;
     align-items: flex-start;
     justify-content: center;
     margin: 32px auto 0;
 }
-.collaborations-wrapper .collaborations.divider  { 
+
+.collaborations-wrapper .organizers.divider,
+.collaborations-wrapper .collaborations.divider {
     padding-bottom: 32px;
     margin-bottom: 32px;
     border-bottom: 1px solid var(--gray-200);
+}
+
+.collaborations-wrapper .organizers .organizers-item {
+    width: 400px;
+    margin: 0 32px 16px 48px;
 }
 
 .collaborations-wrapper .collaborations .collaborations-item {
@@ -163,11 +171,16 @@
     /* aspect-ratio: 1 / 1; */
 }
 
+.collaborations-wrapper .organizers .organizers-item .image-wrapper {
+    width: 100%;
+}
+
 .collaborations-wrapper .collaborations .collaborations-item .image-wrapper {
     width: 100%;
     aspect-ratio: 1 / 1;
 }
 
+.collaborations-wrapper .organizers .organizers-item .image-wrapper img,
 .collaborations-wrapper .collaborations .collaborations-item .image-wrapper img {
     width: 80%;
     height: 80%;
@@ -176,6 +189,7 @@
     margin: auto 19px;
 }
 
+.collaborations-wrapper .organizers .organizers-item p,
 .collaborations-wrapper .collaborations .collaborations-item p {
     color: var(--gray-500);
     font-size: 16px;

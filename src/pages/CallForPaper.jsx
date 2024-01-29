@@ -14,7 +14,7 @@ const CallForPaper = () => {
       ],
     },
     {
-      trackName: "AI and Machine Learnin",
+      trackName: "AI and Machine Learning",
       trackItems: [
         "Human Language Technology",
         "Intelligent Computing Applications",

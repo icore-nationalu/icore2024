@@ -18,12 +18,14 @@ import Submission from "./pages/Submission";
 
 import NotFound from "./pages/errors/NotFound";
 import ComingSoon from "./pages/errors/ComingSoon";
+import Test from "./pages/Test";
 
 const App = () => {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />}></Route>
+        <Route path="/test" element={<Test />}></Route>
         <Route path="/about-us" element={<AboutUs />}></Route>
         <Route path="/call-for-papers" element={<CallForPaper />}></Route>
         <Route path="/registration" element={<Registration />}></Route>

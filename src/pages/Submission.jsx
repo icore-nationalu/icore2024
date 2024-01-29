@@ -73,7 +73,7 @@ const Submission = () => {
         </div>
         <div className="submission-container">
           <h2>Submit your paper</h2>
-          <p>Join over 300+ participants already growing with iCore.</p>
+          <p>Join over 300+ participants already growing with iCORE.</p>
           <div className="cta">
             <Link to="/publication" className="btn-white">
               Learn More

@@ -87,7 +87,7 @@ const Footer = () => {
             <p>Shape Tomorrow's Innovation</p>
             <span>Let's build a better sustainable future.</span>
           </div>
-          <p className="copyright">&#169; 2024 iCore. All Rights Reserved.</p>
+          <p className="copyright">&#169; 2024 iCORE. All Rights Reserved.</p>
         </div>
       </div>
     </footer>

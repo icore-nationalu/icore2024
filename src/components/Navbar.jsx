@@ -83,17 +83,45 @@ const Navbar = () => {
                     </NavLink>
                   </li>
 
-                  {/* About Us */}
-                  <li className="nav-link">
-                    <NavLink to="/about-us" className="link-text">
-                      About Us
-                    </NavLink>
-                  </li>
-
                   {/* Call for Papers */}
                   <li className="nav-link">
                     <NavLink to="/call-for-papers" className="link-text">
                       Call for Papers
+                    </NavLink>
+                  </li>
+
+                  {/* Important Dates */}
+                  <li className="nav-link">
+                    <NavLink to="/important-dates" className="link-text">
+                      Important Dates
+                    </NavLink>
+                  </li>
+
+                  {/* Registration */}
+                  <li className="nav-link">
+                    <NavLink to="/registration" className="link-text">
+                      Registration
+                    </NavLink>
+                  </li>
+
+                  {/* Venue */}
+                  <li className="nav-link">
+                    <NavLink to="/venue" className="link-text">
+                      Venue
+                    </NavLink>
+                  </li>
+
+                  {/* Program */}
+                  <li className="nav-link">
+                    <NavLink to="/program" className="link-text">
+                      Program
+                    </NavLink>
+                  </li>
+
+                  {/* Speakers */}
+                  <li className="nav-link">
+                    <NavLink to="/speakers" className="link-text">
+                      Speakers
                     </NavLink>
                   </li>
 
@@ -204,38 +232,10 @@ const Navbar = () => {
                   </li>
                    */}
 
-                  {/* Registration */}
+                  {/* About Us */}
                   <li className="nav-link">
-                    <NavLink to="/registration" className="link-text">
-                      Registration
-                    </NavLink>
-                  </li>
-
-                  {/* Important Dates */}
-                  <li className="nav-link">
-                    <NavLink to="/important-dates" className="link-text">
-                      Important Dates
-                    </NavLink>
-                  </li>
-
-                  {/* Program */}
-                  <li className="nav-link">
-                    <NavLink to="/program" className="link-text">
-                      Program
-                    </NavLink>
-                  </li>
-
-                  {/* Speakers */}
-                  <li className="nav-link">
-                    <NavLink to="/speakers" className="link-text">
-                      Speakers
-                    </NavLink>
-                  </li>
-
-                  {/* Venue */}
-                  <li className="nav-link">
-                    <NavLink to="/venue" className="link-text">
-                      Venue
+                    <NavLink to="/about-us" className="link-text">
+                      About Us
                     </NavLink>
                   </li>
 

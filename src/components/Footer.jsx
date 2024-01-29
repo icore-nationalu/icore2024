@@ -26,19 +26,16 @@ const Footer = () => {
                 <NavLink to="/">Home</NavLink>
               </li>
               <li>
-                <NavLink to="/about-us">About Us</NavLink>
-              </li>
-              <li>
                 <NavLink to="/call-for-papers">Call for Papers</NavLink>
               </li>
               <li>
-                <NavLink to="/committee">Committee</NavLink>
+                <NavLink to="/important-dates">Important Dates</NavLink>
               </li>
               <li>
                 <NavLink to="/registration">Registration</NavLink>
               </li>
               <li>
-                <NavLink to="/important-dates">Important Dates</NavLink>
+                <NavLink to="/venue">Venue</NavLink>
               </li>
               <li>
                 <NavLink to="/program">Program</NavLink>
@@ -47,7 +44,10 @@ const Footer = () => {
                 <NavLink to="/speakers">Speakers</NavLink>
               </li>
               <li>
-                <NavLink to="/venue">Venue</NavLink>
+                <NavLink to="/committee">Committee</NavLink>
+              </li>
+              <li>
+                <NavLink to="/about-us">About Us</NavLink>
               </li>
               <li>
                 <NavLink to="/past-conferences">Past Conferences</NavLink>
@@ -56,7 +56,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="bottom">
-          <p className="copyright">&#169; 2024 iCore. All rights reserved.</p>
+          <p className="copyright">&#169; 2024 iCORE. All rights reserved.</p>
           <div className="social-links">
             <ul>
               <li>

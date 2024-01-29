@@ -97,37 +97,43 @@
                 "name": "Glendora Tiu",
                 "link": "https://www.linkedin.com/in/glendora-tiu-777905102/",
                 "position": "External Communications",
-                "showAffiliation": true
+                "showAffiliation": true,
+                "affiliation": "National University, Philippines"
             },
             {
                 "name": "Susan Caluya",
                 "link": "https://scholar.google.com/citations?user=NlF1wC0AAAAJ",
                 "position": "Secretariat",
-                "showAffiliation": true
+                "showAffiliation": true,
+                "affiliation": "National University, Philippines"
             },
             {
                 "name": "Emeliza Yabut",
                 "link": "https://scholar.google.com/citations?user=OHLFZkUAAAAJ",
                 "position": "Post Conference",
-                "showAffiliation": true
+                "showAffiliation": true,
+                "affiliation": "National University, Philippines"
             },
             {
                 "name": "Jennilyn Salimbagat",
                 "link": "https://www.linkedin.com/in/jenelyn-salimbagat-947479169/",
                 "position": "Volunteerism",
-                "showAffiliation": true
+                "showAffiliation": true,
+                "affiliation": "National University, Philippines"
             },
             {
                 "name": "Marilou Jamis",
                 "link": "https://www.linkedin.com/in/marilou-jamis-mit-0157213a",
                 "position": "Logistics",
-                "showAffiliation": true
+                "showAffiliation": true,
+                "affiliation": "National University, Philippines"
             },
             {
                 "name": "Thelma Palaoag",
                 "link": "https://ph.linkedin.com/in/thelma-palaoag-9a5b3667",
                 "position": "Publicity",
-                "showAffiliation": true
+                "showAffiliation": true,
+                "affiliation": "National University, Philippines"
             }
         ]
     },
