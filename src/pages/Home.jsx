@@ -13,6 +13,7 @@ import DMMMSU from "../assets/images/collaborators/don-mariano-marcos-memorial-s
 import USC from "../assets/images/collaborators/university-of-san-carlos.png";
 import UTC from "../assets/images/collaborators/university-of-the-cordilleras.png";
 import NU from "../assets/images/collaborators/national-university-large.png";
+import CountdownTimer from "../components/CountdownTimer";
 
 const Home = () => {
   const conferenceHighlights = [
@@ -129,6 +130,10 @@ const Home = () => {
               Call for Paper
             </a>
           </div>
+        </div>
+
+        <div className="countdown">
+          <CountdownTimer targetDate="7/19/2024" />
         </div>
       </section>
 

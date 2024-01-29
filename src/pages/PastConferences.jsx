@@ -25,7 +25,7 @@ const PastConferences = () => {
               <div className="content-wrapper">
                 <div className="title">
                   <a
-                    href="https://sites.google.com/view/icore2022/"
+                    href="https://www.computer.org/csdl/proceedings/icore/2022/1LSOMBgIpri"
                     target="_blank"
                   >
                     2nd International Conference in Information and Computing

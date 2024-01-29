@@ -1,6 +1,5 @@
 import React from "react";
 import { useCountdown } from "../hooks/useCountdown";
-import CountdownTimer from "../components/CountdownTimer";
 
 const CountdownPart = ({ separatedValue, label }) => {
   if (label == "Days") {
@@ -42,7 +41,33 @@ const Colon = () => {
   );
 };
 
-const Test = () => {
-  return <CountdownTimer targetDate="7/19/2024" />;
+const CountdownTimer = ({ targetDate }) => {
+  const [days, hours, minutes, seconds] = useCountdown(new Date(targetDate));
+  return (
+    <div className="countdown-container">
+      <p className="heading">The event starts in</p>
+      <div className="countdown-wrapper">
+        <CountdownPart
+          separatedValue={days.toString().split("")}
+          label="Days"
+        />
+        <Colon />
+        <CountdownPart
+          separatedValue={hours.toString().split("")}
+          label="Hours"
+        />
+        <Colon />
+        <CountdownPart
+          separatedValue={minutes.toString().split("")}
+          label="Minutes"
+        />
+        <Colon />
+        <CountdownPart
+          separatedValue={seconds.toString().split("")}
+          label="Seconds"
+        />
+      </div>
+    </div>
+  );
 };
-export default Test;
+export default CountdownTimer;

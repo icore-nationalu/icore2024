@@ -1,5 +1,11 @@
 @font-face {
     font-family: 'Inter';
     src: url('../fonts/inter/Inter-VariableFont_slnt,wght.ttf') format('truetype'),
-    url('../fonts/inter/OFL.txt') format('woff')
- }
+        url('../fonts/inter/OFL.txt') format('woff')
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('../fonts/roboto-mono/RobotoMono-VariableFont_wght.ttf') format('truetype'), url('../fonts/roboto-mono/RobotoMono-Italic-VariableFont_wght.ttf') format('truetype'),
+        url('../fonts/inter/OFL.txt') format('woff')
+}
