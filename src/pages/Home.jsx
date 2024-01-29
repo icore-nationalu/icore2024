@@ -165,7 +165,7 @@ const Home = () => {
               <div className="image-wrapper">
                 <img src={NU} alt="national-university" />
               </div>
-              <p>National University</p>
+              {/* <p>National University</p> */}
             </div>
           </div>
           <p>In collaboration with</p>
