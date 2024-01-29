@@ -91,102 +91,63 @@
   opacity: 1;
 }
 
-
-.countdown-container {
-  position: absolute;
-  bottom: -146px;
-  left: 0;
-  right: 0;
-  padding: 48px;
-  border-radius: 16px;
-  background-color: var(--gray-100);
-  /* width: fit-content; */
-  max-width: 1120px;
-  margin: auto auto;
-}
-
 .countdown-container .heading {
-  color: var(--primary-700, #004EA2);
   text-align: center;
-  font-size: 36px;
-  font-weight: 500;
-  line-height: 36px;
-  letter-spacing: 1.8px;
-  margin-bottom: 32px;
+  color: var(--gray-900, #171E26);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 20px;
 }
 
-.countdown-wrapper {
+.countdown-container .countdown-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 30px 1fr 30px 1fr 30px 1fr;
+  max-width: 450px;
+  margin: auto;
+}
+
+.countdown-digit-container .countdown-digit-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.countdown-wrapper .colon-wrapper {
-  height: 92px;
-  width: 46px;
-  align-self: self-start;
-  margin: 0 4px;
+.colon-wrapper p {
+  font-family: "Roboto Mono";
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-align: center;
 }
 
-.countdown-wrapper .colon {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.countdown-wrapper .colon div {
-  margin: 8px auto;
-  height: 14px;
-  width: 14px;
-  border-radius: 50%;
-  background-color: var(--gray-600, #5A6876);
+.countdown-digit-container .countdown-digit-wrapper .countdown-digit span {
+  font-family: "Roboto Mono";
+  font-weight: 700;
+  font-size: 2.5rem;
 }
 
 .countdown-digit-container .label {
-  color: var(--primary-700, #004EA2);
   text-align: center;
-  font-size: 36px;
-  font-weight: 500;
-  line-height: 18px;
-  margin-top: 20px;
+  color: var(--gray-500, #687582);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
-.countdown-digit-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+@media screen and (max-width: 400px) {
+  .countdown-container .heading {
+    font-size: 16px;
+    line-height: 24px;
+  } 
 
-.countdown-digit {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: auto 6px;
-  width: 60px;
-  height: 92px;
-  color: white;
-  border-radius: 4px;
-  background-color: #002246;
-  border: 1px solid var(--gray-100, #D5DDE5);
+  .colon-wrapper p {
+    font-family: "Roboto Mono";
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  .countdown-digit-container .countdown-digit-wrapper .countdown-digit span {
+    font-family: "Roboto Mono";
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
 }
-
-.countdown-digit:first-child {
-  margin: auto 6px auto 0;
-}
-
-.countdown-digit:last-child {
-  margin: auto 0 auto 6px;
-}
-
-.countdown-digit span {
-  font-family: "Roboto Mono";
-  font-size: 74px;
-  font-weight: 700;
-  text-align: center;
-
-}
-/* @media screen and (max-width: ) {
-  
-} */

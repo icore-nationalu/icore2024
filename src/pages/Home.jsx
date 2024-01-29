@@ -131,10 +131,6 @@ const Home = () => {
             </a>
           </div>
         </div>
-
-        <div className="countdown">
-          <CountdownTimer targetDate="7/19/2024" />
-        </div>
       </section>
 
       <section className="theme">
@@ -151,6 +147,7 @@ const Home = () => {
                   />
                 );
               })}
+              <CountdownTimer targetDate="7/19/2024" />
             </div>
           </div>
           {/* <div className="image">

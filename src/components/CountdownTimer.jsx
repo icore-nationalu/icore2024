@@ -33,10 +33,7 @@ const CountdownPart = ({ separatedValue, label }) => {
 const Colon = () => {
   return (
     <div className="colon-wrapper">
-      <div className="colon">
-        <div></div>
-        <div></div>
-      </div>
+      <p>:</p>
     </div>
   );
 };
@@ -45,7 +42,7 @@ const CountdownTimer = ({ targetDate }) => {
   const [days, hours, minutes, seconds] = useCountdown(new Date(targetDate));
   return (
     <div className="countdown-container">
-      <p className="heading">The event starts in</p>
+      <p className="heading">COUNTDOWN FOR iCORE 2024</p>
       <div className="countdown-wrapper">
         <CountdownPart
           separatedValue={days.toString().split("")}
