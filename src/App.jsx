@@ -31,6 +31,7 @@ const App = () => {
     const title = loc.replace(/(^\w{1})|(\s+\w{1})/g, (letter) =>
       letter.toUpperCase()
     );
+    console.log("test");
     ReactGA.send({
       hitType: "pageview",
       page: location.pathname,
