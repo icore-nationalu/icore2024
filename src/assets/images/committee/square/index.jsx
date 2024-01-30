@@ -13,6 +13,7 @@ import CaniloA from "./Canilo A.jpg";
 import DellosaR from "./Dellosa R.png";
 import EbardoR from "./Ebardo R.jpg";
 import Fabito from "./Fabito B.png";
+import FernandoA from "./Fernando A.jpg";
 import GeX from "./Ge X.jpg";
 import GuadanaR from "./Guadana R.jpg";
 import GuoqingY from "./Guoqing Y.jpg";
@@ -62,6 +63,7 @@ const getImage = (name) => {
     "Rhowel Dellosa": DellosaR,
     "Ryan Ebardo": EbardoR,
     "Bernie S. Fabito": Fabito,
+    "Alexa Ray Fernando": FernandoA,
     "Ge Xianlei": GeX,
     "Ryan Richard Guadaña": GuadanaR,
     "Yue Guoqing": GuoqingY,
