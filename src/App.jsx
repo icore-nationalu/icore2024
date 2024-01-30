@@ -31,12 +31,36 @@ const App = () => {
     const title = loc.replace(/(^\w{1})|(\s+\w{1})/g, (letter) =>
       letter.toUpperCase()
     );
-    console.log("test");
-    ReactGA.send({
-      hitType: "pageview",
-      page: location.pathname,
-      title: title,
-    });
+
+    const routes = [
+      "/",
+      "/about-us",
+      "/call-for-papers",
+      "/registration",
+      "/important-dates",
+      "/program",
+      "/speakers",
+      "/venue",
+      "/past-conferences",
+      "/committee",
+    ];
+
+    if (routes.includes(location.pathname)) {
+      if (location.pathname == "/") {
+        title = "Home";
+      }
+      ReactGA.send({
+        hitType: "pageview",
+        page: location.pathname,
+        title: title,
+      });
+    } else {
+      ReactGA.send({
+        hitType: "pageview",
+        page: "/*",
+        title: "Not Found",
+      });
+    }
   }, [location]);
 
   return (
