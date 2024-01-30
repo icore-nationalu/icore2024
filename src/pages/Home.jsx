@@ -13,6 +13,8 @@ import DMMMSU from "../assets/images/collaborators/don-mariano-marcos-memorial-s
 import USC from "../assets/images/collaborators/university-of-san-carlos.png";
 import UTC from "../assets/images/collaborators/university-of-the-cordilleras.png";
 import NU from "../assets/images/collaborators/national-university-large.png";
+import AUFE from "../assets/images/collaborators/anhui-university-of-finance-and-economics.png";
+
 import CountdownTimer from "../components/CountdownTimer";
 
 const Home = () => {
@@ -169,7 +171,7 @@ const Home = () => {
             </div>
           </div>
           <p>In collaboration with</p>
-          <div className="collaborations divider">
+          <div className="collaborations">
             {collaborators.map(({ name, image }, i) => {
               return (
                 <div className="collaborations-item" key={i}>
@@ -180,6 +182,17 @@ const Home = () => {
                 </div>
               );
             })}
+          </div>
+          <div className="collaborations bottom divider">
+            <div className="collaborations-item">
+              <div className="image-wrapper">
+                <img
+                  src={AUFE}
+                  alt="anhui-university-of-finance-and-economics"
+                />
+              </div>
+              {/* <p>Anhui University of Finance and Economics</p> */}
+            </div>
           </div>
         </div>
       </section>

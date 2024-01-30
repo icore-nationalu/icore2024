@@ -175,6 +175,10 @@
     margin: 0 32px 16px;
     /* aspect-ratio: 1 / 1; */
 }
+.collaborations-wrapper .collaborations.bottom .collaborations-item { 
+    max-width: 500px;
+    width: 100%;
+}
 
 .collaborations-wrapper .organizers .organizers-item .image-wrapper {
     width: 100%;
@@ -183,6 +187,15 @@
 .collaborations-wrapper .collaborations .collaborations-item .image-wrapper {
     width: 100%;
     aspect-ratio: 1 / 1;
+}
+
+.collaborations-wrapper .collaborations.bottom .collaborations-item .image-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: unset;
+    margin-bottom: 20px;
 }
 
 .collaborations-wrapper .organizers .organizers-item .image-wrapper img,

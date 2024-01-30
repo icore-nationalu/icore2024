@@ -19,8 +19,12 @@ import Submission from "./pages/Submission";
 import NotFound from "./pages/errors/NotFound";
 import ComingSoon from "./pages/errors/ComingSoon";
 import Test from "./pages/Test";
+// import ReactGA from "react-ga";
 
 const App = () => {
+  // const TRACKING_ID = "G-9C8ZYFSPGY";
+  // ReactGA.initialize(TRACKING_ID);
+
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
