@@ -96,15 +96,20 @@
 }
 
 .theme .conference-highlights .conference-highlight-item {
-    display: grid;
+    /* display: grid;
+    grid-template-columns: 48px 1fr;
+    gap: 0 16px; */
+    display: flex;
+    align-items: center;
     grid-template-columns: 48px 1fr;
     gap: 0 16px;
+    align-self: self-start;
 }
 
 .theme .conference-highlights .conference-highlight-item .icon-wrapper {
     border-radius: 50%;
     height: 48px;
-    width: 48px;
+    min-width: 48px;
     border: 8px solid var(--primary-50);
     background: var(--primary-100);
     display: flex;

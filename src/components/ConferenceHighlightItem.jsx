@@ -14,7 +14,7 @@ const ConferenceHighlightItem = ({ icon, title, description }) => {
         />
       </div>
       <div className="title">{title}</div>
-      <div className="description">{description}</div>
+      {/* <div className="description">{description}</div> */}
     </div>
   );
 };
