@@ -1,6 +1,6 @@
 import "./App.css";
-import React from "react";
-import { Route, Routes } from "react-router-dom";
+import React, { useEffect } from "react";
+import { Route, Routes, useLocation } from "react-router-dom";
 
 import Layout from "./layouts/Layout";
 
@@ -19,11 +19,22 @@ import Submission from "./pages/Submission";
 import NotFound from "./pages/errors/NotFound";
 import ComingSoon from "./pages/errors/ComingSoon";
 import Test from "./pages/Test";
-// import ReactGA from "react-ga";
 
 const App = () => {
-  // const TRACKING_ID = "G-9C8ZYFSPGY";
-  // ReactGA.initialize(TRACKING_ID);
+  const location = useLocation();
+
+  useEffect(() => {
+    const loc = location.pathname.replaceAll("-", " ").replace("/", "");
+
+    const title = loc.replace(/(^\w{1})|(\s+\w{1})/g, (letter) =>
+      letter.toUpperCase()
+    );
+    ReactGA.send({
+      hitType: "pageview",
+      page: location.pathname,
+      title: title,
+    });
+  }, [location]);
 
   return (
     <Routes>
