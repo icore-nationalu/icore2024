@@ -11,6 +11,7 @@ import BringulaR from "./Bringula R.png";
 import CaluyaS from "./Caluya S.png";
 import CaniloA from "./Canilo A.jpg";
 import DellosaR from "./Dellosa R.png";
+import EbardoR from "./Ebardo R.jpg";
 import Fabito from "./Fabito B.png";
 import GeX from "./Ge X.jpg";
 import GuadanaR from "./Guadana R.jpg";
@@ -59,6 +60,7 @@ const getImage = (name) => {
     "Angie Ceniza-Canillo": CaniloA,
     "Susan Caluya": CaluyaS,
     "Rhowel Dellosa": DellosaR,
+    "Ryan Ebardo": EbardoR,
     "Bernie S. Fabito": Fabito,
     "Ge Xianlei": GeX,
     "Ryan Richard Guadaña": GuadanaR,
