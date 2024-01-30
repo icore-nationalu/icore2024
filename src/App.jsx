@@ -28,7 +28,7 @@ const App = () => {
   useEffect(() => {
     const loc = location.pathname.replaceAll("-", " ").replace("/", "");
 
-    const title = loc.replace(/(^\w{1})|(\s+\w{1})/g, (letter) =>
+    let title = loc.replace(/(^\w{1})|(\s+\w{1})/g, (letter) =>
       letter.toUpperCase()
     );
 
