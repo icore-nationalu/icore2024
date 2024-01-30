@@ -20,6 +20,8 @@ import NotFound from "./pages/errors/NotFound";
 import ComingSoon from "./pages/errors/ComingSoon";
 import Test from "./pages/Test";
 
+import ReactGA from "react-ga4";
+
 const App = () => {
   const location = useLocation();
 
