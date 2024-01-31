@@ -29,8 +29,8 @@ const AboutUs = () => {
       iconFill: true,
       label: "Twitter",
       desc: "Follow more updates.",
-      link: "https://x.com/Core2024I41074",
-      linkText: "@iCORE2024",
+      link: "https://x.com/iCore2024ph",
+      linkText: "@iCORE2024PH",
     },
     {
       icon: "MapPin",

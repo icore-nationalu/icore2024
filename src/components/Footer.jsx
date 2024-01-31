@@ -74,7 +74,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="https://x.com/Core2024I41074" target="_blank">
+                <Link to="https://x.com/iCore2024ph" target="_blank">
                   <Icon
                     iconName="Twitter"
                     fill="#171E26"

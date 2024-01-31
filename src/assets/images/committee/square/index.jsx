@@ -10,6 +10,8 @@ import BarfehD from "./Barfeh D.jpg";
 import BringulaR from "./Bringula R.png";
 import CaluyaS from "./Caluya S.png";
 import CaniloA from "./Canilo A.jpg";
+import CanlasR from "./Canlas R.jpg";
+import ContrerasJ from "./Contreras J.jpg";
 import DellosaR from "./Dellosa R.png";
 import EbardoR from "./Ebardo R.jpg";
 import Fabito from "./Fabito B.png";
@@ -39,6 +41,7 @@ import SalazarJ from "./Salazar J.jpeg";
 import SalidoJ from "./Salido J.jpg";
 import SalimbagatJ from "./Salimbagat J.jpg";
 import SampedroG from "./Sampedro G.jpeg";
+import SideñoJ from "./Sideño J.jpg";
 import SongX from "./Song X.jpg";
 import SophatsathitP from "./Sophatsathit P.png";
 import TiuG from "./Tiu G.jpg";
@@ -59,7 +62,9 @@ const getImage = (name) => {
     "Phaedra Boinodiris": BoinodirisP,
     "Rex Bringula": BringulaR,
     "Angie Ceniza-Canillo": CaniloA,
+    "Ria Liza Canlas": CanlasR,
     "Susan Caluya": CaluyaS,
+    "Jennifer Contreras": ContrerasJ,
     "Rhowel Dellosa": DellosaR,
     "Ryan Ebardo": EbardoR,
     "Bernie S. Fabito": Fabito,
@@ -89,6 +94,7 @@ const getImage = (name) => {
     "Julie Ann Salido": SalidoJ,
     "Jennilyn Salimbagat": SalimbagatJ,
     "Gabriel Avelino Sampedro": SampedroG,
+    "Janette Sideño": SideñoJ,
     "Song Xiedong": SongX,
     "Peraphon Sophatsathit": SophatsathitP,
     "Glendora Tiu": TiuG,

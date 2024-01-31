@@ -138,11 +138,11 @@ const Registration = () => {
               <br /> <br />
               Twitter:{" "}
               <a
-                href="https://x.com/Core2024I41074"
+                href="https://x.com/iCore2024ph"
                 className="link"
                 target="_blank"
               >
-                @iCORE2024
+                @iCORE2024PH
               </a>
               <br /> <br />
               LinkedIn:{" "}

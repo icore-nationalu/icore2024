@@ -73,8 +73,8 @@ const Home = () => {
       iconFill: true,
       label: "Twitter",
       desc: "Follow more updates.",
-      link: "https://x.com/Core2024I41074",
-      linkText: "@iCORE2024",
+      link: "https://x.com/iCore2024ph",
+      linkText: "@iCORE2024PH",
     },
     {
       icon: "MapPin",
@@ -114,9 +114,10 @@ const Home = () => {
           </h1>
           <div className="subheading-wrapper">
             <h3>
-              Join us at iCORE 2024 on July 19-20 as we explore innovative
-              solutions to global challenges, fostering a more sustainable
-              tomorrow.
+              Join us at the 3rd International Conference on Information and
+              Computing Research (iCORE) 2024 on July 19-20 as we explore
+              innovative solutions to global challenges, fostering a more
+              sustainable tomorrow.
             </h3>
           </div>
           <div className="hero-cta">

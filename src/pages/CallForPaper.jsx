@@ -76,13 +76,13 @@ const CallForPaper = () => {
               Future Earth: Technology's Role in Shaping Sustainable Outcomes
             </h3>
             <p>
-              The International Conference on Information and Computing Research
-              (iCORE) is a significant event in the field of computer science,
-              information technology, and related areas. Year after year, iCORE
-              brings together a diverse array of academics, researchers,
-              practitioners, and industry experts from across the globe,
-              creating a vibrant platform for exchanging cutting-edge ideas and
-              advancements in the ever-evolving field.
+              The 3rd International Conference on Information and Computing
+              Research (iCORE) 2024 is a significant event in the field of
+              computer science, information technology, and related areas. Year
+              after year, iCORE brings together a diverse array of academics,
+              researchers, practitioners, and industry experts from across the
+              globe, creating a vibrant platform for exchanging cutting-edge
+              ideas and advancements in the ever-evolving field.
             </p>
 
             {tracks.map(({ trackName, trackItems }, i) => {
