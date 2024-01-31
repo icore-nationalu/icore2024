@@ -256,7 +256,7 @@
             {
                 "name": "Yong Xu",
                 "link": "https://www.researchgate.net/profile/Yong-Xu-73",
-                "position": "Anhui University of Finance and Economics",
+                "position": "Anhui University of Finance and Economics, China",
                 "showAffiliation": true
             },
             {
@@ -402,6 +402,12 @@
                 "name": "Yue Guoqing",
                 "link": "https://ieeexplore.ieee.org/author/37089947823",
                 "position": "Anhui Sanlian University, China",
+                "showAffiliation": true
+            },
+            {
+                "name": "Emmanuel Ramirez",
+                "link": "https://www.linkedin.com/in/emmanuel-ramirez-7b9209297",
+                "position": "National University, Philippines",
                 "showAffiliation": true
             }
         ]

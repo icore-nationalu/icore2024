@@ -36,6 +36,7 @@ import PeiP from "./Pei P.jpg";
 import PonayC from "./Ponay C.jpg";
 import QingyuL from "./Qingyu L.jpg";
 import RagaR from "./Raga R.png";
+import RamirezE from "./Ramirez E.jpg";
 import RodrigoM from "./Rodrigo M.jpg";
 import RodriguezR from "./Rodriguez R.jpeg";
 import RomanaC from "./Romana C.jpg";
@@ -93,6 +94,7 @@ const getImage = (name) => {
     "Charmaine Ponay": PonayC,
     "Liu Qingyu": QingyuL,
     "Rodolfo Jr. Raga": RagaR,
+    "Emmanuel Ramirez": RamirezE,
     "Maria Mercedes T. Rodrigo": RodrigoM,
     "Ramon Rodriguez": RodriguezR,
     "Cherry Lyn Sta. Romana": RomanaC,
