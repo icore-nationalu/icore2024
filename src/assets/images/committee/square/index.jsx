@@ -5,6 +5,7 @@ import AbdillahL from "./Abdillah L.png";
 import AbisadoM from "./Abisado M.png";
 import AculaD from "./Acula D.jpg";
 import BalahadiaF from "./Balahadia F.png";
+import BimleshW from "./Bimlesh W.jpg";
 import BoinodirisP from "./Boinodiris P.png";
 import BarfehD from "./Barfeh D.jpg";
 import BringulaR from "./Bringula R.png";
@@ -26,6 +27,7 @@ import LauB from "./Lau B.jpg";
 import LlovidoJ from "./Llovido J.jpg";
 import MacedaL from "./Maceda L.png";
 import MalicdemA from "./Malicdem A.jpg";
+import MedinaR from "./Medina R.jpg";
 import MilitanteS from "./Militante S.jpg";
 import NovaA from "./Nova A.jpg";
 import PalaoagP from "./Palaoag T.jpg";
@@ -36,6 +38,7 @@ import QingyuL from "./Qingyu L.jpg";
 import RagaR from "./Raga R.png";
 import RodrigoM from "./Rodrigo M.jpg";
 import RodriguezR from "./Rodriguez R.jpeg";
+import RomanaC from "./Romana C.jpg";
 import SalazarA from "./Salazar A.jpg";
 import SalazarJ from "./Salazar J.jpeg";
 import SalidoJ from "./Salido J.jpg";
@@ -48,6 +51,7 @@ import TiuG from "./Tiu G.jpg";
 import WenmingW from "./Wenming W.jpg";
 import XiaoyanL from "./Xiaoyan L.jpg";
 import YabutE from "./Yabut E.jpg";
+import YongX from "./Yong X.jpg";
 import ZhuX from "./Zhu X.jpg";
 
 const getImage = (name) => {
@@ -59,6 +63,7 @@ const getImage = (name) => {
     "Donata Acula": AculaD,
     "Francis Balahadia": BalahadiaF,
     "Davood Pour Yousefian Barfeh": BarfehD,
+    "Bimlesh Wadhwa": BimleshW,
     "Phaedra Boinodiris": BoinodirisP,
     "Rex Bringula": BringulaR,
     "Angie Ceniza-Canillo": CaniloA,
@@ -79,6 +84,7 @@ const getImage = (name) => {
     "Jennifer Llovido": LlovidoJ,
     "Lany Maceda": MacedaL,
     "Alvin Malicdem": MalicdemA,
+    "Ruji Medina": MedinaR,
     "Sammy Militante": MilitanteS,
     "Avonn C. Nova": NovaA,
     "Thelma Palaoag": PalaoagP,
@@ -89,6 +95,7 @@ const getImage = (name) => {
     "Rodolfo Jr. Raga": RagaR,
     "Maria Mercedes T. Rodrigo": RodrigoM,
     "Ramon Rodriguez": RodriguezR,
+    "Cherry Lyn Sta. Romana": RomanaC,
     "Armida Salazar": SalazarA,
     "Julian Salazar": SalazarJ,
     "Julie Ann Salido": SalidoJ,
@@ -101,6 +108,7 @@ const getImage = (name) => {
     "Wang Wenming": WenmingW,
     "Li Xiaoyan": XiaoyanL,
     "Emeliza Yabut": YabutE,
+    "Yong Xu": YongX,
     "Zhu Xuemei": ZhuX,
   };
 
