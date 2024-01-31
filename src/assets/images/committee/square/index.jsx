@@ -4,6 +4,7 @@ import MarianoV from "./Mariano V.jpg";
 import AbdillahL from "./Abdillah L.png";
 import AbisadoM from "./Abisado M.png";
 import AculaD from "./Acula D.jpg";
+import AshipaoloyeF from "./Ashipaoloye F.jpg";
 import BalahadiaF from "./Balahadia F.png";
 import BimleshW from "./Bimlesh W.jpg";
 import BoinodirisP from "./Boinodiris P.png";
@@ -62,6 +63,7 @@ const getImage = (name) => {
     "Leon Andretti Abdillah": AbdillahL,
     "Mideth Abisado": AbisadoM,
     "Donata Acula": AculaD,
+    "Francis Kayode Ashipaoloye": AshipaoloyeF,
     "Francis Balahadia": BalahadiaF,
     "Davood Pour Yousefian Barfeh": BarfehD,
     "Bimlesh Wadhwa": BimleshW,
