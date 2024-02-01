@@ -91,22 +91,31 @@ const Home = () => {
     {
       name: "Bicol University",
       image: BU,
+      imageSize: "sm",
     },
     {
       name: "University of the Cordilleras",
       image: UTC,
+      imageSize: "sm",
     },
     {
       name: "Don Mariano Marcos Memorial State University",
       image: DMMMSU,
+      imageSize: "sm",
     },
     {
       name: "University of San Carlos",
       image: USC,
+      imageSize: "sm",
     },
     {
       name: "National University - MOA",
       image: NUMOA,
+      imageSize: "sm",
+    },
+    {
+      image: AUFE,
+      imageSize: "lg",
     },
   ];
 
@@ -177,28 +186,17 @@ const Home = () => {
             </div>
           </div>
           <p>In collaboration with</p>
-          <div className="collaborations">
-            {collaborators.map(({ name, image }, i) => {
+          <div className="collaborators-container">
+            {collaborators.map(({ name, image, imageSize }, i) => {
               return (
-                <div className="collaborations-item" key={i}>
+                <div className={`collaborator-item ${imageSize}`} key={i}>
                   <div className="image-wrapper">
                     <img src={image} alt={name} />
                   </div>
-                  <p>{name}</p>
+                  {name && <p>{name}</p>}
                 </div>
               );
             })}
-          </div>
-          <div className="collaborations bottom divider">
-            <div className="collaborations-item">
-              <div className="image-wrapper">
-                <img
-                  src={AUFE}
-                  alt="anhui-university-of-finance-and-economics"
-                />
-              </div>
-              {/* <p>Anhui University of Finance and Economics</p> */}
-            </div>
           </div>
         </div>
       </section>

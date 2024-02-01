@@ -138,13 +138,14 @@
   .countdown-container .heading {
     font-size: 16px;
     line-height: 24px;
-  } 
+  }
 
   .colon-wrapper p {
     font-family: "Roboto Mono";
     font-weight: 700;
     font-size: 1.5rem;
   }
+
   .countdown-digit-container .countdown-digit-wrapper .countdown-digit span {
     font-family: "Roboto Mono";
     font-weight: 700;
