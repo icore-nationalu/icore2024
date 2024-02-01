@@ -152,9 +152,9 @@ const Registration = () => {
               Payments can be made online through the secure registration portal
               on the conference website.
               <br /> <br />
-               */}
               Accepted payment methods include credit cards, bank transfers, and
               other online payment options.
+               */}
             </p>
 
             <h3 className="heading">Important Dates</h3>
