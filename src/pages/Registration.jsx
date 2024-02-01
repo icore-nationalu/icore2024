@@ -5,20 +5,20 @@ const Registration = () => {
     {
       type: "Student Rate ",
       subType: ["Undergraduate Students"],
-      fee: "USD 325.00",
+      fee: "USD 325.00 / PHP 17,875",
     },
     {
       type: "Regular Rate",
       subType: ["Graduate Students", "Faculty", " First Author"],
-      fee: "USD 400.00",
+      fee: "USD 400.00 / PHP 22,000",
     },
     {
       type: "Early Bird",
-      fee: "USD 350.00",
+      fee: "USD 350.00 / PHP 19,250",
     },
     {
       type: "Listener/Co-Author",
-      fee: "USD 20.00",
+      fee: "USD 20.00 / PHP 1,100",
     },
   ];
 

@@ -13,6 +13,7 @@ import DMMMSU from "../assets/images/collaborators/don-mariano-marcos-memorial-s
 import USC from "../assets/images/collaborators/university-of-san-carlos.png";
 import UTC from "../assets/images/collaborators/university-of-the-cordilleras.png";
 import NU from "../assets/images/collaborators/national-university-large.png";
+import NUMOA from "../assets/images/collaborators/national-university.svg";
 import AUFE from "../assets/images/collaborators/anhui-university-of-finance-and-economics.png";
 
 import CountdownTimer from "../components/CountdownTimer";
@@ -102,6 +103,10 @@ const Home = () => {
     {
       name: "University of San Carlos",
       image: USC,
+    },
+    {
+      name: "National University - MOA",
+      image: NUMOA,
     },
   ];
 
