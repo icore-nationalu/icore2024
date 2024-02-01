@@ -160,6 +160,61 @@
     line-height: 28px;
 }
 
+.bank-container { 
+    margin-bottom: 32px;
+}
+
+.bank-container .heading {
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--gray-50);
+    border-radius: 8px 8px 0 0;
+    background: var(--table-display, #F4F5F8);
+}
+
+.bank-container .heading p {
+    color: var(--gray-700);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+}
+
+.bank-container .bank-details {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: 1px solid var(--gray-50);
+    border-radius: 0 0 8px 8px;
+}
+
+.bank-container .bank-details .bank-detail-item { 
+    display: flex;
+    flex-direction: column;
+}
+
+.bank-container .bank-details .bank-detail-item .label{ 
+    padding: 9px 10px;
+    background-color: var(--gray-10);
+    border-bottom: 1px solid var(--gray-50);
+}
+.bank-container .bank-details .bank-detail-item .label p{ 
+    color: var(--gray-500);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.bank-container .bank-details .bank-detail-item .data{ 
+    padding: 14px 10px;
+}
+
+.bank-container .bank-details .bank-detail-item .data p{ 
+    color: var(--gray-700);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+
 @media screen and (max-width:576px) {
     #registration .header-container {
         padding: 64px 16px;
@@ -208,6 +263,20 @@
     .registration-steps li {
         font-size: 16px;
         line-height: 24px;
+    }
+
+    .bank-container .bank-details  { 
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .bank-container .bank-details .bank-detail-item { 
+        flex-direction: row;
+    }
+
+    .bank-container .bank-details .bank-detail-item .label   { 
+        min-width: 120px;
+        display: flex;
+        align-items: center;
     }
 }
 

@@ -30,6 +30,13 @@ const Registration = () => {
     "Certificate of Paper Presentation/Participation",
   ];
 
+  const bankDetails = {
+    acctName: "NATIONAL UNIVERSITY, INC.",
+    acctNo: "006750007529",
+    swiftCode: "BNORPHMM",
+    bankAddress: "BDO SAVEMORE NAGTAHAN",
+  };
+
   return (
     <>
       <section id="registration">
@@ -56,12 +63,12 @@ const Registration = () => {
                 <p>Registration Fees</p>
               </div>
               <div className="table-content">
-                {/* <div className="row-header">
+                <div className="row-header">
                   <span>TYPE</span>
                 </div>
                 <div className="row-header">
                   <span>FEE</span>
-                </div> */}
+                </div>
                 {fees.map((v, i) => {
                   const { type, subType, fee } = v;
                   return (
@@ -101,6 +108,45 @@ const Registration = () => {
             </div>
 
             <h3 className="heading">Payment Methods</h3>
+            <div className="bank-container">
+              <div className="heading">
+                <p>BDO Peso Account</p>
+              </div>
+              <div className="bank-details">
+                <div className="bank-detail-item">
+                  <div className="label">
+                    <p>Account Name</p>
+                  </div>
+                  <div className="data">
+                    <p>{bankDetails.acctName}</p>
+                  </div>
+                </div>
+                <div className="bank-detail-item">
+                  <div className="label">
+                    <p>Account Number</p>
+                  </div>
+                  <div className="data">
+                    <p>{bankDetails.acctNo}</p>
+                  </div>
+                </div>
+                <div className="bank-detail-item">
+                  <div className="label">
+                    <p>Swift Code</p>
+                  </div>
+                  <div className="data">
+                    <p>{bankDetails.swiftCode}</p>
+                  </div>
+                </div>
+                <div className="bank-detail-item">
+                  <div className="label">
+                    <p>Bank Address</p>
+                  </div>
+                  <div className="data">
+                    <p>{bankDetails.bankAddress}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
             <p className="content">
               {/* 
               Payments can be made online through the secure registration portal

@@ -6,6 +6,7 @@ import AbisadoM from "./Abisado M.png";
 import AculaD from "./Acula D.jpg";
 import AshipaoloyeF from "./Ashipaoloye F.jpg";
 import BalahadiaF from "./Balahadia F.png";
+import BalleraM from "./Ballera M.png";
 import BimleshW from "./Bimlesh W.jpg";
 import BoinodirisP from "./Boinodiris P.png";
 import BarfehD from "./Barfeh D.jpg";
@@ -65,6 +66,7 @@ const getImage = (name) => {
     "Donata Acula": AculaD,
     "Francis Kayode Ashipaoloye": AshipaoloyeF,
     "Francis Balahadia": BalahadiaF,
+    "Melvin Ballera": BalleraM,
     "Davood Pour Yousefian Barfeh": BarfehD,
     "Bimlesh Wadhwa": BimleshW,
     "Phaedra Boinodiris": BoinodirisP,
