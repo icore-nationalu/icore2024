@@ -89,6 +89,10 @@ const Home = () => {
 
   const collaborators = [
     {
+      image: AUFE,
+      imageSize: "lg",
+    },
+    {
       name: "Bicol University",
       image: BU,
       imageSize: "sm",
@@ -112,10 +116,6 @@ const Home = () => {
       name: "National University - MOA",
       image: NUMOA,
       imageSize: "sm",
-    },
-    {
-      image: AUFE,
-      imageSize: "lg",
     },
   ];
 

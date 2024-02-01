@@ -26,6 +26,7 @@ import GuoqingY from "./Guoqing Y.jpg";
 import HengS from "./Heng S.png";
 import ImperialJ from "./Imperial J.jpg";
 import JamisM from "./Jamis M.png";
+import LacasandileA from "./Lacasandile A.jpg";
 import LauB from "./Lau B.jpg";
 import LlovidoJ from "./Llovido J.jpg";
 import MacedaL from "./Maceda L.png";
@@ -87,6 +88,7 @@ const getImage = (name) => {
     "Sovannarith Heng": HengS,
     "Joseph Marvin Imperial": ImperialJ,
     "Marilou Jamis": JamisM,
+    "Angelique Lacasandile": LacasandileA,
     "Lau Bee Theng": LauB,
     "Jennifer Llovido": LlovidoJ,
     "Lany Maceda": MacedaL,
