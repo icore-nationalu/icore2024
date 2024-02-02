@@ -18,6 +18,7 @@ import ContrerasJ from "./Contreras J.jpg";
 import DellosaR from "./Dellosa R.png";
 import EbardoR from "./Ebardo R.jpg";
 import EniegoA from "./Eniego A.jpg";
+import EscobañezJ from "./Escobañez J.jpg";
 import Fabito from "./Fabito B.png";
 import FernandoA from "./Fernando A.jpg";
 import GeX from "./Ge X.jpg";
@@ -80,6 +81,7 @@ const getImage = (name) => {
     "Rhowel Dellosa": DellosaR,
     "Ryan Ebardo": EbardoR,
     "Arnold Eniego": EniegoA,
+    "John Clement Escobañez": EscobañezJ,
     "Bernie S. Fabito": Fabito,
     "Alexa Ray Fernando": FernandoA,
     "Ge Xianlei": GeX,
