@@ -14,6 +14,7 @@ import USC from "../assets/images/collaborators/university-of-san-carlos.png";
 import UTC from "../assets/images/collaborators/university-of-the-cordilleras.png";
 import NU from "../assets/images/collaborators/national-university-large.png";
 import NUMOA from "../assets/images/collaborators/national-university.svg";
+import LSPU from "../assets/images/collaborators/laguna-state-polytechnic-university.jpg";
 import AUFE from "../assets/images/collaborators/anhui-university-of-finance-and-economics.png";
 
 import CountdownTimer from "../components/CountdownTimer";
@@ -115,6 +116,11 @@ const Home = () => {
     {
       name: "National University - MOA",
       image: NUMOA,
+      imageSize: "sm",
+    },
+    {
+      name: "Laguna State Polytechnic University",
+      image: LSPU,
       imageSize: "sm",
     },
   ];
