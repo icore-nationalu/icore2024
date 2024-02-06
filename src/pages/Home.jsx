@@ -16,7 +16,7 @@ import NU from "../assets/images/collaborators/national-university-large.png";
 import NUMOA from "../assets/images/collaborators/national-university.svg";
 import LSPU from "../assets/images/collaborators/laguna-state-polytechnic-university.jpg";
 import AUFE from "../assets/images/collaborators/anhui-university-of-finance-and-economics.png";
-
+import Test from "../assets/test-image.png";
 import CountdownTimer from "../components/CountdownTimer";
 
 const Home = () => {
@@ -192,7 +192,7 @@ const Home = () => {
             </div>
           </div>
           <p>In collaboration with</p>
-          <div className="collaborators-container">
+          <div className="collaborators-container divider">
             {collaborators.map(({ name, image, imageSize }, i) => {
               return (
                 <div className={`collaborator-item ${imageSize}`} key={i}>
@@ -200,6 +200,19 @@ const Home = () => {
                     <img src={image} alt={name} />
                   </div>
                   {name && <p>{name}</p>}
+                </div>
+              );
+            })}
+          </div>
+          <p>Sponsors</p>
+          <div className="collaborators-container sponsors">
+            {Array.from({ length: 5 }).map((v, i) => {
+              return (
+                <div className={`collaborator-item sm`} key={i}>
+                  <div className="image-wrapper">
+                    <img src={Test} alt="" />
+                  </div>
+                  <p>Sponsor Name</p>
                 </div>
               );
             })}

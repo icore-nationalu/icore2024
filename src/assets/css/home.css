@@ -190,6 +190,7 @@
 
 .collaborators-container {
     margin-top: 32px;
+    margin-bottom: 32px;
     display: flex;
     align-items: start;
     justify-content: center;
