@@ -73,6 +73,10 @@
     text-justify: inter-word;
 }
 
+.call-for-paper-container p a {
+    color: var(--gray-500, #687582);
+}
+
 .call-for-paper-container ul {
     margin-bottom: 48px;
 }

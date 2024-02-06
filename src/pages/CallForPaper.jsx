@@ -103,6 +103,21 @@ const CallForPaper = () => {
                 </Fragment>
               );
             })}
+
+            <h3>Submission Guidelines</h3>
+            <p>
+              Authors are encouraged to submit original, unpublished research
+              papers in{" "}
+              <a
+                href="https://www.ieee.org/conferences/publishing/templates.html"
+                target="_blank"
+              >
+                IEEE format
+              </a>{" "}
+              through the conference submission system. Submissions will go a
+              rigorous peer-review process by an expert panel. Accepted papers
+              will bre presented and published in the conference proceedings.
+            </p>
           </div>
         </div>
       </section>

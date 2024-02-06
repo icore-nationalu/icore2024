@@ -204,7 +204,7 @@ const Home = () => {
               );
             })}
           </div>
-          <p>Sponsors</p>
+          <p>Sponsored by</p>
           <div className="collaborators-container sponsors">
             {Array.from({ length: 5 }).map((v, i) => {
               return (
