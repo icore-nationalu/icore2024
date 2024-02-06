@@ -19,6 +19,8 @@ import AUFE from "../assets/images/collaborators/anhui-university-of-finance-and
 import Test from "../assets/test-image.png";
 import CountdownTimer from "../components/CountdownTimer";
 
+import YIBU from "../assets/images/sponsors/yibu-education.jpg";
+
 const Home = () => {
   const conferenceHighlights = [
     {
@@ -125,6 +127,14 @@ const Home = () => {
     },
   ];
 
+  const sponsors = [
+    {
+      name: "YIBU Education",
+      image: YIBU,
+      imageSize: "sm",
+    },
+  ];
+
   return (
     <>
       <section className="hero-container">
@@ -204,15 +214,15 @@ const Home = () => {
               );
             })}
           </div>
-          <p>Sponsored by</p>
+          <p>Sponsor/s</p>
           <div className="collaborators-container sponsors">
-            {Array.from({ length: 5 }).map((v, i) => {
+            {sponsors.map(({ name, image, imageSize }, i) => {
               return (
-                <div className={`collaborator-item sm`} key={i}>
+                <div className={`collaborator-item ${imageSize}`} key={i}>
                   <div className="image-wrapper">
-                    <img src={Test} alt="" />
+                    <img src={image} alt={name} />
                   </div>
-                  <p>Sponsor Name</p>
+                  {name && <p>{name}</p>}
                 </div>
               );
             })}
