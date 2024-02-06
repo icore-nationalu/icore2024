@@ -85,6 +85,21 @@ const CallForPaper = () => {
               ideas and advancements in the ever-evolving field.
             </p>
 
+            <h3>Submission Guidelines</h3>
+            <p>
+              Authors are encouraged to submit original, unpublished research
+              papers in{" "}
+              <a
+                href="https://www.ieee.org/conferences/publishing/templates.html"
+                target="_blank"
+              >
+                IEEE format
+              </a>{" "}
+              through the conference submission system. The Easychair Submission
+              link will open on March 30, 2024. Submissions will go through a
+              rigorous peer-review process by an expert panel. Accepted papers
+              will be presented and published in the conference proceedings.
+            </p>
             {tracks.map(({ trackName, trackItems }, i) => {
               return (
                 <Fragment key={i}>
@@ -103,21 +118,6 @@ const CallForPaper = () => {
                 </Fragment>
               );
             })}
-
-            <h3>Submission Guidelines</h3>
-            <p>
-              Authors are encouraged to submit original, unpublished research
-              papers in{" "}
-              <a
-                href="https://www.ieee.org/conferences/publishing/templates.html"
-                target="_blank"
-              >
-                IEEE format
-              </a>{" "}
-              through the conference submission system. Submissions will go a
-              rigorous peer-review process by an expert panel. Accepted papers
-              will bre presented and published in the conference proceedings.
-            </p>
           </div>
         </div>
       </section>
