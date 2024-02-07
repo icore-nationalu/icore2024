@@ -38,6 +38,7 @@ import NovaA from "./Nova A.jpg";
 import PalaoagP from "./Palaoag T.jpg";
 import ParagasJ from "./Paragas J.jpg";
 import PeiP from "./Pei P.jpg";
+import PlataI from "./Plata I.jpg";
 import PonayC from "./Ponay C.jpg";
 import QingyuL from "./Qingyu L.jpg";
 import RagaR from "./Raga R.png";
@@ -101,6 +102,7 @@ const getImage = (name) => {
     "Thelma Palaoag": PalaoagP,
     "Jessie Paragas": ParagasJ,
     "Pei Pei": PeiP,
+    "Irma Plata": PlataI,
     "Charmaine Ponay": PonayC,
     "Liu Qingyu": QingyuL,
     "Rodolfo Jr. Raga": RagaR,
