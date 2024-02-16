@@ -167,9 +167,8 @@ const Program2 = () => {
             to evening sessions.
           </p>
           <div className="download">
-            <span className=" btn-primary" onClick={handleDownloadProgram}>
-              Download Program
-            </span>
+            {/* <span className=" btn-primary" onClick={handleDownloadProgram}> */}
+            <span className=" btn-primary">Download Program</span>
           </div>
         </div>
       </section>
