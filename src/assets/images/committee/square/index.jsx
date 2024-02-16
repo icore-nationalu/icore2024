@@ -35,6 +35,7 @@ import MalicdemA from "./Malicdem A.jpg";
 import MedinaR from "./Medina R.jpg";
 import MilitanteS from "./Militante S.jpg";
 import NovaA from "./Nova A.jpg";
+import OñateJ from "./Oñate J.jpeg";
 import PalaoagP from "./Palaoag T.jpg";
 import PapadakisS from "./Papadakis S.png";
 import ParagasJ from "./Paragas J.jpg";
@@ -100,6 +101,7 @@ const getImage = (name) => {
     "Ruji Medina": MedinaR,
     "Sammy Militante": MilitanteS,
     "Avonn C. Nova": NovaA,
+    "Joseph Jessie S. Oñate": OñateJ,
     "Thelma Palaoag": PalaoagP,
     "Stamatios Papadakis": PapadakisS,
     "Jessie Paragas": ParagasJ,
