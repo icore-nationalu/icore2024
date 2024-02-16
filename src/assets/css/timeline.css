@@ -186,10 +186,11 @@
     text-align: center;
     margin: 96px auto;
     max-width: 768px;
+    padding: 0 32px;
 }
 
-#programs .header-wrapper span {
-    color: var(--primary-600);
+#program .header-wrapper span {
+    color: var(--primary-700);
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
@@ -392,6 +393,7 @@
     display: flex;
     flex-direction: column;
 }
+
 .program2 .program-content .time-schedule .caption {
     color: var(--gray-500);
     font-size: 14px;
@@ -399,4 +401,50 @@
     line-height: 24px;
     margin-top: 4px;
     margin-left: 15px;
+}
+
+@media screen and (max-width: 576px) {
+    #program .header-wrapper {
+        margin: 64px auto;
+        padding: 0 16px;
+    }
+
+    #program .header-wrapper .heading {
+        font-size: 36px;
+        line-height: 44px;
+        letter-spacing: -0.72px;
+    }
+
+    #program .header-wrapper .subheading {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .program2 .program-content .time-schedule {
+        grid-template-columns: 1fr;
+    }
+
+    .program2 .program-content .time-schedule > span:nth-child(2) {
+        display: none;
+    }
+
+    .program2 .program-content .time-schedule .schedule-caption { 
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #program .header-wrapper {
+        margin: 32px auto;
+    }
+
+    #program .header-wrapper .heading {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    #program .header-wrapper .subheading {
+        font-size: 16px;
+        line-height: 24px;
+    }
 }
