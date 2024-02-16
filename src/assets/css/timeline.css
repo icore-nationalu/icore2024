@@ -431,6 +431,10 @@
     .program2 .program-content .time-schedule .schedule-caption { 
         margin-left: 15px;
     }
+
+    .program2 .program-content .time-schedule .caption {
+        margin-left: 0px;
+    }
 }
 
 @media screen and (max-width: 400px) {
