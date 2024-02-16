@@ -420,6 +420,10 @@
         line-height: 28px;
     }
 
+    .program-list {
+        margin: auto auto 64px;
+    }
+
     .program2 .program-content .time-schedule {
         grid-template-columns: 1fr;
     }
@@ -450,5 +454,9 @@
     #program .header-wrapper .subheading {
         font-size: 16px;
         line-height: 24px;
+    }
+
+    .program-list {
+        margin: auto auto 32px;
     }
 }
