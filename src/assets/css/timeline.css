@@ -365,3 +365,38 @@
 .program-content .sub-content-wrapper {
     margin-left: 15px;
 }
+
+.program2 .schedule-header {
+    color: var(--gray-500);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 8px;
+}
+
+.program2 .schedule-wrapper {
+    padding-left: 15px;
+}
+
+.program2 .program-content .time-schedule {
+    display: grid;
+    grid-template-columns: 180px 15px 1fr;
+    color: var(--gray-500);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 8px;
+}
+
+.program2 .program-content .time-schedule .schedule-caption { 
+    display: flex;
+    flex-direction: column;
+}
+.program2 .program-content .time-schedule .caption {
+    color: var(--gray-500);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-top: 4px;
+    margin-left: 15px;
+}
