@@ -248,6 +248,7 @@
 
 .program-list .program-list-item .program-header .icon {
     margin-right: 24px;
+    flex-shrink: 0;
 }
 
 .program-list .program-list-item .program-header span {
