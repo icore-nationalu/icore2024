@@ -166,10 +166,11 @@ const Program2 = () => {
             Keep in track of each session during the event ranging from morning
             to evening sessions.
           </p>
-          <div className="download">
-            {/* <span className=" btn-primary" onClick={handleDownloadProgram}> */}
-            <span className=" btn-primary">Download Program</span>
-          </div>
+          {/* <div className="download">
+            <span className=" btn-primary" onClick={handleDownloadProgram}>
+              Download Program
+            </span>
+          </div> */}
         </div>
       </section>
       <section className="program2">

@@ -74,15 +74,6 @@ const App = () => {
         <Route path="/registration" element={<Registration />}></Route>
         <Route path="/important-dates" element={<ImportantDates />}></Route>
         <Route path="/program" element={<Program2 />}></Route>
-        {/* <Route
-          path="/program"
-          element={
-            <ComingSoon
-              span="Program"
-              subheading="Excitement is building for iCORE 2024! Our team is meticulously shaping a dynamic program. The curtain will rise soon on an agenda that promises inspiration and innovation."
-            />
-          }
-        ></Route> */}
         <Route path="/speakers" element={<Speakers />}></Route>
         <Route path="/venue" element={<Venue />}></Route>
         <Route path="/past-conferences" element={<PastConferences />}></Route>
