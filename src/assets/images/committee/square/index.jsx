@@ -29,6 +29,7 @@ import ImperialJ from "./Imperial J.jpg";
 import JamisM from "./Jamis M.png";
 import LacasandileA from "./Lacasandile A.jpg";
 import LauB from "./Lau B.jpg";
+import LeddaM from "./Ledda M.jpg";
 import LlovidoJ from "./Llovido J.jpg";
 import MacedaL from "./Maceda L.png";
 import MalicdemA from "./Malicdem A.jpg";
@@ -53,6 +54,7 @@ import SalazarJ from "./Salazar J.jpeg";
 import SalidoJ from "./Salido J.jpg";
 import SalimbagatJ from "./Salimbagat J.jpg";
 import SampedroG from "./Sampedro G.jpeg";
+import SapuayS from "./Sapuay S.jpg";
 import SideñoJ from "./Sideño J.jpg";
 import SongX from "./Song X.jpg";
 import SophatsathitP from "./Sophatsathit P.png";
@@ -95,6 +97,7 @@ const getImage = (name) => {
     "Marilou Jamis": JamisM,
     "Angelique Lacasandile": LacasandileA,
     "Lau Bee Theng": LauB,
+    "Mark Kristian Ledda": LeddaM,
     "Jennifer Llovido": LlovidoJ,
     "Lany Maceda": MacedaL,
     "Alvin Malicdem": MalicdemA,
@@ -119,6 +122,7 @@ const getImage = (name) => {
     "Julie Ann Salido": SalidoJ,
     "Jennilyn Salimbagat": SalimbagatJ,
     "Gabriel Avelino Sampedro": SampedroG,
+    "Sheena Sapuay-Guillen": SapuayS,
     "Janette Sideño": SideñoJ,
     "Song Xiedong": SongX,
     "Peraphon Sophatsathit": SophatsathitP,
