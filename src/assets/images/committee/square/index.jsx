@@ -41,6 +41,7 @@ import PalaoagP from "./Palaoag T.jpg";
 import PapadakisS from "./Papadakis S.png";
 import ParagasJ from "./Paragas J.jpg";
 import PeiP from "./Pei P.jpg";
+import PeramoE from "./Peramo E.jpg";
 import PlataI from "./Plata I.jpg";
 import PonayC from "./Ponay C.jpg";
 import QingyuL from "./Qingyu L.jpg";
@@ -109,6 +110,7 @@ const getImage = (name) => {
     "Stamatios Papadakis": PapadakisS,
     "Jessie Paragas": ParagasJ,
     "Pei Pei": PeiP,
+    "Elmer Peramo": PeramoE,
     "Irma Plata": PlataI,
     "Charmaine Ponay": PonayC,
     "Liu Qingyu": QingyuL,
