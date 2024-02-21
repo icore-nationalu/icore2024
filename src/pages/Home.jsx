@@ -20,6 +20,7 @@ import Test from "../assets/test-image.png";
 import CountdownTimer from "../components/CountdownTimer";
 
 import YIBU from "../assets/images/sponsors/yibu-education.jpg";
+import AC from "../assets/images/sponsors/alibaba-cloud.png";
 
 const Home = () => {
   const conferenceHighlights = [
@@ -131,6 +132,11 @@ const Home = () => {
     {
       name: "YIBU Education",
       image: YIBU,
+      imageSize: "sm",
+    },
+    {
+      name: "Alibaba Cloud",
+      image: AC,
       imageSize: "sm",
     },
   ];
