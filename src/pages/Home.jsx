@@ -16,6 +16,7 @@ import NU from "../assets/images/collaborators/national-university-large.png";
 import NUMOA from "../assets/images/collaborators/national-university.svg";
 import LSPU from "../assets/images/collaborators/laguna-state-polytechnic-university.jpg";
 import AUFE from "../assets/images/collaborators/anhui-university-of-finance-and-economics.png";
+import JVTCC from "../assets/images/collaborators/jiangxi-vt-college-of-communications.jpg";
 import Test from "../assets/test-image.png";
 import CountdownTimer from "../components/CountdownTimer";
 
@@ -124,6 +125,11 @@ const Home = () => {
     {
       name: "Laguna State Polytechnic University",
       image: LSPU,
+      imageSize: "sm",
+    },
+    {
+      name: "Jiangxi V&T College of Communications",
+      image: JVTCC,
       imageSize: "sm",
     },
   ];
