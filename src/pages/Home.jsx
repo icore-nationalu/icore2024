@@ -18,6 +18,7 @@ import LSPU from "../assets/images/collaborators/laguna-state-polytechnic-univer
 import AUFE from "../assets/images/collaborators/anhui-university-of-finance-and-economics.png";
 import JVTCC from "../assets/images/collaborators/jiangxi-vt-college-of-communications.jpg";
 // import JVTCCL from "../assets/images/collaborators/jiangxi-vt-college-of-communications-lg.png";
+import AXU from "../assets/images/collaborators/anhui-xinhua-university.png";
 import Test from "../assets/test-image.png";
 import CountdownTimer from "../components/CountdownTimer";
 
@@ -96,6 +97,10 @@ const Home = () => {
   const collaborators = [
     {
       image: AUFE,
+      imageSize: "lg",
+    },
+    {
+      image: AXU,
       imageSize: "lg",
     },
     {
