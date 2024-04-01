@@ -90,13 +90,19 @@ const CallForPaper = () => {
               Authors are encouraged to submit original, unpublished research
               papers in{" "}
               <a
-                href="https://www.ieee.org/conferences/publishing/templates.html"
+                href="https://www.acm.org/publications/proceedings-template"
                 target="_blank"
               >
-                IEEE format
+                ACM format
               </a>{" "}
-              through the conference submission system. The Easychair Submission
-              link will open on March 30, 2024. Submissions will go through a
+              through the conference submission system. The{" "}
+              <a
+                href="https://easychair.org/conferences/?conf=icore2024"
+                target="_blank"
+              >
+                Easychair Submission link
+              </a>{" "}
+              will open on March 30, 2024. Submissions will go through a
               rigorous peer-review process by an expert panel. Accepted papers
               will be presented and published in the conference proceedings.
             </p>
