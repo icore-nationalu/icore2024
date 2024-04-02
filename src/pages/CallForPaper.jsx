@@ -88,12 +88,12 @@ const CallForPaper = () => {
             <h3>Submission Guidelines</h3>
             <p>
               Authors are encouraged to submit original, unpublished research
-              papers in{" "}
+              papers using the{" "}
               <a
                 href="https://www.acm.org/publications/proceedings-template"
                 target="_blank"
               >
-                ACM format
+                iCORE format
               </a>{" "}
               through the conference submission system. The{" "}
               <a
