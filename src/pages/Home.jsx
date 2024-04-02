@@ -185,6 +185,13 @@ const Home = () => {
             >
               Call for Paper
             </a>
+            <a
+              href="https://easychair.org/conferences/?conf=icore2024"
+              className="btn-white"
+              target="_blank"
+            >
+              Submit Paper
+            </a>
           </div>
         </div>
       </section>
