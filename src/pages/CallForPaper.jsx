@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import CallForPaperPDF from "../assets/documents/iCORE-Call-for-Papers.pdf";
+import { Link } from "react-router-dom";
 
 const CallForPaper = () => {
   const tracks = [
@@ -89,12 +90,9 @@ const CallForPaper = () => {
             <p>
               Authors are encouraged to submit original, unpublished research
               papers using the{" "}
-              <a
-                href="https://www.acm.org/publications/proceedings-template"
-                target="_blank"
-              >
+              <Link to="/assets/iCORE-template.docx" target="_blank">
                 iCORE format
-              </a>{" "}
+              </Link>{" "}
               through the conference submission system. The{" "}
               <a
                 href="https://easychair.org/conferences/?conf=icore2024"
