@@ -1,0 +1,571 @@
+[
+    {
+        "committeeTitle": "General Chair",
+        "committeeDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, accusamus?",
+        "committeeName": "general-chair",
+        "committeeItems": [
+            {
+                "name": "Vladimir Mariano",
+                "link": "https://yseali.fulbright.edu.vn/en/faculty/vladimir-mariano-phd/",
+                "position": "YSAELI Academy at Fullbright University, Vietnam",
+                "showAffiliation": true
+            }
+        ]
+    },
+    {
+        "committeeTitle": "Program Chairs",
+        "committeeDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta perferendis quod omnis aut ex. Repudiandae tempora numquam cum consequuntur eos.",
+        "committeeName": "program-chairs",
+        "committeeItems": [
+            {
+                "name": "Lau Bee Theng",
+                "link": "https://www.linkedin.com/in/bee-theng-lau-a0704450",
+                "position": "Swinburne University of Technology, Malaysia",
+                "showAffiliation": true
+            },
+            {
+                "name": "Mideth Abisado",
+                "link": "https://scholar.google.com/citations?user=jYgsUwYAAAAJ",
+                "position": "National University, Philippines",
+                "showAffiliation": true
+            }
+        ]
+    },
+    {
+        "committeeTitle": "Program Commitee",
+        "committeeDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta perferendis quod omnis aut ex. Repudiandae tempora numquam cum consequuntur eos.",
+        "committeeName": "program-committee",
+        "committeeItems": [
+            {
+                "name": "Ramon Rodriguez",
+                "link": "https://www.linkedin.com/in/ramon-rodriguez-5a620953/",
+                "position": "National University, Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "Alvin Malicdem",
+                "link": "https://www.linkedin.com/in/alvin-malicdem-1b01757a/",
+                "position": "Don Mariano Marcos Memorial State University, Philippines",
+                "showAffiliation": true
+            }
+        ]
+    },
+    {
+        "committeeTitle": "Organizing Chairs",
+        "committeeDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta perferendis quod omnis aut ex. Repudiandae tempora numquam cum consequuntur eos.",
+        "committeeName": "organizing-chairs",
+        "committeeItems": [
+            {
+                "name": "Avonn C. Nova",
+                "link": "https://www.linkedin.com/in/avonn-nova-mit-4774b532/",
+                "position": "National University, Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "Lany Maceda",
+                "link": "https://scholar.google.com/citations?user=FfAmsIoAAAAJ",
+                "position": "Bicol University, Philippines",
+                "showAffiliation": true
+            }
+        ]
+    },
+    {
+        "committeeTitle": "Publication Chairs",
+        "committeeDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta perferendis quod omnis aut ex. Repudiandae tempora numquam cum consequuntur eos.",
+        "committeeName": "publication-chair",
+        "committeeItems": [
+            {
+                "name": "Bernie S. Fabito",
+                "link": "https://www.linkedin.com/in/berniefabito/",
+                "position": "National University, Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "Ryan Richard Guadaña",
+                "link": "https://www.linkedin.com/in/ryan-richard-guada%C3%B1a-464443228/",
+                "position": "National University, Philippines",
+                "showAffiliation": true
+            }
+        ]
+    },
+    {
+        "committeeTitle": "Organizing Committee",
+        "committeeDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta perferendis quod omnis aut ex. Repudiandae tempora numquam cum consequuntur eos.",
+        "committeeName": "organizing-committee",
+        "committeeItems": [
+            {
+                "name": "Glendora Tiu",
+                "link": "https://www.linkedin.com/in/glendora-tiu-777905102/",
+                "position": "External Communications",
+                "showAffiliation": true,
+                "affiliation": "National University, Philippines"
+            },
+            {
+                "name": "Susan Caluya",
+                "link": "https://scholar.google.com/citations?user=NlF1wC0AAAAJ",
+                "position": "Secretariat",
+                "showAffiliation": true,
+                "affiliation": "National University, Philippines"
+            },
+            {
+                "name": "Emeliza Yabut",
+                "link": "https://scholar.google.com/citations?user=OHLFZkUAAAAJ",
+                "position": "Finance",
+                "showAffiliation": true,
+                "affiliation": "National University, Philippines"
+            },
+            {
+                "name": "Jennilyn Salimbagat",
+                "link": "https://www.linkedin.com/in/jenelyn-salimbagat-947479169/",
+                "position": "Volunteerism",
+                "showAffiliation": true,
+                "affiliation": "National University, Philippines"
+            },
+            {
+                "name": "Marilou Jamis",
+                "link": "https://www.linkedin.com/in/marilou-jamis-mit-0157213a",
+                "position": "Logistics",
+                "showAffiliation": true,
+                "affiliation": "National University, Philippines"
+            },
+            {
+                "name": "Thelma Palaoag",
+                "link": "https://ph.linkedin.com/in/thelma-palaoag-9a5b3667",
+                "position": "Publicity",
+                "showAffiliation": true,
+                "affiliation": "National University, Philippines"
+            }
+        ]
+    },
+    {
+        "committeeTitle": "Secretariat and Publicity Committee",
+        "committeeDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta perferendis quod omnis aut ex. Repudiandae tempora numquam cum consequuntur eos.",
+        "committeeName": "secreteriat-publicity",
+        "committeeItems": [
+            {
+                "name": "Armida Salazar",
+                "link": "https://scholar.google.com/citations?user=KkUV3CoAAAAJ",
+                "position": "National University, Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "Wang Wenming",
+                "link": "https://ieeexplore.ieee.org/author/37086479815",
+                "position": "West Anhui University, China",
+                "showAffiliation": true
+            },
+            {
+                "name": "Angie Ceniza-Canillo",
+                "link": "https://www.usc.edu.ph/faculty/computer-information-sciences-and-mathematics/ceniza-canillo-angie-m",
+                "position": "University of San Carlos, Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "John Clement Escobañez",
+                "link": "https://www.researchgate.net/profile/John-Clement-Escobanez",
+                "position": "National University, Philippines",
+                "showAffiliation": true
+            }
+        ]
+    },
+    {
+        "committeeTitle": "External Communication Committee",
+        "committeeDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta perferendis quod omnis aut ex. Repudiandae tempora numquam cum consequuntur eos.",
+        "committeeName": "external-comm-chairs",
+        "committeeItems": [
+            {
+                "name": "Pei Pei",
+                "link": "https://www.spiedigitallibrary.org/profile/Pei.Pei-4396884",
+                "position": "Anhui Sanlian University, China",
+                "showAffiliation": true
+            },
+            {
+                "name": "Ge Xianlei",
+                "link": "https://scholar.google.com/citations?user=oEpmQtYAAAAJ",
+                "position": "Huainan Normal University, China",
+                "showAffiliation": true
+            },
+            {
+                "name": "Li Xiaoyan",
+                "link": "https://www.researchgate.net/scientific-contributions/Xiaoyan-Li-2166615897",
+                "position": "Huainan Normal University, China",
+                "showAffiliation": true
+            },
+            {
+                "name": "Zhu Xuemei",
+                "link": "https://dblp.org/pid/64/2852.html",
+                "position": "West Anhui University, China",
+                "showAffiliation": true
+            },
+            {
+                "name": "Song Xiedong",
+                "link": "https://www.researchgate.net/scientific-contributions/Xiedong-Song-2247830209",
+                "position": "JiNing University, China",
+                "showAffiliation": true
+            }
+        ]
+    },
+    {
+        "committeeTitle": "Program Technical Committee",
+        "committeeDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta perferendis quod omnis aut ex. Repudiandae tempora numquam cum consequuntur eos.",
+        "committeeName": "program-technical",
+        "committeeItems": [
+            {
+                "name": "Joseph Marvin Imperial",
+                "link": "https://www.josephimperial.com/",
+                "position": "University of Bath, United Kingdom",
+                "showAffiliation": true
+            },
+            {
+                "name": "Sovannarith Heng",
+                "link": "https://www.researchgate.net/profile/Sovannarith-Heng",
+                "position": "Royal University of Phnom Penh, Cambodia",
+                "showAffiliation": true
+            },
+            {
+                "name": "Wang Wenming",
+                "link": "https://ieeexplore.ieee.org/author/37086479815",
+                "position": "West Anhui University, China",
+                "showAffiliation": true
+            },
+            {
+                "name": "Maria Mercedes T. Rodrigo",
+                "link": "https://scholar.google.com/citations?user=meAacBIAAAAJ",
+                "position": "Ateneo De Manila University, Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "Leon Andretti Abdillah",
+                "link": "https://www.researchgate.net/profile/Leon-Abdillah",
+                "position": "University Bina Darma, Indonesia",
+                "showAffiliation": true
+            },
+            {
+                "name": "Francis Balahadia",
+                "link": "https://iiari.org/luminary_awardee/dr-francis-balahadia/",
+                "position": "Laguna State Polytechnic University of the Philippines",
+                "showAffiliation": true
+            },
+            
+            {
+                "name": "Bimlesh Wadhwa",
+                "link": "https://scholar.google.co.in/citations?user=GDFX7OwAAAAJ",
+                "position": "National University of Singapore",
+                "showAffiliation": true
+            },
+            {
+                "name": "Ruji Medina",
+                "link": "https://scholar.google.com/citations?user=R8_VuMgAAAAJ",
+                "position": "Technological Institute of the Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "Yong Xu",
+                "link": "https://www.researchgate.net/profile/Yong-Xu-73",
+                "position": "Anhui University of Finance and Economics, China",
+                "showAffiliation": true
+            },
+            {
+                "name": "Pei Pei",
+                "link": "https://www.spiedigitallibrary.org/profile/Pei.Pei-4396884",
+                "position": "Anhui Sanlian University, China",
+                "showAffiliation": true
+            },
+            {
+                "name": "Julie Ann Salido",
+                "link": "https://www.researchgate.net/profile/Julie-Ann-Salido",
+                "position": "Aklan State University, Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "Davood Pour Yousefian Barfeh",
+                "link": "https://www.linkedin.com/in/davood-pour-yousefian-barfeh-2b913835",
+                "position": "National University, Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "Rex Bringula",
+                "link": "https://www.researchgate.net/profile/Rex-Bringula",
+                "position": "University of the East, Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "Charmaine Ponay",
+                "link": "https://www.linkedin.com/in/charmaine-ponay-b4736556/",
+                "position": "University of Santo Tomas, Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "Jennifer Llovido",
+                "link": "https://scholar.google.com/citations?user=7uoxijsAAAAJ",
+                "position": "Bicol University, Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "Liu Qingyu",
+                "link": "https://ieeexplore.ieee.org/author/37089786161",
+                "position": "Huainan Normal University, China",
+                "showAffiliation": true
+            },
+            {
+                "name": "Li Xiaoyan",
+                "link": "https://www.researchgate.net/scientific-contributions/Xiaoyan-Li-2166615897",
+                "position": "Huainan Normal University, China",
+                "showAffiliation": true
+            },
+            {
+                "name": "Sammy Militante",
+                "link": "https://scholar.google.com/citations?user=fET2JkAAAAAJ",
+                "position": "Antique State University, Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "Jessie Paragas",
+                "link": "https://scholar.google.com/citations?user=aEr1DSYAAAAJ",
+                "position": "East Visayas State University, Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "Donata Acula",
+                "link": "https://www.ust.edu.ph/profile/acula-donata-d/",
+                "position": "University of Santo Tomas, Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "Rhowel Dellosa",
+                "link": "https://scholar.google.com/citations?user=JDjO2tEAAAAJ",
+                "position": "Pangasinan State University, Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "Gabriel Avelino Sampedro",
+                "link": "https://www.researchgate.net/scientific-contributions/Gabriel-Avelino-Sampedro-2186940429",
+                "position": "University of the Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "Rodolfo Jr. Raga",
+                "link": "https://ieeexplore.ieee.org/author/37086403885",
+                "position": "Jose Rizal University, Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "Peraphon Sophatsathit",
+                "link": "https://www.researchgate.net/profile/Peraphon-Sophatsathit-2",
+                "position": "Chulalongkorn University, Thailand",
+                "showAffiliation": true
+            },
+            {
+                "name": "Ryan Ebardo",
+                "link": "https://scholar.google.com/citations?user=vy0TPocAAAAJ",
+                "position": "De La Salle University, Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "Alexa Ray Fernando",
+                "link": "https://scholar.google.com/citations?user=rOBw2ucAAAAJ",
+                "position": "National University, Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "Jennifer Contreras",
+                "link": "https://scholar.google.com/citations?user=hpTe9soAAAAJ",
+                "position": "De La Salle University, Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "Ria Liza Canlas",
+                "link": "https://scholar.google.com/citations?user=tCCqlbkAAAAJ",
+                "position": "National University, Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "Melvin Ballera",
+                "link": "https://scholar.google.com/citations?user=bwjouuQAAAAJ",
+                "position": "Technological Institute of the Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "Janette Sideño",
+                "link": "https://www.researchgate.net/profile/Janette-Sideno",
+                "position": "University of Santo Tomas, Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "Cherry Lyn Sta. Romana",
+                "link": "https://scholar.google.com/citations?user=6WkBCYIAAAAJ",
+                "position": "Cebu Institute of Technology - University, Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "Arnold Eniego",
+                "link": "https://scholar.google.com/citations?user=JsyS_PcAAAAJ",
+                "position": "National University, Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "Angelique Lacasandile",
+                "link": "https://scholar.google.com.ph/citations?user=ZsEoUCgAAAAJ",
+                "position": "National University, Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "Irma Plata",
+                "link": "https://scholar.google.com/citations?user=EPLtoDEAAAAJ",
+                "position": "Isabela State University, Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "Stamatios Papadakis",
+                "link": "https://scholar.google.gr/citations?user=e3vLZegAAAAJ",
+                "position": "The University of Crete, Greece",
+                "showAffiliation": true
+            },
+            {
+                "name": "Joseph Jessie S. Oñate",
+                "link": "https://scholar.google.com/citations?user=mUXzb2cAAAAJ",
+                "position": "Camarines Sur Polytechnic Colleges",
+                "showAffiliation": true
+            },
+            {
+                "name": "Vladimir Mariano",
+                "link": "https://yseali.fulbright.edu.vn/en/faculty/vladimir-mariano-phd/",
+                "position": "YSAELI Academy at Fullbright University, Vietnam",
+                "showAffiliation": true
+            },
+            {
+                "name": "Lau Bee Theng",
+                "link": "https://www.linkedin.com/in/bee-theng-lau-a0704450",
+                "position": "Swinburne University of Technology, Malaysia",
+                "showAffiliation": true
+            },
+            {
+                "name": "Mideth Abisado",
+                "link": "https://scholar.google.com/citations?user=jYgsUwYAAAAJ",
+                "position": "National University, Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "Ramon Rodriguez",
+                "link": "https://www.linkedin.com/in/ramon-rodriguez-5a620953/",
+                "position": "National University, Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "Alvin Malicdem",
+                "link": "https://www.linkedin.com/in/alvin-malicdem-1b01757a/",
+                "position": "Don Mariano Marcos Memorial State University, Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "Lany Maceda",
+                "link": "https://scholar.google.com/citations?user=FfAmsIoAAAAJ",
+                "position": "Bicol University, Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "Bernie S. Fabito",
+                "link": "https://www.linkedin.com/in/berniefabito/",
+                "position": "National University, Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "Ryan Richard Guadaña",
+                "link": "https://www.linkedin.com/in/ryan-richard-guada%C3%B1a-464443228/",
+                "position": "National University, Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "Susan Caluya",
+                "link": "https://scholar.google.com/citations?user=NlF1wC0AAAAJ",
+                "showAffiliation": true,
+                "position": "National University, Philippines"
+            },
+            {
+                "name": "Emeliza Yabut",
+                "link": "https://scholar.google.com/citations?user=OHLFZkUAAAAJ",
+                "showAffiliation": true,
+                "position": "National University, Philippines"
+            },
+            {
+                "name": "Marilou Jamis",
+                "link": "https://www.linkedin.com/in/marilou-jamis-mit-0157213a",
+                "showAffiliation": true,
+                "position": "National University, Philippines"
+            },
+            {
+                "name": "Thelma Palaoag",
+                "link": "https://ph.linkedin.com/in/thelma-palaoag-9a5b3667",
+                "showAffiliation": true,
+                "position": "National University, Philippines"
+            },
+            {
+                "name": "Angie Ceniza-Canillo",
+                "link": "https://www.usc.edu.ph/faculty/computer-information-sciences-and-mathematics/ceniza-canillo-angie-m",
+                "position": "University of San Carlos, Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "Ge Xianlei",
+                "link": "https://scholar.google.com/citations?user=oEpmQtYAAAAJ",
+                "position": "Huainan Normal University, China",
+                "showAffiliation": true
+            },
+            {
+                "name": "Zhu Xuemei",
+                "link": "https://dblp.org/pid/64/2852.html",
+                "position": "West Anhui University, China",
+                "showAffiliation": true
+            },
+            {
+                "name": "Song Xiedong",
+                "link": "https://www.researchgate.net/scientific-contributions/Xiedong-Song-2247830209",
+                "position": "JiNing University, China",
+                "showAffiliation": true
+            },
+            {
+                "name": "Elmer Peramo",
+                "link": "https://scholar.google.com.ph/citations?user=qH-P9uMAAAAJ",
+                "position": "Advanced Science and Technology Institute - DOST, Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "Francis Kayode Ashipaoloye",
+                "link": "https://scholar.google.com/citations?user=BviVrcQAAAAJ",
+                "position": "Lyceum of the Philippines - Laguna, Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "Mark Kristian Ledda",
+                "link": "https://scholar.google.com/citations?user=nfpareYAAAAJ",
+                "position": "Don Mariano Marcos Memorial State University, Philippines",
+                "showAffiliation": true
+            },
+            {
+                "name": "Sheena Sapuay-Guillen",
+                "link": "https://scholar.google.com/citations?user=3IPB2dAAAAAJ",
+                "position": "Don Mariano Marcos Memorial State University, Philippines",
+                "showAffiliation": true
+            }
+        ]
+    },
+    {
+        "committeeTitle": "Post Conference Committee",
+        "committeeDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta perferendis quod omnis aut ex. Repudiandae tempora numquam cum consequuntur eos.",
+        "committeeName": "post-conference",
+        "committeeItems": [
+            {
+                "name": "Yue Guoqing",
+                "link": "https://ieeexplore.ieee.org/author/37089947823",
+                "position": "Anhui Sanlian University, China",
+                "showAffiliation": true
+            },
+            {
+                "name": "Emmanuel Ramirez",
+                "link": "https://www.linkedin.com/in/emmanuel-ramirez-7b9209297",
+                "position": "National University, Philippines",
+                "showAffiliation": true
+            }
+        ]
+    }
+]

@@ -2,6 +2,7 @@ import TestImage from "../assets/test-image.png";
 import Icon from "../components/Icon";
 import { Link } from "react-router-dom";
 import getImage from "../assets/images/committee/square/index.jsx";
+import React from "react";
 const CommitteeTeam = ({
   currentTeam,
   committeeName,
@@ -16,10 +17,16 @@ const CommitteeTeam = ({
       }`}
     >
       <h2 className="committee-title">{committeeTitle}</h2>
-      {/* <p className="committee-description">{committeeDescription}</p> */}
       <div className="committee-team">
         {committeeItems.map((v, i) => {
-          const { name, link, position, showAffiliation, affiliation } = v;
+          const {
+            name,
+            displayName,
+            link,
+            position,
+            showAffiliation,
+            affiliation,
+          } = v;
           return (
             <div className="committee-team-item" key={i}>
               <div className="photo">
@@ -27,26 +34,13 @@ const CommitteeTeam = ({
               </div>
               <div className="committee-data">
                 <p className="name">
-                  <Link to={link} target="_blank">
-                    {name}
-                  </Link>
-                  <Icon
-                    iconName="ExternalLink"
-                    stroke="#8693A0"
-                    className="icon"
-                    height="20px"
-                    width="20px"
-                  />
+                  <span>{displayName}</span>
                 </p>
                 {showAffiliation && (
                   <p className="position">
-                    {position}
-                    {affiliation && (
-                      <>
-                        <br />
-                        {affiliation}
-                      </>
-                    )}
+                    {committeeName == "technical-reviewers"
+                      ? position
+                      : `${position} - ${affiliation}`}
                   </p>
                 )}
               </div>
