@@ -1,0 +1,12 @@
+[
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "org.icoreph.twa",
+        "sha256_cert_fingerprints": [
+          "26:BE:D0:64:21:1A:AB:EC:E1:B7:82:93:51:DD:36:2A:DF:E6:06:D8:AF:44:BF:DB:E4:D4:92:4D:B8:6C:1B:9D"
+        ]
+      }
+    }
+  ]
