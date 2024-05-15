@@ -28,7 +28,18 @@ const ImportantDates = () => {
             <ul className="date-list">
               {importantDatesData &&
                 importantDatesData.map(
-                  ({ label, dateText, dateTextShort, dateEnd }, i) => {
+                  (
+                    {
+                      label,
+                      dateText,
+                      dateTextShort,
+                      dateEnd,
+                      oldDateText,
+                      oldDateEnd,
+                      oldDateTextShort,
+                    },
+                    i
+                  ) => {
                     return (
                       <ImportantDateItem
                         key={i}
@@ -36,6 +47,9 @@ const ImportantDates = () => {
                         dateText={dateText}
                         dateTextShort={dateTextShort}
                         dateEnd={dateEnd}
+                        oldDateText={oldDateText}
+                        oldDateTextShort={oldDateTextShort}
+                        oldDateEnd={oldDateEnd}
                       />
                     );
                   }

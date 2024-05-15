@@ -111,6 +111,14 @@
     display: none;
 }
 
+.dates-wrapper .date-list .date-item .date.old {
+    margin-bottom: 8px;
+}
+
+.dates-wrapper .date-list .date-item .date.old p {
+    text-decoration: line-through;
+}
+
 @media screen and (max-width: 576px) {
     #important-dates .header-container {
         padding: 0 16px;
