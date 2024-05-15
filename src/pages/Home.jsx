@@ -244,7 +244,7 @@ const Home = () => {
               );
             })}
           </div>
-          <p>Sponsor/s</p>
+          <p>Sponsors</p>
           <div className="collaborators-container sponsors">
             {sponsors.map(({ name, image, imageSize }, i) => {
               return (
