@@ -31,6 +31,7 @@ import LacasandileA from "./Lacasandile A.jpg";
 import LauB from "./Lau B.jpg";
 import LeddaM from "./Ledda M.jpg";
 import LlovidoJ from "./Llovido J.jpg";
+import LumabasA from "./Lumabas A.jpg";
 import MacedaL from "./Maceda L.png";
 import MalicdemA from "./Malicdem A.jpg";
 import MedinaR from "./Medina R.jpg";
@@ -100,6 +101,7 @@ const getImage = (name) => {
     "Lau Bee Theng": LauB,
     "Mark Kristian Ledda": LeddaM,
     "Jennifer Llovido": LlovidoJ,
+    "Aileen Gail Lumabas": LumabasA,
     "Lany Maceda": MacedaL,
     "Alvin Malicdem": MalicdemA,
     "Ruji Medina": MedinaR,
