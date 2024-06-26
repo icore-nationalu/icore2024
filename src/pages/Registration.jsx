@@ -1,5 +1,7 @@
 import { Fragment } from "react";
 import RegistrationForm from "../assets/documents/iCORE-Registration-Form.pdf";
+import RegistrationFormV2 from "../assets/documents/iCORE-Registration-Form_v2.pdf";
+
 const Registration = () => {
   const fees = [
     {
