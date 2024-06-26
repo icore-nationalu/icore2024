@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-
+import RegistrationForm from "../assets/documents/iCORE-Registration-Form.pdf";
 const Registration = () => {
   const fees = [
     {
@@ -106,6 +106,25 @@ const Registration = () => {
                 })}
               </div>
             </div>
+
+            <h3 className="heading">Registration Process</h3>
+            <p className="content">
+              Please send an email to{" "}
+              <a href="mailto:icore2024.national-u.edu.ph" className="link">
+                icore2024@national-u.edu.ph
+              </a>{" "}
+              and attach the filled-out{" "}
+              <a
+                href={RegistrationForm}
+                className="link"
+                target="_blank"
+                rel="noreferrer"
+              >
+                registration form
+              </a>{" "}
+              and an image copy of your proof of payment. Use the following as
+              the email subject: <span>REGISTRATION & PAYMENT-[your name]</span>
+            </p>
 
             <h3 className="heading">Payment Methods</h3>
             <div className="bank-container">
