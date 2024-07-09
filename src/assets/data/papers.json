@@ -1,0 +1,704 @@
+[
+    {
+        "authors": [
+            "Jubiel G. Capio",
+            "Angelo M. Auxtero",
+            "Welcon A. Bendijo",
+            "April Rose E. Jacamos",
+            "Phoebe Ruth Alithea B. Sudaria",
+            "Kenn Migan Vincent C. Gumonan",
+            "Shiela Mae M. Orozco"
+        ],
+        "title": "RICEGUARD: IOT Noise Enabled Scarecrow with  Image Processing through Machine Learning and  SMS Notification for Rice Crop Protection  Enhancement"
+    },
+    {
+        "authors": [
+            "Noli Frias",
+            "Nelson Celis",
+            "Irene Balmes"
+        ],
+        "title": "Business Process Innovation through Enterprise Resource Planning Implementation"
+    },
+    {
+        "authors": [
+            "Cui Beibei",
+            "He Wei"
+        ],
+        "title": "Object detection based on region convolutional neural networks"
+    },
+    {
+        "authors": [
+            "Jonas Bryan Santos",
+            "Alfredo Abello",
+            "Francis Gabriel Jerusalem",
+            "Ronald Hanz Rada",
+            " Ronel Ramos ",
+            "Manuel Garcia"
+        ],
+        "title": "Kanashimi no Rengoku: Purgatory of Sorrow – A Psychological Horror Video Game as a Medium for Exploring the Kübler-Ross Model of Grief"
+    },
+    {
+        "authors": [
+            "Roland Anthony De Leon",
+            "Carl Angelo Almazan",
+            "Moesha Imran Guittap",
+            "Joaquim Anton Pizarro",
+            "John Byron Tuazon",
+            "Manuel Garcia"
+        ],
+        "title": "Tribe of Peril: A 3D Realtime Strategy Survival Video Game in Early Century Philippines for Mastery of Tactical Dexterity and Battle Warfare"
+    },
+    {
+        "authors": [
+            "Xhyple Au Limmong",
+            "Lei Aries Jb Gapuz",
+            "Francheska Louise Serrano",
+            "Melinda Beninsig"
+        ],
+        "title": "LagipAR: An Augmented Reality Based Mobile Application for  Cultural Preservation of Musical Instruments in the Cordillera"
+    },
+    {
+        "authors": [
+            "Ma.Corazon Fernando",
+            "Ace Lagman",
+            "Abricam Tinga"
+        ],
+        "title": "SIGNAR: Interactive Filipino Sign Language Tutorial Web Application for the Deaf-Mute Community"
+    },
+    {
+        "authors": [
+            "Ma.Corazon Fernando",
+            "Ace Lagman",
+            "Roman De Angel"
+        ],
+        "title": "Met: A Mental Health Mobile Application with a Mental Health Virtual Camp"
+    },
+    {
+        "authors": [
+            "Raphael Goerge Mendoza",
+            "Maurice Rubien Antonio",
+            "Raymund Dioses",
+            "Jonathan Morano",
+            "Mark Christopher Blanco"
+        ],
+        "title": "Enhancement of L. Voleti LSB Technique applied to Image Steganography"
+    },
+    {
+        "authors": [
+            "Nino Merencilla",
+            "Estrelita Manansala",
+            "Maribel Misola",
+            "Moises Jardiniano",
+            "Isaiah Justin Gecale",
+            "Marc Arvin Luzame",
+            "John Arcel Pascua",
+            "Roger Jericho Vi Peralta"
+        ],
+        "title": "Fuji Apple Ripeness Detection and Sorting System"
+    },
+    {
+        "authors": [
+            "Bingjie Liu",
+            "Vladimir Mariano"
+        ],
+        "title": "Analysis of the Application Effect of Neural Networks in the Classification of Tomato Disease and Pest Images"
+    },
+    {
+        "authors": [
+            "Prince Jay Canete",
+            "Aron Paul Deloria II",
+            "Romel Manlapaz",
+            "Ronnalee Manalo",
+            "Irene Balmes"
+        ],
+        "title": "The Development of MedCart Application for Obtaining Medical Supplies and Resources:  A Systematic Literature Review"
+    },
+    {
+        "authors": [
+            "Pristine Grace Torres",
+            "Byne Jaaziel Acevedo",
+            "Kimberly Alvarez",
+            "Chrysselle Jane Gaa",
+            "Reigne Rashei Sison",
+            "Ma. Gina Fabros"
+        ],
+        "title": "The Art of eWOM: Analyzing the Influence of TikTok Electronic Word-Of-Mouth on Destination awareness, Destination image, and Perceived quality of the Ecotourism attractions in Tanay, Rizal, Philippines"
+    },
+    {
+        "authors": [
+            "John Lenon Agatep"
+        ],
+        "title": "Predictive Modeling Algorithm for Smart Farming"
+    },
+    {
+        "authors": [
+            "Rosanne Andaluz",
+            " Vrian Jay Ylaya",
+            "Wearl Webster Donoso",
+            "Ece Van Baclay"
+        ],
+        "title": "Design and Development of a Portable Beam Deterioration Detection System using Impulse Radar with CNN for Efficient Bridge Management"
+    },
+    {
+        "authors": [
+            "Aldrin Agasen",
+            "Mark Chris Lapuz",
+            "Angelo Kenneth Florendo",
+            "Remedios Najera"
+        ],
+        "title": "TRAINERS' TECH-SAVVINESS IN DELIVERING FOOD & BEVERAGE VIRTUAL TRAINING AND TRAINEES RESTAURANT TECHNOLOGY COMPETENCY"
+    },
+    {
+        "authors": [
+            "Jianlan Ren",
+            "Vladimir Mariano"
+        ],
+        "title": "Classification of pneumonia in radiology images using neural networks"
+    },
+    {
+        "authors": [
+            "Lucilyn Borja",
+            "Vrian Jay Ylaya",
+            "Arrianne Mae Angob",
+            "Glanestly Abarca"
+        ],
+        "title": "Classification on Three Phases of Vermicomposting using VGG-16 Implemented in Impulse Radar"
+    },
+    {
+        "authors": [
+            "Lourd Apriel Pecante",
+            "Vrian Jay Ylaya"
+        ],
+        "title": "Design and Development of Corn Disease Detection with UAV-based Deep Learning Technology"
+    },
+    {
+        "authors": [
+            "Zhendan Sun",
+            "Vladimir Y. Mariano"
+        ],
+        "title": "Spose-YOLOv8 Students 'After-class Learning Distraction Behavior Detection Model Deployed on Mobile Devices"
+    },
+    {
+        "authors": [
+            "Stefany Mae Caliao",
+            "Aldith Faith Mirador",
+            "Melinda Beninsig",
+            "Lovely Jenn Reformado"
+        ],
+        "title": "Alertrash: A Web-based Reporting System for Waste Disposal Violations"
+    },
+    {
+        "authors": [
+            "Lhorexcel Bombarda",
+            " Agnes Nazarro",
+            "Earl Alexus Serafica",
+            "Melinda Beninsig"
+        ],
+        "title": "presQRx: A Mobile Application for QR-Code Prescriptions"
+    },
+    {
+        "authors": [
+            "Layka Malik",
+            "Rodolfo Raga Jr."
+        ],
+        "title": "Use of Data Analytics for Safeguarding Cyber Security for Higher Education"
+    },
+    {
+        "authors": [
+            "Robert Bacarro",
+            "Darwin Mangca",
+            "Vrian Ylaya",
+            "Merlinda Pabinguit",
+            "Junrich Escabal"
+        ],
+        "title": "Design and Comparison of Vivaldi Antennas for Impulse Radar"
+    },
+    {
+        "authors": [
+            "Romy Jun Sunico",
+            "Vrian Jay Ylaya",
+            "Ferie Ann Dumaguit",
+            "Mary Jessebel Clavero"
+        ],
+        "title": "Readiness Of Vermicomposting Soil Conditioner Using Impulse Radar"
+    },
+    {
+        "authors": [
+            "Catherine Verallo",
+            " Vrian Jay Ylaya",
+            "Scott Diaz",
+            "Jivson Cala"
+        ],
+        "title": "Tracking Of Leaffolder and Stem Borer On Rice Plant Using Deep Learning Through UAV"
+    },
+    {
+        "authors": [
+            "Analyn Morite",
+            "Vrian Jay Ylaya",
+            " Geraldine Roldan",
+            "Jude Michael Bautista"
+        ],
+        "title": "Design and Implementation of Web-base with Mobile Application for Water Quality Monitoring"
+    },
+    {
+        "authors": [
+            "Angela Mikaela Malaluan",
+            "Jei Pastrana",
+            "Marc Louisse Miranda",
+            "John Michael Reyes",
+            "Ian Cedric Medina",
+            "Achilles Von Rabina",
+            "John Carlo Perez",
+            "Mark Nicollo Dayrit",
+            "Zabdiel Lorzano",
+            "Katarina Paula Pasadilla",
+            "Aldwinn John Marquez"
+        ],
+        "title": "A Multilingual NLG Model for Legal Chatbot in the Philippine National Laws using Conversational Language Understanding Model"
+    },
+    {
+        "authors": [
+            "Darwin Mangca",
+            "Vrian Jay Ylaya",
+            "James Paul Degamon",
+            "Vincent Nicole Dihayco"
+        ],
+        "title": "Design and Implementation of IoT-based Microclimate Monitoring System with Wireless Sensor Networks"
+    },
+    {
+        "authors": [
+            "Leopoldo Besinio Jr.",
+            " Vrian Jay Ylaya",
+            " Edgar Gardose",
+            " Tulip Menor"
+        ],
+        "title": "Design and Development of Poultry Automation System for the Gallus Gallus Domesticus"
+    },
+    {
+        "authors": [
+            "Darwin Mangca",
+            " Robert Bacarro",
+            "Vrian Jay Ylaya",
+            "Russel Asilo",
+            "Fernando Yabo"
+        ],
+        "title": "IoT- Enabled Piggery Automation System"
+    },
+    {
+        "authors": [
+            "Robert Bacarro",
+            " Vrian Jay Ylaya",
+            "Sorene Castones",
+            " Mercy Penarejo",
+            "Darwin Mangca"
+        ],
+        "title": "Soil Moisture Analysis implemented using FMCW through USRP 2932"
+    },
+    {
+        "authors": [
+            "Sharralouze Sinugbuhan",
+            " Jovin Jecharr Becena",
+            "Vrian Jay Ylaya"
+        ],
+        "title": "A Feasibility Study of Through-Wall Imaging System Using Impulse Radar for Rescue Operation"
+    },
+    {
+        "authors": [
+            "Yan Sun",
+            "Xiedong Song"
+        ],
+        "title": "Analysis of Influencing Factors of Cardiovascular Disease in the Elderly Based on Machine Learning"
+    },
+    {
+        "authors": [
+            "Dr. Rajiv Pandey",
+            "Manuel B. Garcia",
+            "Pratibha Maurya",
+            "Madika Mishra"
+        ],
+        "title": "Leveraging Text-Based Customer Feedback for Strategic Planning using Opinion Mining"
+    },
+    {
+        "authors": [
+            "Dr. Rajiv Pandey",
+            "Manuel B. Garcia",
+            " Neetigya Maurya"
+        ],
+        "title": "Advancing Automatic Number Plate Recognition: Insights, Innovations, and Future Directions"
+    },
+    {
+        "authors": [
+            "Emman Brenzo Tero",
+            "John Robert Tiempo",
+            "Christian Maderazo"
+        ],
+        "title": "MATURITY ASSESSMENT OF LACTUCA SATIVA USING IMAGE PROCESSING BASED ON MORPHOLOGICAL ANALYSIS AND CONVOLUTIONAL NEURAL NETWORK"
+    },
+    {
+        "authors": [
+            "Darwin Mangca",
+            "Vrian Jay Ylaya",
+            " Vance Rey Najera",
+            "Rolyn Mae Duque"
+        ],
+        "title": "Web-Based Microclimate Monitoring System"
+    },
+    {
+        "authors": [
+            "Hannah Dorothy Morales",
+            "Raymond Tabafunda",
+            "Loreen Caud",
+            "Sydrick Lois Roque",
+            "Alvin Malicdem"
+        ],
+        "title": "Price Forecasting Model for Selected Agricultural Commodities in the Philippines"
+    },
+    {
+        "authors": [
+            "Shieh Carambias",
+            "Charles Andrei Aspuria",
+            "Jo-Ana Enriquez",
+            "Roland John Gracias",
+            "Sheena Sapuay-Guillen"
+        ],
+        "title": "OSCAre: Senior Citizen Management System with Data Visualization"
+    },
+    {
+        "authors": [
+            "Wei Xu",
+            " Eric Blancaflor",
+            "Mideth Abisado"
+        ],
+        "title": "Analysis of Spatio-temporal Data Characteristics and Modeling with LSTM Networks for Traffic Flow Prediction"
+    },
+    {
+        "authors": [
+            "Yi Yu",
+            "Archival Sebial",
+            "Angie Ceniza"
+        ],
+        "title": "Research on dish recognition based on deep learning"
+    },
+    {
+        "authors": [
+            "Jianbo Liang",
+            "Abisado Mideth"
+        ],
+        "title": "Research on Pose-guided Occluded Unsupervised Person Re-Identification"
+    },
+    {
+        "authors": [
+            "Xiaobing Liu",
+            "Rodolfo C. Raga Jr."
+        ],
+        "title": "Analysis of the application of NLP in the field of tunnel fire rescue"
+    },
+    {
+        "authors": [
+            "Xuefeng Yang",
+            "Vladimir Mariano",
+            "Mideth Abisado"
+        ],
+        "title": "Research on orange disease recognition model based on feature fusion four-branch parallel convolutional neural network"
+    },
+    {
+        "authors": [
+            "Ronald Pancho"
+        ],
+        "title": "Evaluating the Impact of E-Governance Components on Government E-Services Performance: An Analysis"
+    },
+    {
+        "authors": [
+            "Gabrille David",
+            "Jhon Louie De Leon",
+            "Cassandra Maria Heyu Dumpit",
+            "Frank Vincent Gesmundo",
+            "Aries John Teves",
+            "Emeliza Yabut"
+        ],
+        "title": "An Integrated Management System with Descriptive Analytics for National University Research Department"
+    },
+    {
+        "authors": [
+            "Hortizuela Manny",
+            " Monica Estrada",
+            "Chenie Ann Boado",
+            "Hannah April Aricheta",
+            "Jervin Balcita"
+        ],
+        "title": "FLOOD WATCH: Flood Monitoring and Early Warning System in the City of San Fernando, La Union"
+    },
+    {
+        "authors": [
+            "Darwin Tiquio",
+            "Alonica Villanueva"
+        ],
+        "title": "Pipeline Leak Classification using Machine Learning Ensemble Methods and Hyperparameter Tuning"
+    },
+    {
+        "authors": [
+            "Yufei Xie",
+            " Vladimir Mariano"
+        ],
+        "title": "Application of I3D Networks in Speed Climbin: A Study on Single Climber Training Videos"
+    },
+    {
+        "authors": [
+            "Jue Zhao",
+            "Vladimir Mariano"
+        ],
+        "title": "A Research Review of High-Dimensional Dataset Prediction Models"
+    },
+    {
+        "authors": [
+            "Niño Alejandro Beazon",
+            " Nicole Daphne Figueroa",
+            "John Vincent Neri",
+            "Clizen Oblimar",
+            "Mariz Andrea Razon",
+            "Lester Acoba",
+            "Daisy Cruz"
+        ],
+        "title": "PERCEPTIONS AND KNOWLEDGE OF ARTIFICIAL INTELLIGENCE AS DETERMINANTS OF WILLINGNESS TO INTEGRATE IN AUDIT PROCESSES: A STRUCTURAL EQUATION MODELING APPROACH"
+    },
+    {
+        "authors": [
+            "Christine Luzon-German"
+        ],
+        "title": "Real time warning for Water level in Oriental Mindoro using Neural Networks"
+    },
+    {
+        "authors": [
+            "Ram Adrian Gacutan",
+            "Dennis Loren Tacubanza",
+            "Rizalyn Florague",
+            "Lily Ann Ugay",
+            " Zhella Anne Nisperos"
+        ],
+        "title": "SEE TURTLES: A CROSS-PLATFORM APPLICATION FOR SAFEGUARDING ENDANGERED ECOLOGY OF MARINE TURTLES"
+    },
+    {
+        "authors": [
+            "Justine Lemuel Juano",
+            "Ivy Claire Tong",
+            "Angelica Benico",
+            "Rachelle Anne Villacorte",
+            "Tessie Cua",
+            "Araceli Angeles",
+            "Mario Camacho"
+        ],
+        "title": "AWARENESS AND COMPETENCIES IN DATA ANALYTICS OF THE PUBLIC PRACTICE SECTOR OF ACCOUNTANCY"
+    },
+    {
+        "authors": [
+            "Ericka Jean Perez",
+            "Patricia Marie Abalos",
+            "Janna Claire Baculando",
+            "Aldrich Jerald Lopez",
+            " Laila Lorilla",
+            "Merian Manalo",
+            "Michael Gatchalian"
+        ],
+        "title": "The Level of Security of Cloud-Based Technology on the Accounting Information Systems Among the Selected Users in Makati City"
+    },
+    {
+        "authors": [
+            "Tian Jie",
+            "Vladimir Y Mariano"
+        ],
+        "title": "Navigating the Threat Landscape: A Comprehensive Review of Adversarial Attacks in Computer Vision Systems"
+    },
+    {
+        "authors": [
+            "Yong Xu",
+            "Xue'Er Wang",
+            "Hengna Wang"
+        ],
+        "title": "Study on the profile model of rumor user in the scenario of social platform"
+    },
+    {
+        "authors": [
+            "Nikhael Nosa",
+            "Anna Liza Ramos",
+            "Edison Contante",
+            "Aliza Lyca Gonzales",
+            "Dave Jarmin Balingbing"
+        ],
+        "title": "A Cyberbullying Text-based Analysis with Risk Assessment Leveraging Machine Learning Algorithms"
+    },
+    {
+        "authors": [
+            "Russell Roy Escobar",
+            "Anna Liza Ramos",
+            "Steven Albero",
+            "John Kenneth Guevarra",
+            "Jessa Adorna"
+        ],
+        "title": "Exploring Diverse Approaches to Enhance Pedestrian Lane Detection Performance"
+    },
+    {
+        "authors": [
+            "Wayne Matthew Dayata",
+            " Sabrinah Yonell Yap"
+        ],
+        "title": "Carolinian Chatbot: End-to-End Question-Answer Pipeline on the University of San Carlos Policies, Procedures, and Guidelines Via Retrieval Augmented Generation"
+    },
+    {
+        "authors": [
+            "Ray Louis Arcilla",
+            "Shinji Ishikawa",
+            "Angie Ceniza-Canillo"
+        ],
+        "title": "An Empirical Analysis of the Application of Blockchain  Technology in the Circulation Module of Library Management  Systems"
+    },
+    {
+        "authors": [
+            "Karl N. Alcantara",
+            "John T. Cuenca",
+            "Jyrill C. Marcello",
+            " Jade R. Lim",
+            "Edwin S. De Guzman"
+        ],
+        "title": "AKTIBO: A Mobile and Web Fitness Tracker Application with Food Image Recognition"
+    },
+    {
+        "authors": [
+            "Londabee Margarse",
+            "Rodolfo Raga"
+        ],
+        "title": "Analysis of Students' Performance using Data Mining Technique"
+    },
+    {
+        "authors": [
+            "Jacob Balane",
+            "Sebastian Villanueva",
+            "Angie Ceniza-Canillo"
+        ],
+        "title": "Depression Detection in Tweets using Ensemble Neural Networks"
+    },
+    {
+        "authors": [
+            "Joseph Alexander Bansil",
+            "John Paul Miranda",
+            "Emerson Fernando",
+            "Almer Gamboa",
+            "Hilene Hernandez",
+            " Myka Cruz",
+            "Roque Francis Dianelo",
+            "Dina Gonzales"
+        ],
+        "title": "Prevalence, Devices Used, Reasons for Use, Trust, Barriers, and Challenges in Utilizing Generative AI among Tertiary Students"
+    },
+    {
+        "authors": [
+            "Ronel Ramos",
+            "Ace Lagman",
+            "Victor Dorongon",
+            "Peejay Vargas",
+            "Jocelyn Enrile",
+            "Roland Calderon"
+        ],
+        "title": "Exploring the Efficacy of ChatGPT in Lesson Preparation:  A Study Among High School Teachers"
+    },
+    {
+        "authors": [
+            "Ruofan Wang",
+            "Rodolfo Raga Jr."
+        ],
+        "title": "Risk Analysis of Urban Traffic Accident Impact Based on Association Rules"
+    },
+    {
+        "authors": [
+            "Daniella Rut",
+            " Rianna Arce",
+            " Monica Diaz",
+            "Anika Prado"
+        ],
+        "title": "\"Calorie Smart\" Initiative: Impact of Calorie Awareness on the Psychological Well-being among DLSU-IS Senior High School Students"
+    },
+    {
+        "authors": [
+            "Huang Kan",
+            "Mideth B Abisado"
+        ],
+        "title": "Identification of Construction Safety Behavior Based on YOLOv8"
+    },
+    {
+        "authors": [
+            "Chunmei Liu",
+            "Mideth Abisado",
+            "Avonn Nova"
+        ],
+        "title": "Factors Influencing on the intention of Green Travel under the Carbon Generalized System of Preference (CGSP)"
+    },
+    {
+        "authors": [
+            "Fangliang Huang ",
+            " Mariano Vladimir"
+        ],
+        "title": "Segmentation of MRI Brain Tumor Images Based on Deep Learning"
+    },
+    {
+        "authors": [
+            "Xinqiang Hu",
+            " Mideth Abisado"
+        ],
+        "title": "Hybrid Retrieval-Augmented Generation and Fine-tuned LLMs for Enhanced Port Industry Question-Answering Systems"
+    },
+    {
+        "authors": [
+            "Francheska Nicole Limson",
+            "Maria Jearand Bulawan",
+            "Abdallah Mohammed Kashta",
+            "Juancho Iii Ramores"
+        ],
+        "title": "Ready, Set, Survive: An Informative Video Animation For Barangay Disaster Preparedness During Typhoon and Fire"
+    },
+    {
+        "authors": [
+            "Gabriel Luis Sabater",
+            " Christian Joelo Mondoñedo",
+            "Johnrod Francis Jardeleza",
+            "Riv Joshua Avila",
+            "Roben Juanatas",
+            "Emeliza Yabut"
+        ],
+        "title": "MindCare: A Mobile and Web Application for Synergy Nursing Homecare Center Using Exponential Smoothing for Forecasting Mental Illness"
+    },
+    {
+        "authors": [
+            "Jill Shyrine Alejandrino",
+            "Cyril Bien Aribon",
+            "Jonh Anferney Dawson Alladin ",
+            "Leonila Valdez"
+        ],
+        "title": "iDesign: A Mobile and Web Consultation Application for Clients and Architects of Suizo Company"
+    },
+    {
+        "authors": [
+            "Kevin Paul Sta Maria",
+            "Venedic Bello",
+            "Racel Jude Marahay",
+            "Reynier Querijero"
+        ],
+        "title": "WASTE WISE: A MOBILE AND WEB APPLICATION FOR  WASTE MANAGEMENT OF CITY ENVIRONMENT  MANAGEMENT OFFICE IN MARIKINA CITY"
+    },
+    {
+        "authors": [
+            "Veronica Silva",
+            "Matt Klarenz De Vera",
+            "Rei Krishna Vergara",
+            "Roben Juanatas"
+        ],
+        "title": "EQUAL PERSPECTIVES: A FRAMEWORK FOR PARALLAX WEBSITE JOURNEY THROUGH GENDER EQUALITY ON MEN"
+    },
+    {
+        "authors": [
+            "Matthew Haeven Bautista",
+            "Jose Iii Mallari",
+            "Rexeth Macalalad",
+            "Lord Edgarian Tavu"
+        ],
+        "title": "TRAIN TRACKER PH: A Mobile and Web Application for the Commuters of the Philippine National Railways"
+    }
+]

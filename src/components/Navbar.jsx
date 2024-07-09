@@ -83,6 +83,13 @@ const Navbar = () => {
                     </NavLink>
                   </li>
 
+                  {/* Accepted Papers */}
+                  <li className="nav-link">
+                    <NavLink to="/accepted-papers" className="link-text">
+                      Accepted Papers
+                    </NavLink>
+                  </li>
+
                   {/* Call for Papers */}
                   <li className="nav-link">
                     <NavLink to="/call-for-papers" className="link-text">

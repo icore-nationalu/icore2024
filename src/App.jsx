@@ -22,6 +22,7 @@ import ComingSoon from "./pages/errors/ComingSoon";
 import Test from "./pages/Test";
 
 import ReactGA from "react-ga4";
+import AcceptedPapers from "./pages/AcceptedPapers";
 
 const App = () => {
   const location = useLocation();
@@ -70,6 +71,7 @@ const App = () => {
         <Route index element={<Home />}></Route>
         <Route path="/test" element={<Test />}></Route>
         <Route path="/about-us" element={<AboutUs />}></Route>
+        <Route path="/accepted-papers" element={<AcceptedPapers />}></Route>
         <Route path="/call-for-papers" element={<CallForPaper />}></Route>
         <Route path="/registration" element={<Registration />}></Route>
         <Route path="/important-dates" element={<ImportantDates />}></Route>
