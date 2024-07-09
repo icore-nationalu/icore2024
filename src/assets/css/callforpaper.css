@@ -46,7 +46,7 @@
     text-decoration: none;
 }
 
-.call-for-paper-container .wrapper>div {
+.call-for-paper-container .wrapper>div:not(.dates-wrapper) {
     padding-top: 96px;
     border-top: 1px solid var(--gray-200);
 }

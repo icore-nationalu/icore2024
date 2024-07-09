@@ -11,6 +11,7 @@ import Registration from "./pages/Registration";
 import ImportantDates from "./pages/ImportantDates";
 import Program from "./pages/Program";
 import Program2 from "./pages/Program2";
+import Program3 from "./pages/Program3";
 import Speakers from "./pages/Speakers";
 import Venue from "./pages/Venue";
 import PastConferences from "./pages/PastConferences";
@@ -74,8 +75,8 @@ const App = () => {
         <Route path="/accepted-papers" element={<AcceptedPapers />}></Route>
         <Route path="/call-for-papers" element={<CallForPaper />}></Route>
         <Route path="/registration" element={<Registration />}></Route>
-        <Route path="/important-dates" element={<ImportantDates />}></Route>
-        <Route path="/program" element={<Program2 />}></Route>
+        {/* <Route path="/important-dates" element={<ImportantDates />}></Route> */}
+        <Route path="/program" element={<Program3 />}></Route>
         <Route path="/speakers" element={<Speakers />}></Route>
         <Route path="/venue" element={<Venue />}></Route>
         <Route path="/past-conferences" element={<PastConferences />}></Route>

@@ -98,11 +98,11 @@ const Navbar = () => {
                   </li>
 
                   {/* Important Dates */}
-                  <li className="nav-link">
+                  {/* <li className="nav-link">
                     <NavLink to="/important-dates" className="link-text">
                       Important Dates
                     </NavLink>
-                  </li>
+                  </li> */}
 
                   {/* Registration */}
                   <li className="nav-link">

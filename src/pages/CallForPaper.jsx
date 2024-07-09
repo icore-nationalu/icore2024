@@ -1,6 +1,8 @@
 import { Fragment } from "react";
 import CallForPaperPDF from "../assets/documents/iCORE-Call-for-Papers.pdf";
 import { Link } from "react-router-dom";
+import ImportantDateItem from "../components/ImportantDateItem";
+import importantDatesData from "../assets/data/important_dates.json";
 
 const CallForPaper = () => {
   const tracks = [
@@ -122,6 +124,42 @@ const CallForPaper = () => {
                 </Fragment>
               );
             })}
+          </div>
+          <h3>Important Dates</h3>
+          <div
+            className="dates-wrapper"
+            style={{ borderTop: "none", paddingTop: "48px" }}
+          >
+            <ul className="date-list">
+              {importantDatesData &&
+                importantDatesData.map(
+                  (
+                    {
+                      label,
+                      dateText,
+                      dateTextShort,
+                      dateEnd,
+                      oldDateText,
+                      oldDateEnd,
+                      oldDateTextShort,
+                    },
+                    i
+                  ) => {
+                    return (
+                      <ImportantDateItem
+                        key={i}
+                        label={label}
+                        dateText={dateText}
+                        dateTextShort={dateTextShort}
+                        dateEnd={dateEnd}
+                        oldDateText={oldDateText}
+                        oldDateTextShort={oldDateTextShort}
+                        oldDateEnd={oldDateEnd}
+                      />
+                    );
+                  }
+                )}
+            </ul>
           </div>
         </div>
       </section>
