@@ -45,6 +45,11 @@ const Program2 = () => {
             },
             {
               title: "Special Message",
+              speaker: "Dr. Arlene O. Trillanes",
+              position: ["VP for Operations, National University Philippines"],
+            },
+            {
+              title: "Special Message",
               speaker: "Dr. Jessie Barrot",
               position: [
                 "AVP, Research & Development Office of National University",
@@ -160,7 +165,7 @@ const Program2 = () => {
         {
           time: "03:45 PM - 04:15 PM",
           event: "Awarding Ceremony",
-          sub: [{ title: "Best Paper" }, { title: "8 Best Presentations" }],
+          sub: [{ title: "Best Paper" }, { title: "Best Presentations" }],
         },
         {
           time: "04:15 PM - 04:30 PM",
