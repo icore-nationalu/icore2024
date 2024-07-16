@@ -151,3 +151,20 @@
         line-height: 28px;
     }
 }
+
+.call-for-paper-container .publication-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.call-for-paper-container .publication-wrapper .image-item {
+    height: 160px;
+}
+
+.call-for-paper-container .publication-wrapper .image-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

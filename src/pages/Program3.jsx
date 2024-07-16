@@ -43,11 +43,11 @@ const Program2 = () => {
               speaker: "Dr. Renato Carlos Ermita",
               position: ["President, National University Philippines"],
             },
-            {
-              title: "Special Message",
-              speaker: "Dr. Arlene O. Trillanes",
-              position: ["VP for Operations, National University Philippines"],
-            },
+            // {
+            //   title: "Special Message",
+            //   speaker: "Dr. Arlene O. Trillanes",
+            //   position: ["VP for Operations, National University Philippines"],
+            // },
             {
               title: "Special Message",
               speaker: "Dr. Jessie Barrot",
@@ -99,9 +99,19 @@ const Program2 = () => {
     {
       scheduleHeader: "Afternoon Session",
       schedules: [
+        // {
+        //   time: "01:00 PM - 01:30 PM",
+        //   event: "Industry Talk by Alibaba Cloud",
+        // },
         {
           time: "01:00 PM - 01:30 PM",
           event: "Industry Talk by Alibaba Cloud",
+          sub: [
+            {
+              speaker: "JV Roig",
+              position: ["Senior Solutions Architect, Alibaba Cloud"],
+            },
+          ],
         },
         {
           time: "01:30 PM - 04:45 PM",

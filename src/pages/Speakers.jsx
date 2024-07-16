@@ -148,6 +148,33 @@ const Speakers = () => {
                 </div>
               </div>
             </div>
+
+            <div className="speaker-item-container">
+              <div className="image-wrapper">
+                <img src={getImage("JV Roig")} alt="jv-roig" />
+              </div>
+              <div className="bio">
+                <div className="speaker-name">
+                  <Link to="https://ph.linkedin.com/in/jvroig/" target="_blank">
+                    JV Roig
+                  </Link>
+                </div>
+                <div className="speaker-position">
+                  Senior Solutions Architect at Alibaba Cloud
+                </div>
+                <div className="speaker-bio">
+                  JV Roig has been an IT practitioner for nearly 20 years, with
+                  his most recent area of expertise being the Cloud and
+                  generative AI. He has 21 cloud certifications across 5
+                  different clouds, and five of these certifications are related
+                  to data and AI. Currently, he is a Senior Solutions Architect
+                  at Alibaba Cloud, helping customers improve their
+                  cost-efficiency, security and reliability in the cloud, as
+                  well as helping them reap the benefits of generative AI
+                  through Alibaba Cloud's comprehensive genAI services.
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

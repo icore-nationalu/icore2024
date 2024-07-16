@@ -4,6 +4,10 @@ import { Link } from "react-router-dom";
 import ImportantDateItem from "../components/ImportantDateItem";
 import importantDatesData from "../assets/data/important_dates.json";
 
+import GoogleScholarLogo from "../assets/images/google-scholar-logo.svg";
+import DOILogo from "../assets/images/doi-logo.svg";
+import CrossRefLogo from "../assets/images/crossref-logo.png";
+
 const CallForPaper = () => {
   const tracks = [
     {
@@ -87,7 +91,36 @@ const CallForPaper = () => {
               globe, creating a vibrant platform for exchanging cutting-edge
               ideas and advancements in the ever-evolving field.
             </p>
-
+            <h3>Publication</h3>
+            <p>
+              We are pleased to announce that accepted papers are for acceptance
+              review and publication in the International Journal of Computing
+              Sciences Research (IJCSR).
+              <br /> <br />
+              <a href="https://stepacademic.net/ijcsr" target="_blank">
+                {" "}
+                https://stepacademic.net/ijcsr
+              </a>
+              <br /> <br />
+              All articles will be indexed on Google Scholar, ensuring wider
+              visibility and academic dissemination. Each article will receive a
+              DOI, guaranteeing perpetual archiving and easier access. IJCSR is
+              proud to be an official member of the CrossRef community,
+              reinforcing our commitment to maintaining high standards of
+              research integrity and citation.
+            </p>
+            <div className="publication-wrapper">
+              <div className="image-item">
+                <img src={GoogleScholarLogo} alt="google-scholar" />
+              </div>
+              <div className="image-item">
+                <img src={DOILogo} alt="doi" />
+              </div>
+              <div className="image-item">
+                <img src={CrossRefLogo} alt="crossref" />
+              </div>
+            </div>
+            <br /> <br /> <br />
             <h3>Submission Guidelines</h3>
             <p>
               Authors are encouraged to submit original, unpublished research
