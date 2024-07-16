@@ -324,6 +324,7 @@
             "Manuel B. Garcia",
             "Neetigya Maurya"
         ],
+        "isWithdrawn": true,
         "title": "Advancing Automatic Number Plate Recognition: Insights, Innovations, and Future Directions"
     },
     {
@@ -405,6 +406,7 @@
         "authors": [
             "Ronald Pancho"
         ],
+        "isWithdrawn": true,
         "title": "Evaluating the Impact of E-Governance Components on Government E-Services Performance: An Analysis"
     },
     {
@@ -433,6 +435,7 @@
             "Darwin Tiquio",
             "Alonica Villanueva"
         ],
+        "isWithdrawn": true,
         "title": "Pipeline Leak Classification using Machine Learning Ensemble Methods and Hyperparameter Tuning"
     },
     {
@@ -465,6 +468,7 @@
         "authors": [
             "Christine Luzon-German"
         ],
+        "isWithdrawn": true,
         "title": "Real Time Warning for Water Level in Oriental Mindoro using Neural Networks"
     },
     {
@@ -524,6 +528,7 @@
             "Aliza Lyca Gonzales",
             "Dave Jarmin Balingbing"
         ],
+        "isWithdrawn": true,
         "title": "A Cyberbullying Text-based Analysis with Risk Assessment Leveraging Machine Learning Algorithms"
     },
     {

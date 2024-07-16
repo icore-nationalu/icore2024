@@ -38,6 +38,7 @@
     max-width: 768px;
     margin: auto;
 }
+
 .accepted-paper-wrapper .paper-item {
     margin-bottom: 24px;
 }
@@ -59,4 +60,8 @@
     font-style: normal;
     font-weight: 500;
     line-height: 28px;
+}
+
+.accepted-paper-wrapper .paper-item.withdrawn .paper-title span, .accepted-paper-wrapper .paper-item.withdrawn .paper-authors{
+    text-decoration: line-through;
 }
