@@ -102,12 +102,22 @@ const CallForPaper = () => {
                 https://stepacademic.net/ijcsr
               </a>
               <br /> <br />
-              All articles will be indexed on Google Scholar, ensuring wider
-              visibility and academic dissemination. Each article will receive a
-              DOI, guaranteeing perpetual archiving and easier access. IJCSR is
-              proud to be an official member of the CrossRef community,
-              reinforcing our commitment to maintaining high standards of
-              research integrity and citation.
+              All articles will be indexed on{" "}
+              <a href="https://scholar.google.com/" target="_blank">
+                Google Scholar
+              </a>
+              , ensuring wider visibility and academic dissemination. Each
+              article will receive a{" "}
+              <a href="https://www.doi.org/" target="_blank">
+                DOI
+              </a>
+              , guaranteeing perpetual archiving and easier access. IJCSR is
+              proud to be an official member of the{" "}
+              <a href="https://www.crossref.org/" target="_blank">
+                CrossRef
+              </a>{" "}
+              community, reinforcing our commitment to maintaining high
+              standards of research integrity and citation.
             </p>
             <div className="publication-wrapper">
               <div className="image-item">
