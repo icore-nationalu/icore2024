@@ -175,6 +175,34 @@ const Speakers = () => {
                 </div>
               </div>
             </div>
+
+            <div className="speaker-item-container">
+              <div className="image-wrapper">
+                <img src={getImage("Beatrix Palomar")} alt="beatrix-palomar" />
+              </div>
+              <div className="bio">
+                <div className="speaker-name">
+                  <Link
+                    to="https://www.linkedin.com/in/beatrixpalomar/"
+                    target="_blank"
+                  >
+                    Beatrix Palomar
+                  </Link>
+                </div>
+                <div className="speaker-position">
+                  Fraud and Security Intelligence Practice Lead
+                </div>
+                <div className="speaker-bio">
+                  Beatrix Palomar is a technical consultant working in analytics
+                  particularly in banking and telecommunications risk, fraud and
+                  security intelligence space. Has experience in model
+                  development and designing and building RDL, including curation
+                  of data into DIP to meet business priorities. Has skills in
+                  aml solution delivery, sas, python, data visualization and
+                  storytelling.
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

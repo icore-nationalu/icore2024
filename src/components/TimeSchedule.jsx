@@ -7,9 +7,9 @@ const TimeSchedule = ({ time, event, sub, children }) => {
         <div className="schedule-caption">
           <span className="event">{event}</span>
           {sub &&
-            sub.map(({ title, speaker, position }, i) => {
+            sub.map(({ title, speaker, speakers, position }, i) => {
               return title ? (
-                <div className="subschedule-item">
+                <div className="subschedule-item" key={i}>
                   <span className="subschedule-title">{title}</span>
                   {speaker && (
                     <div className="speaker" style={{ paddingLeft: "30px" }}>
@@ -24,6 +24,26 @@ const TimeSchedule = ({ time, event, sub, children }) => {
                         })}
                     </div>
                   )}
+                  {speakers &&
+                    speakers.map(({ speaker, position }, i) => {
+                      return (
+                        <div
+                          className="speaker"
+                          style={{ paddingLeft: "30px" }}
+                          key={i}
+                        >
+                          <p className="speaker-name">{speaker}</p>
+                          {position &&
+                            position.map((v, i) => {
+                              return (
+                                <p className="speaker-position" key={i}>
+                                  {v}
+                                </p>
+                              );
+                            })}
+                        </div>
+                      );
+                    })}
                 </div>
               ) : (
                 <div className="subschedule-item">

@@ -55,8 +55,35 @@ const Program2 = () => {
                 "AVP, Research & Development Office of National University",
               ],
             },
-            { title: "Messages from University Partners" },
-            { title: "Cultural Dance Presentation" },
+            {
+              title: "Messages from University Partners",
+              speakers: [
+                {
+                  speaker: "Prof. Xu Yong",
+                  position: ["Anhui University of Finance and Economics"],
+                },
+                {
+                  speaker: "Prof. Marilou Jamis",
+                  position: ["National University - MOA"],
+                },
+                {
+                  speaker: "Fr. Jesuraj Anthoniappen",
+                  position: ["University of San Carlos"],
+                },
+              ],
+            },
+            {
+              title: "Cultural Dance Presentation",
+              speakers: [
+                { speaker: "Anhui Xinhua University" },
+                { speaker: "Bicol University" },
+                { speaker: "University of Cordilleras" },
+                { speaker: "Don Mariano Marcos Memorial University" },
+                { speaker: "Laguna State Polytechnic University" },
+                { speaker: "Jiangxi V&T College of Communications" },
+              ],
+            },
+            { title: "NU Chorale Presentation" },
           ],
         },
         {
@@ -122,6 +149,10 @@ const Program2 = () => {
           event: "Day 1 Synthesis",
           sub: [{ title: "Session Chairs" }],
         },
+        {
+          time: "05:00 PM",
+          event: "Day 1 Certificates",
+        },
       ],
     },
   ];
@@ -171,6 +202,16 @@ const Program2 = () => {
         {
           time: "03:20 PM - 03:45 PM",
           event: "SAS",
+        },
+        {
+          time: "03:20 PM - 03:45 PM",
+          event: "Industry Talk by SAS",
+          sub: [
+            {
+              speaker: "Beatrix Palomar",
+              position: ["Fraud and Security Intelligence Practice Lead"],
+            },
+          ],
         },
         {
           time: "03:45 PM - 04:15 PM",
@@ -257,6 +298,18 @@ const Program2 = () => {
                 );
               })}
             </ProgramListItem>
+            <p
+              style={{
+                color: "var(--gray-500)",
+                fontSize: "16px",
+                fontWeight: "600",
+                lineHeight: "24px",
+                marginTop: " 8px",
+              }}
+            >
+              Master of Ceremonies - Dr. Mark Christian Ledda & Dr. Angie
+              Canillo - Ceniza
+            </p>
           </div>
         </div>
       </section>

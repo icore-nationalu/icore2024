@@ -39,6 +39,7 @@ import MilitanteS from "./Militante S.jpg";
 import NovaA from "./Nova A.jpg";
 import OñateJ from "./Oñate J.jpeg";
 import PalaoagP from "./Palaoag T.jpg";
+import PalomarB from "./Palomar B.jpg";
 import PapadakisS from "./Papadakis S.png";
 import ParagasJ from "./Paragas J.jpg";
 import PeiP from "./Pei P.jpg";
@@ -110,6 +111,7 @@ const getImage = (name) => {
     "Avonn C. Nova": NovaA,
     "Joseph Jessie S. Oñate": OñateJ,
     "Thelma Palaoag": PalaoagP,
+    "Beatrix Palomar": PalomarB,
     "Stamatios Papadakis": PapadakisS,
     "Jessie Paragas": ParagasJ,
     "Pei Pei": PeiP,
