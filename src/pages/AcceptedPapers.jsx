@@ -14,12 +14,14 @@ const AcceptedPapers = () => {
             <ul>
               {Papers.map(({ title, authors, isWithdrawn }, i) => {
                 return (
-                  <li
-                    className={`paper-item ${isWithdrawn ? "withdrawn" : ""}`}
-                    key={i}
-                  >
+                  // <li
+                  //   className={`paper-item ${isWithdrawn ? "withdrawn" : ""}`}
+                  //   key={i}
+                  // >
+                  <li className={`paper-item`} key={i}>
                     <p className="paper-title">
-                      <span>{title}</span> {isWithdrawn && "(WITHDRAWN)"}
+                      {/* <span>{title}</span> {isWithdrawn && "(WITHDRAWN)"} */}
+                      <span>{title}</span>
                     </p>
                     <p className="paper-authors">
                       {authors.map((v, i) => {
