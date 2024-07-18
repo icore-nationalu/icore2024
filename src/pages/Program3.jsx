@@ -6,14 +6,26 @@ import ParallelSession from "../components/ParallelSession";
 import PresenterTable from "../components/PresenterTable";
 import parallelSessionsData from "../assets/data/parallel_sessions.json";
 import samplePDF from "../assets/SamplePDF.pdf";
-
+import iCOREProgram from "../assets/documents/iCORE-2024-Programme.pdf";
+import BookOfAbstracts from "../assets/documents/iCORE2024-Book-of-Abstracts.pdf";
 const Program2 = () => {
   const [isActive, setIsActive] = useState(false);
 
   const handleDownloadProgram = async () => {
     const link = document.createElement("a");
-    link.href = samplePDF;
-    link.setAttribute("download", "PDF");
+    link.href = iCOREProgram;
+    link.setAttribute("download", "iCORE 2024 Program");
+    link.setAttribute("target", "_blank");
+    link.setAttribute("rel", "noreferrer");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
+  const handleDownloadBookOfAbstracts = async () => {
+    const link = document.createElement("a");
+    link.href = BookOfAbstracts;
+    link.setAttribute("download", "iCORE 2024 Book of Abstracts");
     link.setAttribute("target", "_blank");
     link.setAttribute("rel", "noreferrer");
     document.body.appendChild(link);
@@ -246,11 +258,30 @@ const Program2 = () => {
             Keep in track of each session during the event ranging from morning
             to evening sessions.
           </p>
-          {/* <div className="download">
-            <span className=" btn-primary" onClick={handleDownloadProgram}>
-              Download Program
-            </span>
-          </div> */}
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              alignItems: "center",
+              gap: "24px",
+              marginTop: "48px",
+              marginBottom: "5px",
+            }}
+          >
+            <div className="download">
+              <span className=" btn-primary" onClick={handleDownloadProgram}>
+                Download Event Program
+              </span>
+            </div>
+            <div className="download">
+              <span
+                className=" btn-primary"
+                onClick={handleDownloadBookOfAbstracts}
+              >
+                Download Book of Abstracts
+              </span>
+            </div>
+          </div>
         </div>
       </section>
       <section className="program2">
