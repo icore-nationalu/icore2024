@@ -150,8 +150,8 @@ const Program2 = () => {
           sub: [{ title: "Session Chairs" }],
         },
         {
-          time: "05:00 PM",
-          event: "Day 1 Certificates",
+          time: "05:00 PM - 05:30 PM",
+          event: "Claiming of Certificates",
         },
       ],
     },
@@ -167,6 +167,11 @@ const Program2 = () => {
         {
           time: "09:00 AM - 12:15 PM",
           event: "Parallel Sessions",
+        },
+        {
+          time: "",
+          event: "Day 2 Synthesis",
+          sub: [{ title: "Session Chairs" }],
         },
       ],
     },
@@ -198,10 +203,6 @@ const Program2 = () => {
         {
           time: "03:00 PM - 03:20 PM",
           event: "Coffee Break",
-        },
-        {
-          time: "03:20 PM - 03:45 PM",
-          event: "SAS",
         },
         {
           time: "03:20 PM - 03:45 PM",

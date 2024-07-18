@@ -3,7 +3,7 @@ const TimeSchedule = ({ time, event, sub, children }) => {
     <>
       <div className="time-schedule">
         <span className="time">{time}</span>
-        <span>:</span>
+        <span>{time ? ":" : ""}</span>
         <div className="schedule-caption">
           <span className="event">{event}</span>
           {sub &&
