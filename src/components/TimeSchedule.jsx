@@ -46,7 +46,7 @@ const TimeSchedule = ({ time, event, sub, children }) => {
                     })}
                 </div>
               ) : (
-                <div className="subschedule-item">
+                <div className="subschedule-item" key={i}>
                   {speaker && (
                     <div className="speaker">
                       <p className="speaker-name">{speaker}</p>
