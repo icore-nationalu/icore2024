@@ -190,7 +190,7 @@ const Speakers = () => {
                   </Link>
                 </div>
                 <div className="speaker-position">
-                  Fraud and Security Intelligence Practice Lead
+                  FSI (Financial Services Industry) Business Lead
                 </div>
                 <div className="speaker-bio">
                   Beatrix Palomar is a technical consultant working in analytics
