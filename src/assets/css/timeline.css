@@ -194,7 +194,7 @@
 /* PROGRAM */
 #program .header-wrapper {
     text-align: center;
-    margin: 96px auto;
+    margin: 96px auto 48px;
     max-width: 768px;
     padding: 0 32px;
 }
@@ -226,7 +226,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 48px auto 5px;
+    /* margin: 48px auto 5px; */
 }
 
 #program .header-wrapper .download span {
@@ -237,6 +237,7 @@
     padding: 6px 12px;
     border-radius: 6px;
     cursor: pointer;
+    color: #FFF !important;
 }
 
 .program-list {
