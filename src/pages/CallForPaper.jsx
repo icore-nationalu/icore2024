@@ -114,7 +114,7 @@ const CallForPaper = () => {
               , guaranteeing perpetual archiving and easier access. IJCSR is
               proud to be an official member of the{" "}
               <a href="https://www.crossref.org/" target="_blank">
-                CrossRef
+                Crossref
               </a>{" "}
               community, reinforcing our commitment to maintaining high
               standards of research integrity and citation.

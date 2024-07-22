@@ -45,22 +45,26 @@ const CountdownTimer = ({ targetDate }) => {
       <p className="heading">COUNTDOWN FOR iCORE 2024</p>
       <div className="countdown-wrapper">
         <CountdownPart
-          separatedValue={days.toString().split("")}
+          separatedValue={days < 0 ? "0".split("") : days.toString().split("")}
           label="Days"
         />
         <Colon />
         <CountdownPart
-          separatedValue={hours.toString().split("")}
+          separatedValue={days < 0 ? "0".split("") : hours.toString().split("")}
           label="Hours"
         />
         <Colon />
         <CountdownPart
-          separatedValue={minutes.toString().split("")}
+          separatedValue={
+            days < 0 ? "0".split("") : minutes.toString().split("")
+          }
           label="Minutes"
         />
         <Colon />
         <CountdownPart
-          separatedValue={seconds.toString().split("")}
+          separatedValue={
+            days < 0 ? "0".split("") : seconds.toString().split("")
+          }
           label="Seconds"
         />
       </div>

@@ -116,6 +116,7 @@
         font-size: 20px;
         line-height: 30px;
     }
+
     .call-for-paper-container p {
         font-size: 16px;
         line-height: 24px;
@@ -139,7 +140,7 @@
     }
 
     #call-for-paper .header-wrapper .download a {
-       width: 100%;
+        width: 100%;
     }
 
     .call-for-paper-container .wrapper>div {
@@ -161,10 +162,21 @@
 
 .call-for-paper-container .publication-wrapper .image-item {
     height: 160px;
+    flex-shrink: 0;
 }
 
 .call-for-paper-container .publication-wrapper .image-item img {
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .call-for-paper-container .publication-wrapper {
+        flex-wrap: wrap;
+    }
+    
+    .call-for-paper-container .publication-wrapper .image-item {
+        height: 120px;
+    }
 }
