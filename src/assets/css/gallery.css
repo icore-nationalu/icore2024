@@ -1,0 +1,36 @@
+#gallery .header-wrapper {
+    text-align: center;
+    margin: 96px auto;
+    max-width: 960px;
+    padding: 0 32px;
+}
+
+#gallery .header-wrapper span {
+    color: var(--primary-700);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+#gallery .header-wrapper .heading {
+    color: var(--gray-900);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -0.96px;
+    margin: 12px auto 24px;
+    max-width: 890px;
+}
+
+.gallery-wrapper {
+    margin: auto auto 100px;
+}
+
+.gallery-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: red;
+}
