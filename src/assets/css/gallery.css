@@ -32,5 +32,19 @@
     justify-content: center;
     border-radius: 8px;
     overflow: hidden;
-    background-color: red;
+    background: linear-gradient(to right,
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0.5) 50%,
+            rgba(255, 255, 255, 0) 100%),
+        #dce3e8;
+    background-repeat: repeat-y;
+    background-size: 50px 500px;
+    background-position: -50px 0;
+    animation: shine 2s ease-in infinite;
+}
+
+@keyframes shine {
+    to {
+        background-position: calc(100% + 50px) 0;
+    }
 }
