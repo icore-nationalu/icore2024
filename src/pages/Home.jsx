@@ -146,11 +146,11 @@ const Home = () => {
   ];
 
   const sponsors = [
-    {
-      name: "YIBU Education",
-      image: YIBU,
-      imageSize: "sm",
-    },
+    // {
+    //   name: "YIBU Education",
+    //   image: YIBU,
+    //   imageSize: "sm",
+    // },
     {
       name: "Alibaba Cloud",
       image: AC,
